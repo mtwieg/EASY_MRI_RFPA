@@ -1,0 +1,32 @@
+Circuit: * C:\Users\Mike Twieg\Downloads\LTspice\compare_FET_gm.asc
+
+Instance "m:m3:weak": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:m3:weak": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:m3:stro": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:m3:stro": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:m3:med": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:m3:med": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:m6:weak": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:m6:weak": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:m6:stro": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:m6:stro": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:m6:med": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:m6:med": Width narrower than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Apr 01 15:08:15 2022
+Total elapsed time: 0.290 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 11
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 169
+fillins = 106
+solver = Normal
+Matrix Compiler1:     828 opcodes
+Matrix Compiler2: 15.51 KB object code size
