@@ -1,0 +1,4 @@
+# ignore all backup schematic files (.s#1, .s#2, etc)
+*.s#*
+# ignore all backup board files (.b#1, .b#2, etc)
+*.b#*
