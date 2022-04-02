@@ -75,7 +75,7 @@ R27 in1n 0 {atten_Rshunt_in}
 R28 N020 0 {atten_Rshunt_out}
 R29 N020 in1n {atten_Rser}
 .param Rg_damp=15
-.param Lg_damp=150n
+.param Lg_damp=47n
 .net I(RL) V2
 .ac dec 1k 100k 200meg
 ;.tran 0 {VG_tdelay+VG_tpad+50u+10/f0} {VG_tdelay+VG_tpad+50u} 1u

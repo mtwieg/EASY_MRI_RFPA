@@ -18680,7 +18680,7 @@ Source: www.kingbright.com</description>
 <part name="R123" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7"/>
 <part name="R121" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7"/>
 <part name="R108" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="100"/>
-<part name="L101" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-1.0U-AIR-5%-1008-0.37A" value="150nH"/>
+<part name="L101" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-1.0U-AIR-5%-1008-0.37A" value="47nH"/>
 <part name="R105" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="75"/>
 <part name="R103" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="4.99"/>
 <part name="Q201" library="transistor-small-signal" deviceset="BSS123" device=""/>

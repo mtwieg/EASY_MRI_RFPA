@@ -3235,7 +3235,7 @@ design rules under a new name.</description>
 <attribute name="TOL" value="1%" x="74.676" y="97.79" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="0.25" x="74.676" y="97.79" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="L101" library="MDT_L" package="L1008" value="150nH" x="67.564" y="92.71" rot="R180">
+<element name="L101" library="MDT_L" package="L1008" value="47nH" x="67.564" y="92.71" rot="R180">
 <attribute name="PACKAGE" value="1008" x="67.564" y="92.71" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="IDC" value="0.37A" x="67.564" y="92.71" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="1008CS-102XJEC" x="67.564" y="92.71" size="1.778" layer="27" rot="R180" display="off"/>
