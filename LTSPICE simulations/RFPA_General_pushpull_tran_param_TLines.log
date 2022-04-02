@@ -1,0 +1,57 @@
+Questionable use of curly braces in "b1 n001 0  v={{vg}*smallsig()}"
+    Error: undefined symbol in: "(vg)*[smallsig]()"
+Questionable use of curly braces in ".meas tran av_fund rms {v(out_bpf)/(vin/1.414)}"
+    Error: undefined symbol in: "[v](out_bpf)/(vin/1.414)"
+Questionable use of curly braces in ".meas tran pout_fund param {(vout_rms_fund**2/rload_hv_se)}"
+    Error: undefined symbol in: "([vout_rms_fund]**2/rload_hv_se)"
+Circuit: * C:\Users\Joshua Rhodes\Dropbox\Mike Twieg Publications\ISMRM\2022 diy scanner\RFPA board\LTspice\RFPA_General_pushpull_tran_param_TLines.asc
+
+Direct Newton iteration for .op point succeeded.
+
+pep: 10=(20dB,0°)
+vd: 48=(33.6248dB,0°)
+vdmin: 26=(28.2995dB,0°)
+rload_lv_se_target: 24.2=(27.6763dB,0°)
+rload_lv_se: 24.2=(27.6763dB,0°)
+idmin: 0.5=(-6.0206dB,0°)
+id: 1.40909090909091=(2.97878dB,0°)
+gm0: 1.2=(1.58362dB,0°)
+gm: 0.5=(-6.0206dB,0°)
+rs: 1.16666666666667=(1.33894dB,0°)
+rgbias: 100=(40dB,0°)
+rsource_lv_se: 25=(27.9588dB,0°)
+rfb: 246.2=(47.8258dB,0°)
+cfb: 2.39424553245537e-009=(-172.417dB,0°)
+csource: 1.17892650018102e-008=(-158.57dB,0°)
+rin_lv_se: 17.1095925082258=(24.6648dB,0°)
+vg: 6.64393939393939=(16.4485dB,0°)
+coss: 1e-010=(-200dB,0°)
+ld: 3.4746692320727e-005=(-89.1817dB,0°)
+kin_lp: 4e-005=(-87.9588dB,0°)
+kin_ls: 1e-005=(-100dB,0°)
+kout_lp: 1e-005=(-100dB,0°)
+kout_ls: 4e-005=(-87.9588dB,0°)
+rload_hv_se: 48.4=(33.6969dB,0°)
+rsource_hv_se: 50=(33.9794dB,0°)
+atten_vout: 0.707945784384138=(-3dB,0°)
+atten_rshunt_in: 146.201089820134=(43.299dB,0°)
+atten_rshunt_out: 146.201089820134=(43.299dB,0°)
+atten_rser: 8.8073970029827=(18.897dB,0°)
+
+
+Date: Fri Apr 01 08:47:40 2022
+Total elapsed time: 0.214 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 7
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 65
+fillins = 84
+solver = Alternate
+Matrix Compiler1:     394 opcodes
+Matrix Compiler2: 7.21 KB object code size

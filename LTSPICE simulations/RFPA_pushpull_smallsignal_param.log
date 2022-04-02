@@ -1,0 +1,54 @@
+Questionable use of curly braces in "rs 0 0 {rsource}"
+    Error: undefined symbol in: "[rsource]"
+Circuit: * C:\Users\Joshua Rhodes\Dropbox\Mike Twieg Publications\ISMRM\2022 diy scanner\RFPA board\LTspice\RFPA_pushpull_smallsignal_param.asc
+
+Rs: both pins shorted together -- ignoring.
+WARNING: Less than two connections to node NC_01.  This node is used by RL.
+WARNING: Less than two connections to node NC_02.  This node is used by RL1.
+WARNING: Less than two connections to node NC_03.  This node is used by RL2.
+WARNING: Less than two connections to node NC_04.  This node is used by RL3.
+Direct Newton iteration for .op point succeeded.
+
+pep: 43.2825484764543=(32.7263dB,0°)
+vd: 48=(33.6248dB,0°)
+vdmin: 12.6446609406726=(22.0381dB,0°)
+rload_lv_se_target: 14.44=(23.1913dB,0°)
+rload_lv_se: 12.5=(21.9382dB,0°)
+idmin: 0.5=(-6.0206dB,0°)
+id: 3.32842712474619=(10.4448dB,0°)
+gm0: 16=(24.0824dB,0°)
+gm: 2=(6.0206dB,0°)
+rs: 0.4375=(-7.18044dB,0°)
+rgbias: 100=(40dB,0°)
+rsource: 12.5=(21.9382dB,0°)
+rfb: 279.166666666667=(48.9173dB,0°)
+cfb: 2.11151014957795e-009=(-173.508dB,0°)
+csource: 2.35785300036205e-008=(-152.55dB,0°)
+rin_lv_se: 10.0864553314121=(20.0748dB,0°)
+vg: 5.45618686707646=(14.7378dB,0°)
+coss: 1.3e-010=(-197.721dB,0°)
+ld: 2.67282248620977e-005=(-91.4606dB,0°)
+kin_lp: 9e-005=(-80.9151dB,0°)
+kin_ls: 1e-005=(-100dB,0°)
+kout_lp: 1e-005=(-100dB,0°)
+kout_ls: 9e-005=(-80.9151dB,0°)
+rload_hv_se: 56.25=(35.0025dB,0°)
+rsource_hv_se: 56.25=(35.0025dB,0°)
+
+
+Date: Sat Mar 26 11:14:55 2022
+Total elapsed time: 0.110 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 15
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 54
+fillins = 46
+solver = Alternate
+Matrix Compiler1:     295 opcodes
+Matrix Compiler2: 5.83 KB object code size

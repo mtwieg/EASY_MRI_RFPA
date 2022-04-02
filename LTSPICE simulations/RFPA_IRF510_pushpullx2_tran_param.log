@@ -1,0 +1,50 @@
+Questionable use of curly braces in "b1 n001 0  v={{vg}*smallsig()}"
+    Error: undefined symbol in: "(vg)*[smallsig]()"
+Circuit: * C:\Users\Joshua Rhodes\Dropbox\Mike Twieg Publications\ISMRM\2022 diy scanner\RFPA board\LTspice\RFPA_IRF510_pushpullx2_tran_param.asc
+
+Direct Newton iteration for .op point succeeded.
+
+pep: 50=50
+vd: 48=48
+vdmin: 12=12
+rload_lv_se_target: 12.96=12.96
+rload_lv_se: 12.96=12.96
+idmin: 0.5=0.5
+id: 3.27777777777778=3.27778
+gm0: 2.5=2.5
+gm: 1=1
+rs: 0.6=0.6
+rgbias: 100=100
+rsource: 12.5=12.5
+rfb: 145.848888888889=145.849
+cfb: 2.13967197033242e-009=2.13967e-009
+csource: 2.49655023567746e-008=2.49655e-008
+rin_lv_se: 10.2140455990304=10.214
+vg: 7.66666666666667=7.66667
+coss: 1e-010=1e-010
+ld: 9.73869231134562e-006=9.73869e-006
+kin_lp: 0.00016=0.00016
+kin_ls: 1e-005=1e-005
+kout_lp: 1e-005=1e-005
+kout_ls: 0.00016=0.00016
+rload_hv_se: 51.84=51.84
+rsource_hv_se: 50=50
+
+
+Date: Mon Mar 28 23:42:29 2022
+Total elapsed time: 1.756 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 100892
+traniter = 100886
+tranpoints = 25407
+accept = 16760
+rejected = 8647
+matrix size = 50
+fillins = 62
+solver = Alternate
+Matrix Compiler1: 7.92 KB object code size  1.4/0.9/[0.7]
+Matrix Compiler2: 6.06 KB object code size  0.6/0.8/[0.5]
+

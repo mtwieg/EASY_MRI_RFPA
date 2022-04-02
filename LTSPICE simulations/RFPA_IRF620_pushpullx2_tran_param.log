@@ -1,0 +1,49 @@
+Questionable use of curly braces in "b1 n001 0  v={{vg}*smallsig()}"
+    Error: undefined symbol in: "(vg)*[smallsig]()"
+Circuit: * C:\Users\Joshua Rhodes\Dropbox\Mike Twieg Publications\ISMRM\2022 diy scanner\RFPA board\LTspice\RFPA_IRF620_pushpullx2_tran_param.asc
+
+Direct Newton iteration for .op point succeeded.
+
+pep: 50=(33.9794dB,0°)
+vd: 48=(33.6248dB,0°)
+vdmin: 12=(21.5836dB,0°)
+rload_lv_se_target: 12.96=(22.2521dB,0°)
+rload_lv_se: 12.96=(22.2521dB,0°)
+idmin: 0.5=(-6.0206dB,0°)
+id: 3.27777777777778=(10.3116dB,0°)
+gm0: 2.8=(8.94316dB,0°)
+gm: 1=(0dB,0°)
+rs: 0.642857142857143=(-3.83771dB,0°)
+rgbias: 100=(40dB,0°)
+rsource: 12.5=(21.9382dB,0°)
+rfb: 145.848888888889=(43.2781dB,0°)
+cfb: 2.13967197033242e-009=(-173.393dB,0°)
+csource: 2.49655023567746e-008=(-152.053dB,0°)
+rin_lv_se: 10.2140455990304=(20.184dB,0°)
+vg: 8.30714285714286=(18.389dB,0°)
+coss: 1e-010=(-200dB,0°)
+ld: 9.73869231134562e-006=(-100.23dB,0°)
+kin_lp: 0.00016=(-75.9176dB,0°)
+kin_ls: 1e-005=(-100dB,0°)
+kout_lp: 1e-005=(-100dB,0°)
+kout_ls: 0.00016=(-75.9176dB,0°)
+rload_hv_se: 51.84=(34.2933dB,0°)
+rsource_hv_se: 50=(33.9794dB,0°)
+
+
+Date: Tue Mar 29 00:02:08 2022
+Total elapsed time: 0.161 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 15
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 86
+fillins = 68
+solver = Alternate
+Matrix Compiler1:     478 opcodes
+Matrix Compiler2: 9.48 KB object code size
