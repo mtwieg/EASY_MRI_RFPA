@@ -1,6 +1,10 @@
 Questionable use of curly braces in "b1 n001 0  v={{vg}*smallsig()}"
     Error: undefined symbol in: "(vg)*[smallsig]()"
-Circuit: * C:\Users\Joshua Rhodes\Dropbox\Mike Twieg Publications\ISMRM\2022 diy scanner\RFPA board\LTspice\RFPA_IRF630_pushpullx2_tran_param.asc
+Questionable use of curly braces in ".meas tran av_fund rms {v(out_bpf)/(vin/1.414)}"
+    Error: undefined symbol in: "[v](out_bpf)/(vin/1.414)"
+Questionable use of curly braces in ".meas tran pout_fund param {(vout_rms_fund**2/rload_hv_se)}"
+    Error: undefined symbol in: "([vout_rms_fund]**2/rload_hv_se)"
+Circuit: * C:\Workspace\Git\BASIC_MRI_RFPA\LTSPICE simulations\RFPA_IRF630_pushpullx2_tran_param.asc
 
 Direct Newton iteration for .op point succeeded.
 
@@ -11,16 +15,16 @@ rload_lv_se_target: 12.96=(22.2521dB,0°)
 rload_lv_se: 12.96=(22.2521dB,0°)
 idmin: 0.5=(-6.0206dB,0°)
 id: 3.27777777777778=(10.3116dB,0°)
-gm0: 3.7=(11.364dB,0°)
+gm0: 3.54=(10.9801dB,0°)
 gm: 1=(0dB,0°)
-rs: 0.72972972972973=(-2.73676dB,0°)
+rs: 0.717514124293785=(-2.88339dB,0°)
 rgbias: 100=(40dB,0°)
-rsource: 12.5=(21.9382dB,0°)
+rsource_lv_se: 12.5=(21.9382dB,0°)
 rfb: 145.848888888889=(43.2781dB,0°)
 cfb: 2.13967197033242e-009=(-173.393dB,0°)
-csource: 1.24827511783873e-008=(-158.074dB,0°)
+csource: 2.49655023567746e-008=(-152.053dB,0°)
 rin_lv_se: 10.2140455990304=(20.184dB,0°)
-vg: 7.79189189189189=(17.8329dB,0°)
+vg: 7.77185185185185=(17.8105dB,0°)
 coss: 2.4e-010=(-192.396dB,0°)
 ld: 4.05778846306067e-006=(-107.834dB,0°)
 kin_lp: 0.00016=(-75.9176dB,0°)
@@ -29,21 +33,36 @@ kout_lp: 1e-005=(-100dB,0°)
 kout_ls: 0.00016=(-75.9176dB,0°)
 rload_hv_se: 51.84=(34.2933dB,0°)
 rsource_hv_se: 50=(33.9794dB,0°)
+atten_vout: 0.707945784384138=(-3dB,0°)
+atten_rshunt_in: 73.1005449100671=(37.2784dB,0°)
+atten_rshunt_out: 73.1005449100669=(37.2784dB,0°)
+atten_rser: 4.40369850149135=(12.8764dB,0°)
+f0: 5100000=(134.151dB,0°)
+s21_at_f0: mag(s21(v2))=(16.4268dB,0°) at 5.1e+006
+s11_at_f0: mag(s11(v2))=(-26.1036dB,0°) at 5.1e+006
+s22_at_f0: mag(s22(v2))=(-17.0016dB,0°) at 5.1e+006
+kstab_at_f0: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(4.64826dB,0°) at 5.1e+006
+zin_at_f0: mag(zin(v2))=(33.3467dB,0°) at 5.1e+006
+zout_at_f0: mag(zout(v2))=(32.5111dB,0°) at 5.1e+006
+s21_at_s21_max: MAX(mag(s21(v2)))=(17.508dB,0°) FROM 100000 TO 2e+008
+f_at_s21_max: mag(s21(v2))=(s21_at_s21_max) AT 1.30317e+006
+kstab_at_stab_min: MIN(kstab(s11(v2),s21(v2),s12(v2),s22(v2)))=(3.62582dB,0°) FROM 100000 TO 2e+008
+f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.53109e+006
 
 
-Date: Mon Mar 28 20:29:24 2022
-Total elapsed time: 0.136 seconds.
+Date: Sat Apr 02 16:12:12 2022
+Total elapsed time: 0.355 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 15
+totiter = 16
 traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 86
-fillins = 70
-solver = Alternate
-Matrix Compiler1:     480 opcodes
-Matrix Compiler2: 9.52 KB object code size
+matrix size = 105
+fillins = 88
+solver = Normal
+Matrix Compiler1:     572 opcodes
+Matrix Compiler2: 9.90 KB object code size
