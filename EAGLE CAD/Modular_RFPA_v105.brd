@@ -4202,7 +4202,7 @@ design rules under a new name.</description>
 <attribute name="TOL" value="" x="90.17" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="" x="90.17" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C25" library="MDT_C" package="0805_IPC-7351B" value="DNP" x="50.8" y="10.16" rot="R270">
+<element name="C25" library="MDT_C" package="0805_IPC-7351B" value="1.5nF" x="50.8" y="10.16" rot="R270">
 <attribute name="PACKAGE" value="0805" x="50.8" y="10.16" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
 <attribute name="PARTNO" value="" x="50.8" y="10.16" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="50.8" y="10.16" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
@@ -4218,7 +4218,7 @@ design rules under a new name.</description>
 <attribute name="TOL" value="" x="46.99" y="10.16" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
 <attribute name="DIALECTRIC" value="" x="46.99" y="10.16" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
 </element>
-<element name="C28" library="MDT_C" package="0805_IPC-7351B" value="47nF" x="43.18" y="10.16" rot="R270">
+<element name="C28" library="MDT_C" package="0805_IPC-7351B" value="DNP" x="43.18" y="10.16" rot="R270">
 <attribute name="PACKAGE" value="0805" x="43.18" y="10.16" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
 <attribute name="PARTNO" value="" x="43.18" y="10.16" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="43.18" y="10.16" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>

@@ -50,8 +50,8 @@ kstab_at_stab_min: MIN(kstab(s11(v2),s21(v2),s12(v2),s22(v2)))=(3.69241dB,0°) FR
 f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 2.0797e+006
 
 
-Date: Sat Apr 02 16:47:45 2022
-Total elapsed time: 0.271 seconds.
+Date: Sat Apr 02 18:36:59 2022
+Total elapsed time: 0.252 seconds.
 
 tnom = 27
 temp = 27

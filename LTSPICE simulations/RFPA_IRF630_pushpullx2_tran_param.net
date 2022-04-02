@@ -16,7 +16,7 @@ L8 in1p 0 {KIN_LS}
 L9 0 in1n {KIN_LS}
 L10 t 0 {KIN_LP}
 V4 VGbias N001 PULSE({VG_init} {VG} {VG_tdelay} {VG_trise} {VG_trise} {VG_tpad*2+tpulse-VG_trise} 10m)
-V2 t 0 SINE(0 {Vin} {f0} {VG_tdelay+VG_tpad} 0 0 {tpulse*f0}) AC 1 Rser={Rsource_HV_SE}
+V2 t 0 SINE(0 {Vin} {f0} {VG_tdelay+VG_tpad} 0 0 {tpulse*f0}) AC {2*AC_Vin_Vrms} Rser={Rsource_HV_SE}
 B1 N001 0 V={VG*smallsig()}
 B2 N002 0 V=V(OUT)
 R17 OUT_bpf N002 1
@@ -216,6 +216,9 @@ KIN L10 L8 L9 1
 .param VG_trise=10u
 .param VG_tdelay=50u
 .param VG_init = 0
+.param AC_Pin_dBm=17
+;.param AC_Vin_Vrms={sqrt(10**(AC_Pin_dBm/10)/1000*50)}
+.param AC_Vin_Vrms=1.787
 .param Vin_scale=1
 .param Vin={20*Vin_scale}
 .param bpf_Q=10

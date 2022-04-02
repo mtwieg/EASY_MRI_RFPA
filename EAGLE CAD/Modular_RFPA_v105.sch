@@ -18964,13 +18964,13 @@ Source: www.kingbright.com</description>
 <part name="LED3" library="led" deviceset="LED" device="5MM"/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="R41" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="150"/>
-<part name="C25" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
+<part name="C25" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="1.5nF">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
 <part name="C24" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
-<part name="C28" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="47nF">
+<part name="C28" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
 <part name="C26" library="MDT_C" deviceset="C" device="C1812" value="DNP"/>
