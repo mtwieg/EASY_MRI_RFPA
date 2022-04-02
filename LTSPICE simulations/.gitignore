@@ -1,0 +1,3 @@
+# ignore all raw data files saved by LTSPICE
+*.raw
+
