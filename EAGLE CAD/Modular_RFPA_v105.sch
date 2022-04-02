@@ -18663,7 +18663,7 @@ Source: www.kingbright.com</description>
 <part name="P+202" library="supply1" deviceset="+12V" device=""/>
 <part name="SUPPLY207" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY208" library="supply2" deviceset="GND" device=""/>
-<part name="R201" library="rcl" deviceset="R-TRIMM" device="3299W"/>
+<part name="R201" library="rcl" deviceset="R-TRIMM" device="3299W" value="10K"/>
 <part name="SUPPLY202" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY204" library="supply2" deviceset="GND" device=""/>
 <part name="Q101" library="transistor-power" deviceset="IRF540" device="" value="IRF630"/>
@@ -18719,7 +18719,7 @@ Source: www.kingbright.com</description>
 <part name="C113" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="10nF"/>
 <part name="C109" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP"/>
 <part name="C106" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP"/>
-<part name="C103" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C103" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="27nF">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
 <part name="SUPPLY124" library="supply2" deviceset="GND" device=""/>
@@ -18766,22 +18766,22 @@ Source: www.kingbright.com</description>
 </part>
 <part name="R102" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="150"/>
 <part name="R209" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R217" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R218" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R219" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R212" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R214" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
+<part name="R217" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10"/>
+<part name="R218" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="33.2"/>
+<part name="R219" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
+<part name="R212" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
+<part name="R214" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP"/>
 <part name="R207" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R203" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R202" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R206" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R205" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="C209" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF"/>
-<part name="R216" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="C207" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="R203" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
+<part name="R202" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
+<part name="R206" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
+<part name="R205" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
+<part name="C209" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="330pF"/>
+<part name="R216" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="0"/>
+<part name="C207" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
-<part name="C208" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF"/>
+<part name="C208" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="1nF"/>
 <part name="C201" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF"/>
 <part name="C210" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF"/>
 <part name="SUPPLY209" library="supply2" deviceset="GND" device=""/>
@@ -18852,8 +18852,8 @@ Source: www.kingbright.com</description>
 <attribute name="BOM" value="INCLUDE"/>
 </part>
 <part name="R26" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
-<part name="R211" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R204" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
+<part name="R211" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP"/>
+<part name="R204" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
 <part name="X1" library="con-wago-500" deviceset="W237-102" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
 <part name="H1" library="holes" deviceset="MOUNT-PAD-SQUARE" device="3.2"/>
@@ -18963,19 +18963,19 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY60" library="supply2" deviceset="GND" device=""/>
 <part name="LED3" library="led" deviceset="LED" device="5MM"/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="R41" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
+<part name="R41" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="150"/>
 <part name="C25" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
 <part name="C24" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
-<part name="C28" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C28" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="47nF">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
 <part name="C26" library="MDT_C" deviceset="C" device="C1812" value="DNP"/>
 <part name="C27" library="MDT_C" deviceset="C" device="C1812" value="DNP"/>
-<part name="C29" library="MDT_C" deviceset="C" device="C1812" value="SHORT"/>
+<part name="C29" library="MDT_C" deviceset="C" device="C1812" value="100nF"/>
 <part name="R42" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
 <part name="R43" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="0.5"/>
 <part name="D2" library="diode" deviceset="GP15" device=""/>
