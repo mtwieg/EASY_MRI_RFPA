@@ -4,7 +4,7 @@ Questionable use of curly braces in ".meas tran av_fund rms {v(out_bpf)/(vin/1.4
     Error: undefined symbol in: "[v](out_bpf)/(vin/1.414)"
 Questionable use of curly braces in ".meas tran pout_fund param {(vout_rms_fund**2/rload_hv_se)}"
     Error: undefined symbol in: "([vout_rms_fund]**2/rload_hv_se)"
-Circuit: * C:\Workspace\Git\BASIC_MRI_RFPA\LTSPICE simulations\RFPA_IRF630_pushpullx2_tran_param.asc
+Circuit: * K:\Git_personal\BASIC_MRI_RFPA\LTSPICE simulations\RFPA_IRF630_pushpullx2_tran_param.asc
 
 Direct Newton iteration for .op point succeeded.
 
@@ -50,19 +50,19 @@ kstab_at_stab_min: MIN(kstab(s11(v2),s21(v2),s12(v2),s22(v2)))=(3.69241dB,0°) FR
 f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 2.0797e+006
 
 
-Date: Sat Apr 02 18:36:59 2022
-Total elapsed time: 0.252 seconds.
+Date: Sun Apr 03 19:51:29 2022
+Total elapsed time: 0.334 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 16
+totiter = 15
 traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
 matrix size = 105
 fillins = 88
-solver = Normal
+solver = Alternate
 Matrix Compiler1:     572 opcodes
-Matrix Compiler2: 9.90 KB object code size
+Matrix Compiler2: 11.35 KB object code size

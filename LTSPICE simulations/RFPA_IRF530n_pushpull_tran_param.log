@@ -4,7 +4,7 @@ Questionable use of curly braces in ".meas tran av_fund rms {v(out_bpf)/(vin/1.4
     Error: undefined symbol in: "[v](out_bpf)/(vin/1.414)"
 Questionable use of curly braces in ".meas tran pout_fund param {(vout_rms_fund**2/rload_hv_se)}"
     Error: undefined symbol in: "([vout_rms_fund]**2/rload_hv_se)"
-Circuit: * C:\Users\Joshua Rhodes\Dropbox\Mike Twieg Publications\ISMRM\2022 diy scanner\RFPA board\LTspice\RFPA_IRF530n_pushpull_tran_param.asc
+Circuit: * K:\Git_personal\BASIC_MRI_RFPA\LTSPICE simulations\RFPA_IRF530n_pushpull_tran_param.asc
 
 Direct Newton iteration for .op point succeeded.
 
@@ -39,8 +39,8 @@ atten_rshunt_out: 146.201089820134=(43.299dB,0°)
 atten_rser: 8.8073970029827=(18.897dB,0°)
 
 
-Date: Thu Mar 31 01:36:19 2022
-Total elapsed time: 0.220 seconds.
+Date: Sun Apr 03 19:56:10 2022
+Total elapsed time: 0.208 seconds.
 
 tnom = 27
 temp = 27

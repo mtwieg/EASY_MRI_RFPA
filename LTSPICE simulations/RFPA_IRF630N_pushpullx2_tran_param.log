@@ -4,7 +4,7 @@ Questionable use of curly braces in ".meas tran av_fund rms {v(out_bpf)/(vin/1.4
     Error: undefined symbol in: "[v](out_bpf)/(vin/1.414)"
 Questionable use of curly braces in ".meas tran pout_fund param {(vout_rms_fund**2/rload_hv_se)}"
     Error: undefined symbol in: "([vout_rms_fund]**2/rload_hv_se)"
-Circuit: * C:\Workspace\Git\BASIC_MRI_RFPA\LTSPICE simulations\RFPA_IRF630N_pushpullx2_tran_param.asc
+Circuit: * K:\Git_personal\BASIC_MRI_RFPA\LTSPICE simulations\RFPA_IRF630N_pushpullx2_tran_param.asc
 
 Instance "m:m4:weak": Length shorter than recommended for a level 1 MOSFET.
 Instance "m:m4:weak": Width narrower than recommended for a level 1 MOSFET.
@@ -74,8 +74,8 @@ kstab_at_stab_min: MIN(kstab(s11(v2),s21(v2),s12(v2),s22(v2)))=(3.94132dB,0°) FR
 f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 2.50035e+006
 
 
-Date: Sat Apr 02 14:52:46 2022
-Total elapsed time: 0.371 seconds.
+Date: Sun Apr 03 19:52:14 2022
+Total elapsed time: 1.051 seconds.
 
 tnom = 27
 temp = 27
@@ -87,6 +87,6 @@ accept = 0
 rejected = 0
 matrix size = 185
 fillins = 247
-solver = Normal
+solver = Alternate
 Matrix Compiler1:    1395 opcodes
-Matrix Compiler2: 20.00 KB object code size
+Matrix Compiler2: 23.02 KB object code size

@@ -1,6 +1,6 @@
 Questionable use of curly braces in "b1 n001 0  v={{vg}*smallsig()}"
     Error: undefined symbol in: "(vg)*[smallsig]()"
-Circuit: * C:\Users\Joshua Rhodes\Dropbox\Mike Twieg Publications\ISMRM\2022 diy scanner\RFPA board\LTspice\RFPA_IRF620_pushpullx2_tran_param.asc
+Circuit: * K:\Git_personal\BASIC_MRI_RFPA\LTSPICE simulations\RFPA_IRF620_pushpullx2_tran_param.asc
 
 Direct Newton iteration for .op point succeeded.
 
@@ -31,8 +31,8 @@ rload_hv_se: 51.84=(34.2933dB,0°)
 rsource_hv_se: 50=(33.9794dB,0°)
 
 
-Date: Tue Mar 29 00:02:08 2022
-Total elapsed time: 0.161 seconds.
+Date: Sun Apr 03 19:53:31 2022
+Total elapsed time: 0.172 seconds.
 
 tnom = 27
 temp = 27
