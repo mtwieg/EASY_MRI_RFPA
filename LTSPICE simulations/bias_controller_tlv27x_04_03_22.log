@@ -1,1 +1,183 @@
-Fatal Error: Could not open library file "TLV271.LIB"
+Circuit: * K:\Git_personal\BASIC_MRI_RFPA\LTSPICE simulations\bias_controller_tlv27x_04_03_22.asc
+
+WARNING: Less than two connections to node N010.  This node is used by R6.
+WARNING: Less than two connections to node N001.  This node is used by R9.
+WARNING: Less than two connections to node N005.  This node is used by R11.
+Instance "m:u5:55": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:54": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:52": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:51": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:48": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:46": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:45": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:50": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:49": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:44": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:43": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:42": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:41": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:53": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:23": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:19": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u5:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:55": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:54": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:52": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:51": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:48": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:46": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:45": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:50": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:49": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:44": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:43": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:42": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:41": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:53": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:23": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:19": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:5": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:1": Length shorter than recommended for a level 1 MOSFET.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+Gmin = 3.42672
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 3.54324
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+Gmin = 3.54065
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 12.1212%
+Source Step = 19.697%
+Source Step = 27.2727%
+Source Step = 34.8485%
+Source Step = 42.4242%
+vernier = 0.375
+Source Step = 52.6515%
+Source Step = 64.0152%
+Source Step = 72.0407%
+vernier = 0.00585938
+Source Step = 72.0096%
+Source Step = 72.054%
+Source Step = 72.0984%
+Source Step = 72.1428%
+Source Step = 72.1872%
+vernier = 0.00219727
+Source Step = 72.2471%
+Source Step = 72.3137%
+Source Step = 72.3803%
+Source Step = 72.4469%
+Source Step = 72.5135%
+vernier = 0.0032959
+Source Step = 72.6%
+Source Step = 72.6999%
+Source Step = 72.7998%
+Source Step = 72.8997%
+Source Step = 72.9995%
+vernier = 0.00494385
+Source Step = 73.1244%
+Source Step = 73.2742%
+Source Step = 73.424%
+Source Step = 73.5738%
+Source Step = 73.7236%
+vernier = 0.00741577
+Source Step = 73.9034%
+Source Step = 74.1281%
+Source Step = 74.3528%
+Source Step = 74.5776%
+Source Step = 74.8023%
+vernier = 0.0111237
+Source Step = 75.0607%
+Source Step = 75.3978%
+Source Step = 75.7349%
+Source Step = 76.072%
+Source Step = 76.409%
+vernier = 0.0166855
+Source Step = 76.7798%
+Source Step = 77.2854%
+Source Step = 77.7911%
+Source Step = 78.2967%
+Source Step = 78.8023%
+vernier = 0.0250282
+Source Step = 79.3332%
+Source Step = 80.0916%
+Source Step = 80.8501%
+Source Step = 81.6085%
+Source Step = 82.3669%
+Source Step = 83.1254%
+vernier = 0.0375423
+Source Step = 84.263%
+Source Step = 84.775%
+Source Step = 85.0594%
+Source Step = 85.3438%
+Source Step = 85.6282%
+Source Step = 85.9126%
+vernier = 0.0140784
+Source Step = 86.2681%
+Source Step = 86.6947%
+Source Step = 87.1213%
+Source Step = 87.548%
+Source Step = 87.9746%
+vernier = 0.0211176
+Source Step = 88.4865%
+Source Step = 89.1264%
+Source Step = 89.7664%
+Source Step = 90.4063%
+Source Step = 91.0462%
+vernier = 0.0316764
+Source Step = 91.7821%
+Source Step = 92.742%
+Source Step = 93.7019%
+Source Step = 94.6618%
+Source Step = 95.6217%
+vernier = 0.0475145
+Source Step = 96.6776%
+Source Step = 98.1174%
+Source Step = 99.5572%
+Source stepping succeeded in finding the operating point.
+
+.step ccomp=1e-012
+.step ccomp=3.3e-011
+.step ccomp=1e-010
+.step ccomp=3.3e-010
+
+Date: Mon Apr 04 00:19:39 2022
+Total elapsed time: 10.512 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 8366
+traniter = 5459
+tranpoints = 1841
+accept = 1633
+rejected = 208
+matrix size = 362
+fillins = 1452
+Thread vector: 41.7/23.7[4] 16.3/13.1[4] 7.4/5.1[4] 4.1/60.4[1]  2592/500
+Matrix Compiler1: 129.56 KB object code size  28.5/14.7/[9.8]
+Matrix Compiler2: 65.34 KB object code size  11.3/13.3/[4.9]
+
