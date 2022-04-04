@@ -18637,6 +18637,8 @@ Source: www.kingbright.com</description>
 <attributes>
 </attributes>
 <variantdefs>
+<variantdef name="IRF520N_20W"/>
+<variantdef name="IRF630_200W"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -18834,8 +18836,14 @@ Source: www.kingbright.com</description>
 <part name="R16" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K"/>
 <part name="R17" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
 <part name="L2" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-1.0U-AIR-5%-1008-0.37A" value="1uH"/>
-<part name="R18" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
-<part name="R19" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
+<part name="R18" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<variant name="IRF520N_20W" value="150"/>
+<variant name="IRF630_200W" value="75"/>
+</part>
+<part name="R19" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<variant name="IRF520N_20W" value="10"/>
+<variant name="IRF630_200W" value="4.99"/>
+</part>
 <part name="R20" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K"/>
 <part name="R21" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
 <part name="R22" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
@@ -18851,7 +18859,10 @@ Source: www.kingbright.com</description>
 <part name="C12" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
-<part name="R26" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
+<part name="R26" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<variant name="IRF520N_20W" value="150"/>
+<variant name="IRF630_200W" value="75"/>
+</part>
 <part name="R211" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP"/>
 <part name="R204" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
 <part name="X1" library="con-wago-500" deviceset="W237-102" device=""/>
