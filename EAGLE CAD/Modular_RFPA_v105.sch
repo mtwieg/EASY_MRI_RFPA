@@ -18717,6 +18717,7 @@ Source: www.kingbright.com</description>
 <part name="IC201" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="AHC"/>
 <part name="R117" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="330">
 <variant name="IRF520N_20W" value="2.74K"/>
+<variant name="IRF630_200W" value="117"/>
 </part>
 <part name="R113" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="15"/>
 <part name="R111" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP">
@@ -18754,6 +18755,7 @@ Source: www.kingbright.com</description>
 <part name="X101" library="MDT_HEATSINK" deviceset="HEATSINK_OMNI_DUAL" device="30-75-D"/>
 <part name="R101" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="75">
 <variant name="IRF520N_20W" value="220"/>
+<variant name="IRF630_200W" value="75.0"/>
 </part>
 <part name="SUPPLY117" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY115" library="supply2" deviceset="GND" device=""/>
