@@ -3002,7 +3002,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="IRF520N_20W"/>
+<variantdef name="IRF520N_20W" current="yes"/>
 <variantdef name="IRF630_200W"/>
 </variantdefs>
 <classes>
@@ -3311,7 +3311,6 @@ design rules under a new name.</description>
 <attribute name="TOL" value="1%" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
 <variant name="IRF520N_20W" value="2.74K"/>
-<variant name="IRF630_200W" value="117"/>
 </element>
 <element name="R113" library="MDT_R" package="0805_IPC-7351B" value="15" x="67.564" y="96.266" rot="R180">
 <attribute name="PACKAGE" value="0805" x="67.564" y="96.266" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3589,7 +3588,7 @@ design rules under a new name.</description>
 <attribute name="TOL" value="" x="116.84" y="33.274" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="" x="116.84" y="33.274" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R218" library="MDT_R" package="0805_IPC-7351B" value="33.2" x="116.84" y="38.608" rot="R90">
+<element name="R218" library="MDT_R" package="0805_IPC-7351B" value="100" x="116.84" y="38.608" rot="R90">
 <attribute name="PACKAGE" value="0805" x="116.84" y="38.608" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="" x="116.84" y="38.608" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="BOM" value="" x="116.84" y="38.608" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3654,7 +3653,7 @@ design rules under a new name.</description>
 <attribute name="TOL" value="" x="102.108" y="16.764" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="" x="102.108" y="16.764" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C209" library="MDT_C" package="0805_IPC-7351B" value="330pF" x="110.744" y="29.464" rot="R180">
+<element name="C209" library="MDT_C" package="0805_IPC-7351B" value="15pF" x="110.744" y="29.464" rot="R180">
 <attribute name="PACKAGE" value="0805" x="110.744" y="29.464" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="110.744" y="29.464" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="110.744" y="29.464" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3679,13 +3678,15 @@ design rules under a new name.</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </element>
-<element name="C208" library="MDT_C" package="0805_IPC-7351B" value="1nF" x="101.092" y="33.02" rot="R90">
+<element name="C208" library="MDT_C" package="0805_IPC-7351B" value="DNP" x="101.092" y="33.02" rot="R90">
 <attribute name="PACKAGE" value="0805" x="101.092" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="" x="101.092" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="101.092" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="BOM" value="" x="101.092" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="" x="101.092" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIALECTRIC" value="" x="101.092" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
+<variant name="IRF520N_20W" populate="no"/>
+<variant name="IRF630_200W" populate="no"/>
 </element>
 <element name="C201" library="MDT_C" package="0805_IPC-7351B" value="0.1uF" x="112.776" y="23.622" rot="R90">
 <attribute name="PACKAGE" value="0805" x="112.776" y="23.622" size="1.778" layer="27" rot="R90" display="off"/>
