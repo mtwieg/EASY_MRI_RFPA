@@ -12107,6 +12107,24 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <smd name="2" x="1.145" y="0" dx="1.02" dy="2.54" layer="1"/>
 <text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="25" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="DR127">
+<wire x1="-6.5" y1="6.5" x2="6.525" y2="6.5" width="0.2032" layer="21"/>
+<wire x1="6.525" y1="6.5" x2="6.525" y2="-6.5" width="0.2032" layer="21"/>
+<wire x1="6.525" y1="-6.5" x2="-6.5" y2="-6.5" width="0.2032" layer="21"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.2032" layer="21"/>
+<wire x1="-4.5254" y1="3.783" x2="-3.8006" y2="4.5431" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
+<wire x1="-3.783" y1="-4.5254" x2="-4.5431" y2="-3.8006" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
+<wire x1="4.5254" y1="-3.783" x2="3.8006" y2="-4.5431" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
+<wire x1="3.783" y1="4.5254" x2="4.5431" y2="3.8006" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
+<wire x1="0" y1="5.9" x2="4.9" y2="3.275" width="0.2032" layer="21" curve="-56.209779"/>
+<wire x1="0" y1="5.9" x2="-4.95" y2="3.225" width="0.2032" layer="21" curve="56.95663"/>
+<wire x1="0" y1="-5.9" x2="-4.9" y2="-3.275" width="0.2032" layer="21" curve="-56.209779"/>
+<wire x1="0" y1="-5.9" x2="4.95" y2="-3.225" width="0.2032" layer="21" curve="56.95663"/>
+<circle x="0" y="0" radius="5.9" width="0.2032" layer="51"/>
+<smd name="1" x="-4.975" y="0" dx="3.85" dy="5.5" layer="1"/>
+<smd name="2" x="4.975" y="0" dx="3.85" dy="5.5" layer="1"/>
+<text x="0.04" y="6.81" size="1.016" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="L_CHIP">
@@ -12124,6 +12142,23 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <text x="0" y="-1.905" size="1.6764" layer="97" align="bottom-center">&gt;BOM</text>
 <text x="0" y="1.905" size="1.6764" layer="97" align="bottom-center">&gt;PACKAGE</text>
+</symbol>
+<symbol name="L">
+<wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94" curve="90"/>
+<text x="0" y="5.715" size="1.6764" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="3.81" size="1.6764" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<text x="0" y="1.905" size="1.6764" layer="97" align="bottom-center">&gt;DEVICE</text>
+<text x="0" y="-3.81" size="1.6764" layer="97" align="bottom-center">&gt;BOM</text>
+<text x="0" y="-1.905" size="1.6764" layer="97" align="bottom-center">&gt;CURRENT</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -12150,6 +12185,52 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="TOL" value="5%"/>
 <attribute name="VALUE" value="1uH" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="L1008" package="L1008">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="CORE" value=""/>
+<attribute name="DCR" value=""/>
+<attribute name="IDC" value=""/>
+<attribute name="ISAT" value=""/>
+<attribute name="PACKAGE" value=""/>
+<attribute name="PARTNO" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="VALUE" value=""/>
+</technology>
+<technology name="L-1.0U-AIR-5%-1008-0.37A">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="CORE" value="AIR"/>
+<attribute name="DCR" value="1.8"/>
+<attribute name="IDC" value="0.37A"/>
+<attribute name="ISAT" value=""/>
+<attribute name="PACKAGE" value="1008"/>
+<attribute name="PARTNO" value="1008CS-102XJEC"/>
+<attribute name="TOL" value="5%"/>
+<attribute name="VALUE" value="1uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="DR127">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -18637,8 +18718,8 @@ Source: www.kingbright.com</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="IRF520N_20W" current="yes"/>
-<variantdef name="IRF630_200W"/>
+<variantdef name="IRF520N_20W"/>
+<variantdef name="IRF630_200W" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -18842,10 +18923,10 @@ Source: www.kingbright.com</description>
 <part name="C210" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF"/>
 <part name="SUPPLY209" library="supply2" deviceset="GND" device=""/>
 <part name="P+201" library="supply1" deviceset="+12V" device=""/>
-<part name="Q1" library="transistor-power" deviceset="IRF540" device="">
+<part name="Q1" library="transistor-power" deviceset="IRF540" device="" value="IRF630">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="Q2" library="transistor-power" deviceset="IRF540" device="">
+<part name="Q2" library="transistor-power" deviceset="IRF540" device="" value="IRF630">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
@@ -18856,38 +18937,38 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
-<part name="C1" library="MDT_C" deviceset="C" device="C1206" technology="C-22N-250V-5%-1206-NP0" value="22nF">
+<part name="C1" library="MDT_C" deviceset="C" device="C1206" technology="C-22N-250V-5%-1206-NP0" value="2.2nF">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R1" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
-<variant name="IRF520N_20W" populate="no" value="270"/>
-<variant name="IRF630_200W" value="270"/>
+<part name="R1" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="270">
+<variant name="IRF520N_20W" populate="no"/>
+<variant name="IRF630_200W"/>
 </part>
-<part name="R2" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R2" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R3" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R3" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R4" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R4" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="100">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="L1" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-1.0U-AIR-5%-1008-0.37A" value="1uH">
+<part name="L1" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-1.0U-AIR-5%-1008-0.37A" value="47nH">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R5" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R5" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="75">
 <variant name="IRF520N_20W" populate="no" value="220"/>
-<variant name="IRF630_200W" value="75"/>
+<variant name="IRF630_200W"/>
 </part>
-<part name="R6" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
-<variant name="IRF520N_20W" populate="no" value="4.99"/>
-<variant name="IRF630_200W" value="4.99"/>
+<part name="R6" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="4.99">
+<variant name="IRF520N_20W" populate="no"/>
+<variant name="IRF630_200W"/>
 </part>
-<part name="R7" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R7" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="330">
 <variant name="IRF520N_20W" populate="no" value="2.74K"/>
-<variant name="IRF630_200W" value="330"/>
+<variant name="IRF630_200W"/>
 </part>
-<part name="R8" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R8" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="15">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="R9" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
@@ -18901,10 +18982,10 @@ Source: www.kingbright.com</description>
 <part name="R11" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R12" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R12" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="100">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="C2" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C2" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="10nF">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="C3" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
@@ -18915,18 +18996,18 @@ Source: www.kingbright.com</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C5" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C5" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="27nF">
 <attribute name="BOM" value="INCLUDE"/>
 <variant name="IRF520N_20W" populate="no" value="12nF"/>
-<variant name="IRF630_200W" value="27nF"/>
+<variant name="IRF630_200W"/>
 </part>
-<part name="C6" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C6" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="22nF">
 <attribute name="BOM" value="INCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R13" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R13" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="75">
 <variant name="IRF520N_20W" populate="no" value="220"/>
-<variant name="IRF630_200W" value="75"/>
+<variant name="IRF630_200W"/>
 </part>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
@@ -18936,38 +19017,38 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
-<part name="C7" library="MDT_C" deviceset="C" device="C1206" technology="C-22N-250V-5%-1206-NP0" value="22nF">
+<part name="C7" library="MDT_C" deviceset="C" device="C1206" technology="C-22N-250V-5%-1206-NP0" value="2.2nF">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R14" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
-<variant name="IRF520N_20W" populate="no" value="270"/>
-<variant name="IRF630_200W" value="270"/>
+<part name="R14" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="270">
+<variant name="IRF520N_20W" populate="no"/>
+<variant name="IRF630_200W"/>
 </part>
-<part name="R15" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R15" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R16" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R16" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R17" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R17" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="100">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="L2" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-1.0U-AIR-5%-1008-0.37A" value="1uH">
+<part name="L2" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-1.0U-AIR-5%-1008-0.37A" value="47nH">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R18" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R18" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="75">
 <variant name="IRF520N_20W" populate="no" value="220"/>
-<variant name="IRF630_200W" value="75"/>
+<variant name="IRF630_200W"/>
 </part>
-<part name="R19" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
-<variant name="IRF520N_20W" populate="no" value="4.99"/>
-<variant name="IRF630_200W" value="4.99"/>
+<part name="R19" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="4.99">
+<variant name="IRF520N_20W" populate="no"/>
+<variant name="IRF630_200W"/>
 </part>
-<part name="R20" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R20" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="330">
 <variant name="IRF520N_20W" populate="no" value="2.74K"/>
-<variant name="IRF630_200W" value="330"/>
+<variant name="IRF630_200W"/>
 </part>
-<part name="R21" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R21" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="15">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="R22" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
@@ -18981,10 +19062,10 @@ Source: www.kingbright.com</description>
 <part name="R24" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R25" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R25" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="100">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="C8" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C8" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="10nF">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="C9" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
@@ -18995,18 +19076,18 @@ Source: www.kingbright.com</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C11" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C11" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="27nF">
 <attribute name="BOM" value="INCLUDE"/>
-<variant name="IRF520N_20W" populate="no" value="12nF"/>
-<variant name="IRF630_200W" value="27nF"/>
+<variant name="IRF520N_20W" populate="no"/>
+<variant name="IRF630_200W"/>
 </part>
-<part name="C12" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C12" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="22nF">
 <attribute name="BOM" value="INCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R26" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R26" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="75">
 <variant name="IRF520N_20W" populate="no" value="220"/>
-<variant name="IRF630_200W" value="75"/>
+<variant name="IRF630_200W"/>
 </part>
 <part name="R211" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
@@ -19037,9 +19118,7 @@ Source: www.kingbright.com</description>
 <part name="L4" library="inductors" deviceset="DR127" device="" value="3.3uH"/>
 <part name="L5" library="inductors" deviceset="DR127" device="" value="22uH"/>
 <part name="R30" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="0"/>
-<part name="L6" library="inductors" deviceset="DR127" device="" value="22uH"/>
 <part name="C17" library="MDT_C" deviceset="C" device="C1812" value="DNP"/>
-<part name="L7" library="inductors" deviceset="DR127" device=""/>
 <part name="C18" library="MDT_C" deviceset="C" device="C1812" value="0.1uF"/>
 <part name="C19" library="MDT_C" deviceset="C" device="C2220_CKG57N" technology="CC-10U-100V-20%-2220-X7T" value="10uF"/>
 <part name="C20" library="MDT_C" deviceset="C" device="C2220_CKG57N" technology="CC-10U-100V-20%-2220-X7T" value="10uF"/>
@@ -19070,16 +19149,16 @@ Source: www.kingbright.com</description>
 <part name="R35" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="3.3"/>
 <part name="SUPPLY38" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY39" library="supply2" deviceset="GND" device=""/>
-<part name="R36" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R36" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R37" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R37" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="3.3">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R38" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R38" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R39" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R39" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="3.3">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="SUPPLY40" library="supply2" deviceset="GND" device=""/>
@@ -19131,16 +19210,28 @@ Source: www.kingbright.com</description>
 <part name="R41" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="150"/>
 <part name="C25" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="1.5nF">
 <attribute name="BOM" value="INCLUDE"/>
+<variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="C24" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <attribute name="BOM" value="INCLUDE"/>
+<variant name="IRF520N_20W" populate="no"/>
+<variant name="IRF630_200W" populate="no"/>
 </part>
 <part name="C28" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <attribute name="BOM" value="INCLUDE"/>
+<variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C26" library="MDT_C" deviceset="C" device="C1812" value="DNP"/>
-<part name="C27" library="MDT_C" deviceset="C" device="C1812" value="DNP"/>
-<part name="C29" library="MDT_C" deviceset="C" device="C1812" value="100nF"/>
+<part name="C26" library="MDT_C" deviceset="C" device="C1812" value="DNP">
+<variant name="IRF520N_20W" populate="no"/>
+<variant name="IRF630_200W" value="1.5nF"/>
+</part>
+<part name="C27" library="MDT_C" deviceset="C" device="C1812" value="DNP">
+<variant name="IRF520N_20W" populate="no"/>
+<variant name="IRF630_200W" populate="no"/>
+</part>
+<part name="C29" library="MDT_C" deviceset="C" device="C1812" value="100nF">
+<variant name="IRF630_200W" populate="no"/>
+</part>
 <part name="R42" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
 <part name="R43" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="0.5"/>
 <part name="D2" library="diode" deviceset="GP15" device=""/>
@@ -19151,6 +19242,14 @@ Source: www.kingbright.com</description>
 <part name="C31" library="rcl" deviceset="CPOL-US" device="E2.5-7" value="22uF"/>
 <part name="SUPPLY62" library="supply2" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
+<part name="L6" library="MDT_L" deviceset="L" device="">
+<variant name="IRF520N_20W" value="22uH"/>
+<variant name="IRF630_200W" value="3.3uH"/>
+</part>
+<part name="L7" library="MDT_L" deviceset="L" device="">
+<variant name="IRF520N_20W" value="22uH"/>
+<variant name="IRF630_200W" value="3.3uH"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -19390,9 +19489,7 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <instance part="SUPPLY24" gate="GND" x="355.6" y="96.52" smashed="yes"/>
 <instance part="T1" gate="G$1" x="88.9" y="116.84" rot="MR270"/>
 <instance part="R30" gate="G$1" x="347.98" y="203.2"/>
-<instance part="L6" gate="G$1" x="294.64" y="205.74" rot="R90"/>
 <instance part="C17" gate="G$1" x="304.8" y="205.74"/>
-<instance part="L7" gate="G$1" x="297.18" y="106.68" rot="R90"/>
 <instance part="C18" gate="G$1" x="307.34" y="106.68"/>
 <instance part="SUPPLY25" gate="GND" x="86.36" y="93.98" smashed="yes"/>
 <instance part="R31" gate="G$1" x="99.06" y="88.9"/>
@@ -19468,6 +19565,8 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <attribute name="PACKAGE" x="383.54" y="185.801" size="1.6764" layer="96" align="bottom-center"/>
 <attribute name="BOM" x="388.366" y="185.42" size="1.6764" layer="96" rot="R90"/>
 </instance>
+<instance part="L6" gate="G$1" x="294.64" y="205.74" rot="R90"/>
+<instance part="L7" gate="G$1" x="297.18" y="106.68" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -19692,7 +19791,6 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="307.34" y1="104.14" x2="307.34" y2="93.98" width="0.1524" layer="91"/>
 <junction x="307.34" y="93.98"/>
-<pinref part="L7" gate="G$1" pin="1"/>
 <wire x1="297.18" y1="99.06" x2="297.18" y2="93.98" width="0.1524" layer="91"/>
 <junction x="297.18" y="93.98"/>
 <pinref part="TP4" gate="G$1" pin="1"/>
@@ -19700,6 +19798,7 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <wire x1="314.96" y1="86.36" x2="314.96" y2="93.98" width="0.1524" layer="91"/>
 <junction x="314.96" y="93.98"/>
 <pinref part="T2" gate="G$1" pin="F5"/>
+<pinref part="L7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -19840,7 +19939,6 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <wire x1="304.8" y1="203.2" x2="304.8" y2="193.04" width="0.1524" layer="91"/>
 <junction x="304.8" y="193.04"/>
 <pinref part="C17" gate="G$1" pin="2"/>
-<pinref part="L6" gate="G$1" pin="1"/>
 <wire x1="294.64" y1="198.12" x2="294.64" y2="193.04" width="0.1524" layer="91"/>
 <junction x="294.64" y="193.04"/>
 <pinref part="TP2" gate="G$1" pin="1"/>
@@ -19848,8 +19946,9 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <wire x1="314.96" y1="185.42" x2="314.96" y2="193.04" width="0.1524" layer="91"/>
 <junction x="314.96" y="193.04"/>
 <pinref part="T2" gate="G$1" pin="S6"/>
-<wire x1="294.64" y1="193.04" x2="266.7" y2="193.04" width="0.1524" layer="91"/>
 <junction x="266.7" y="193.04"/>
+<wire x1="294.64" y1="193.04" x2="266.7" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="L6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ABN1" class="0">
@@ -20145,7 +20244,6 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <segment>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="347.98" y1="208.28" x2="347.98" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="L6" gate="G$1" pin="2"/>
 <wire x1="347.98" y1="215.9" x2="304.8" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="215.9" x2="294.64" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="215.9" x2="294.64" y2="213.36" width="0.1524" layer="91"/>
@@ -20153,9 +20251,9 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <wire x1="304.8" y1="208.28" x2="304.8" y2="215.9" width="0.1524" layer="91"/>
 <junction x="304.8" y="215.9"/>
 <label x="309.88" y="215.9" size="1.778" layer="95"/>
+<pinref part="L6" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="L7" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="114.3" x2="297.18" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="297.18" y1="119.38" x2="307.34" y2="119.38" width="0.1524" layer="91"/>
@@ -20163,6 +20261,7 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <wire x1="297.18" y1="119.38" x2="289.56" y2="119.38" width="0.1524" layer="91"/>
 <junction x="297.18" y="119.38"/>
 <label x="292.1" y="119.38" size="1.778" layer="95"/>
+<pinref part="L7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$22" class="0">
