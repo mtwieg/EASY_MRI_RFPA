@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -277,7 +277,33 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="CURRENT" value=""/>
+<attribute name="DEVICE" value="" constant="no"/>
+<attribute name="ESR" value=""/>
+<attribute name="PARTNO" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="L-22U-FERRITE-20%-12.5X12.5MM-4A">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="CURRENT" value="4.0A"/>
+<attribute name="DEVICE" value="DR127-220-R"/>
+<attribute name="ESR" value="39.1m"/>
+<attribute name="PARTNO" value="DR127-220-R"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="L-3.3U-FERRITE-20%-12.5X12.5MM-10.5A">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="CURRENT" value="10.5A"/>
+<attribute name="DEVICE" value="DR127-3R3-R"/>
+<attribute name="ESR" value="5.67m"/>
+<attribute name="PARTNO" value="DR127-3R3-R"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
 </technologies>
 </device>
 </devices>
