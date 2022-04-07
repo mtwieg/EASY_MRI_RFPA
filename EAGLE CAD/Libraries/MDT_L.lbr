@@ -74,6 +74,14 @@
 <layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="BOM" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="VOLTAGE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="DEVICE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="PARTNO" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="PACKAGE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="CURRENT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="TOL" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="POWER" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -157,9 +165,9 @@
 <text x="0" y="3.81" size="1.6764" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<text x="0" y="1.905" size="1.6764" layer="97" align="bottom-center">&gt;DEVICE</text>
-<text x="0" y="-3.81" size="1.6764" layer="97" align="bottom-center">&gt;BOM</text>
-<text x="0" y="-1.905" size="1.6764" layer="97" align="bottom-center">&gt;CURRENT</text>
+<text x="0" y="1.905" size="1.6764" layer="110" align="bottom-center">&gt;DEVICE</text>
+<text x="0" y="-3.81" size="1.6764" layer="108" align="bottom-center">&gt;BOM</text>
+<text x="0" y="-1.905" size="1.6764" layer="113" align="bottom-center">&gt;CURRENT</text>
 </symbol>
 <symbol name="L_1NC">
 <wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="-90"/>
@@ -195,8 +203,8 @@
 <text x="0" y="3.81" size="1.6764" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<text x="0" y="-1.905" size="1.6764" layer="97" align="bottom-center">&gt;BOM</text>
-<text x="0" y="1.905" size="1.6764" layer="97" align="bottom-center">&gt;PACKAGE</text>
+<text x="0" y="-1.905" size="1.6764" layer="108" align="bottom-center">&gt;BOM</text>
+<text x="0" y="1.905" size="1.6764" layer="112" align="bottom-center">&gt;PACKAGE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -269,7 +277,33 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="CURRENT" value=""/>
+<attribute name="DEVICE" value="" constant="no"/>
+<attribute name="ESR" value=""/>
+<attribute name="PARTNO" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="L-22U-FERRITE-20%-12.5X12.5MM-4A">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="CURRENT" value="4.0A"/>
+<attribute name="DEVICE" value="DR127-220-R"/>
+<attribute name="ESR" value="39.1m"/>
+<attribute name="PARTNO" value="DR127-220-R"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="L-3.3U-FERRITE-20%-12.5X12.5MM-10.5A">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="CURRENT" value="10.5A"/>
+<attribute name="DEVICE" value="DR127-3R3-R"/>
+<attribute name="ESR" value="5.67m"/>
+<attribute name="PARTNO" value="DR127-3R3-R"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
 </technologies>
 </device>
 </devices>

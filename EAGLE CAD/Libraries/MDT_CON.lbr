@@ -73,6 +73,14 @@
 <layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="BOM" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="VOLTAGE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="DEVICE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="PARTNO" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="PACKAGE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="CURRENT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="TOL" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="POWER" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
