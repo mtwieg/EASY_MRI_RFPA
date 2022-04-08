@@ -1,0 +1,68 @@
+Questionable use of curly braces in "b1 n001 0  v={{vg}*smallsig()}"
+    Error: undefined symbol in: "(vg)*[smallsig]()"
+Questionable use of curly braces in ".meas tran av_fund rms {v(out_bpf)/(vin/1.414)}"
+    Error: undefined symbol in: "[v](out_bpf)/(vin/1.414)"
+Questionable use of curly braces in ".meas tran pout_fund param {(vout_rms_fund**2/rload_hv_se)}"
+    Error: undefined symbol in: "([vout_rms_fund]**2/rload_hv_se)"
+Circuit: * K:\Git_personal\BASIC_MRI_RFPA\LTSPICE simulations\RFPA_IRF520n_highergain_pushpull_tran_param.asc
+
+Direct Newton iteration for .op point succeeded.
+
+pep: 10=(20dB,0°)
+vd: 48=(33.6248dB,0°)
+vdmin: 26=(28.2995dB,0°)
+rload_lv_se_target: 24.2=(27.6763dB,0°)
+rload_lv_se: 24.2=(27.6763dB,0°)
+idmin: 0.5=(-6.0206dB,0°)
+id: 1.40909090909091=(2.97878dB,0°)
+gm0: 1.78=(5.0084dB,0°)
+gm: 1=(0dB,0°)
+rs: 0.438202247191011=(-7.16651dB,0°)
+rgbias: 100=(40dB,0°)
+rsource_lv_se: 25=(27.9588dB,0°)
+rfb: 5000=(73.9794dB,0°)
+cfb: 6.24137558919366e-011=(-204.094dB,0°)
+csource: 1.24827511783873e-008=(-158.074dB,0°)
+rin_lv_se: 66.596855862782=(36.4691dB,0°)
+vg: 4.53746680286006=(13.1363dB,0°)
+coss: 9.2e-011=(-200.724dB,0°)
+ld: 1.05855351210278e-005=(-99.5057dB,0°)
+kin_lp: 4e-005=(-87.9588dB,0°)
+kin_ls: 1e-005=(-100dB,0°)
+kout_lp: 1e-005=(-100dB,0°)
+kout_ls: 4e-005=(-87.9588dB,0°)
+rload_hv_se: 50=(33.9794dB,0°)
+rsource_hv_se: 50=(33.9794dB,0°)
+atten_vout: 0.794328234724281=(-2dB,0°)
+atten_rshunt_in: 218.105804693081=(46.7733dB,0°)
+atten_rshunt_out: 218.105804693081=(46.7733dB,0°)
+atten_rser: 5.80746471337357=(15.2797dB,0°)
+f0: 5100000=(134.151dB,0°)
+s21_at_f0: mag(s21(v2))=(26.5247dB,0°) at 5.1e+006
+s11_at_f0: mag(s11(v2))=(-9.66306dB,0°) at 5.1e+006
+s22_at_f0: mag(s22(v2))=(-4.66527dB,0°) at 5.1e+006
+kstab_at_f0: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(-4.35442dB,0°) at 5.1e+006
+zin_at_f0: mag(zin(v2))=(33.8216dB,0°) at 5.1e+006
+zout_at_f0: mag(zout(v2))=(37.3263dB,0°) at 5.1e+006
+s21_at_s21_max: MAX(mag(s21(v2)))=(28.8714dB,0°) FROM 100000 TO 2e+008
+f_at_s21_max: mag(s21(v2))=(s21_at_s21_max) AT 1.64437e+006
+kstab_at_stab_min: MIN(kstab(s11(v2),s21(v2),s12(v2),s22(v2)))=(-4.67297dB,0°) FROM 100000 TO 2e+008
+f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 3.76704e+006
+
+
+Date: Wed Apr 06 11:08:40 2022
+Total elapsed time: 0.231 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 15
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 63
+fillins = 52
+solver = Alternate
+Matrix Compiler1:     328 opcodes
+Matrix Compiler2: 6.71 KB object code size

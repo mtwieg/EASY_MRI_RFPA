@@ -1,0 +1,252 @@
+* K:\Git_personal\BASIC_MRI_RFPA\LTSPICE simulations\RFPA_IRF520n_highergain_pushpull_tran_param.asc
+R1 s1p 0 {Rs}
+R2 dp N003 {Rfb}
+C1 N003 g1p {Cfb}
+R3 b1p VGbias {Rgbias}
+R4 g1p b1p {Rg_damp}
+L1 b1p g1p {Lg_damp}
+C2 b1p N005 {Csource}
+V1 VD 0 {VD}
+L3 VD dp {Ld}
+L5 dp VD {KOUT_LP} Rser=50m
+L6 VD dn {KOUT_LP} Rser=50m
+L7 OUT 0 {KOUT_LS}
+RL OUT 0 {Rload_HV_SE}
+L8 in1p 0 {KIN_LS}
+L9 0 in1n {KIN_LS}
+L10 t 0 {KIN_LP}
+V4 VGbias N001 PULSE({VG_init} {VG} {VG_tdelay} {VG_trise} {VG_trise} {VG_tpad*2+tpulse-VG_trise} 10m)
+V2 t 0 SINE(0 {Vin} {f0} {VG_tdelay+VG_tpad} 0 0 {tpulse*f0}) AC 2.236 Rser={Rsource_HV_SE}
+B1 N001 0 V={VG*smallsig()}
+B2 N002 0 V=V(OUT)
+R17 OUT_bpf N002 1
+L15 OUT_bpf 0 {bpf_L}
+C9 OUT_bpf 0 {bpf_C}
+XM1 N004 N006 N007 irf520n
+L17 N007 s1p {Lpar_S} Rpar={EPR_S}
+L18 dp N004 {Lpar_D} Rpar={EPR_D}
+L19 g1p N006 {Lpar_G} Rpar={EPR_G}
+R5 s1n 0 {Rs}
+R6 dn N008 {Rfb}
+C3 N008 g1n {Cfb}
+R7 b1n VGbias {Rgbias}
+R8 g1n b1n {Rg_damp}
+L2 b1n g1n {Lg_damp}
+C4 b1n N010 {Csource}
+L4 VD dn {Ld}
+XM3 N009 N011 N012 irf520n
+L11 N012 s1n {Lpar_S} Rpar={EPR_S}
+L12 dn N009 {Lpar_D} Rpar={EPR_D}
+L13 g1n N011 {Lpar_G} Rpar={EPR_G}
+R13 in1p 0 {atten_Rshunt_in}
+R14 N005 0 {atten_Rshunt_out}
+R15 N005 in1p {atten_Rser}
+R24 in1n 0 {atten_Rshunt_in}
+R25 N010 0 {atten_Rshunt_out}
+R26 N010 in1n {atten_Rser}
+L14 dp dn 330µ
+.param Rg_damp=15
+.param Lg_damp=47n
+.net I(RL) V2
+.ac dec 1k 100k 200meg
+;.tran 0 {VG_tdelay+VG_tpad+50u+10/f0} {VG_tdelay+VG_tpad+50u} 1u
+; FOR MEASURING COMPRESSION
+;.step oct param Vin_scale 0.0625 1 4
+.meas TRAN Vout_RMS_fund RMS V(OUT_bpf)
+.meas TRAN Av_fund RMS {V(OUT_bpf)/(Vin/1.414)}
+.meas TRAN Pout_fund PARAM {(Vout_RMS_fund**2/Rload_HV_SE)}
+.meas TRAN G_dB PARAM 20*log10(Av_fund)
+.meas TRAN Pbias AVG -V(VD)*I(V1)
+.meas TRAN Efficiency PARAM Pout_fund/Pbias
+; SPICE models/subcircuits to include
+.inc /Models and subcircuits/all_hexfet_subcircuits.inc
+* trace formulas\nTransconductance of FET Gm0\nIx(M1:D)/V(g,s)\nEffective transconductance Gm\nIx(M1:D)/V(g)
+;step 1:
+;Choose :
+;Nfets (number of FETs sharing PEP)
+.param Nfets=2
+.param PEPnet_target=20
+.param Rload_net=50
+;PEP (peak output power)
+;VD (drain bias voltage)
+;VDmin (minimum drain voltage of FET, at max amplitude)
+.param PEP_target={PEPnet_target/Nfets}
+.param VD_target=48
+.param VDmin_target=26
+;Voutpk=VD_target-VDmin_target
+.param Voutpk_target={VD_target-VDmin_target}
+;Rload_LV_SE=Voutpk_target^2/(2*PEP_target)
+.param Rload_LV_SE_target={Voutpk_target**2/(2*PEP_target)}
+;step 1.1
+; can use the exact target Rload_LV_SE_target
+.param Rload_LV_SE={Rload_LV_SE_target}
+.param VD=VD_target
+.param PEP=PEP_target
+.param Voutpk=Voutpk_target
+.param VDmin=VDmin_target
+; or override it with something realizable with the transformers
+; if I override Rload, then PEP will be allowed  to change
+;.param Rload_LV_SE=12.5
+;.param PEP={PEP_target*Rload_LV_SE/Rload_LV_SE_target}
+; and recalculate other things
+;.param Voutpk={sqrt(Rload_LV_SE*2*PEP_target)}
+;.param VD=VD_target
+;.param VDmin={VD-Voutpk}
+;For impedance match on output, set Rout_LV_SE=Rload_LV_SE
+.param Rout_LV_SE={Rload_LV_SE}
+;step 2:
+; choose IDmin (minimum drain current of FET, at max amplitude)
+.param IDmin=0.5
+; ID=IDmin+Voutpk/Rload_LV_SE
+.param ID={IDmin+Voutpk/Rload_LV_SE}
+; given Gm0, the Gm of the FET at ID
+; and choose Gm, between 0.1Gm0 and 0.5Gm0
+;.param Gm0=2
+.param Gm=1
+; source resistor Rs=(Gm0-Gm)/(Gm0*Gm)
+.param Rs={(Gm0-Gm)/(Gm0*Gm)}
+; calculate gate bias voltage
+; Vth depends on MOSFET model
+.param VG={ID*Rs+Vth}
+;step 3:
+; choose gate bias resistor Rgbias
+.param Rgbias=100
+; choose source resistance
+.param Rsource_LV_SE=25
+; in parallel they make Rsource2
+.param Rsource2_LV_SE = {(Rgbias*Rsource_LV_SE)/(Rgbias+Rsource_LV_SE)}
+; calculate feedback resistance Rfb
+;.param Rfb=Rout_LV_SE*(1+Gm*Rsource2_LV_SE)-Rsource2_LV_SE
+.param Rfb=5k
+;step 4:
+; choose f0/w0
+.param f0=5.1e6
+.param w0={2*3.14159*f0}
+; calculate blocking caps
+; choose cutoff fc=f0/fcratio
+.param fcratio_fb=10
+.param fcratio_source=10
+;.param fc={f0/fcratio}
+;.param wc={w0/fcratio}
+.param Cfb={fcratio_fb/(w0*Rfb)}
+.param Csource={fcratio_source/(w0*Rsource_LV_SE)}
+; calculate drain bias inductor to cancel Coss
+;.param Coss=100p
+.param Ld={1/w0**2/Coss}
+; calculate Rin, looking from Rsource
+.param Rin_LV_SE={Rgbias*(Rfb+Rload_LV_SE)/(Rgbias*(Gm*Rload_LV_SE+1)+Rfb+Rload_LV_SE)}
+.meas PEP PARAM {PEP}
+.meas VD PARAM {VD}
+.meas VDmin PARAM {VDmin}
+.meas Rload_LV_SE_target PARAM {Rload_LV_SE_target}
+.meas Rload_LV_SE PARAM {Rload_LV_SE}
+.meas IDmin PARAM {IDmin}
+.meas ID PARAM {ID}
+.meas Gm0 PARAM {Gm0}
+.meas Gm PARAM {Gm}
+.meas Rs PARAM {Rs}
+.meas Rgbias PARAM {Rgbias}
+.meas Rsource_LV_SE PARAM {Rsource_LV_SE}
+.meas Rfb PARAM {Rfb}
+.meas Cfb PARAM {Cfb}
+.meas Csource PARAM {Csource}
+.meas Rin_LV_SE PARAM {Rin_LV_SE}
+.meas VG PARAM {VG}
+.meas Coss PARAM {Coss}
+.meas Ld PARAM {Ld}
+.meas KIN_LP PARAM {KIN_LP}
+.meas KIN_LS PARAM {KIN_LS}
+.meas KOUT_LP PARAM {KOUT_LP}
+.meas KOUT_LS PARAM {KOUT_LS}
+.meas Rload_HV_SE PARAM {Rload_HV_SE}
+.meas Rsource_HV_SE PARAM {Rsource_HV_SE}
+KOUT L5 L6 L7 1
+;inductance per each unit winding
+.param KOUT_AL=10u
+;winding on each side of low voltage center-tapped side
+.param KOUT_N_LV=1
+.param KOUT_N_HV=2
+.param KOUT_LP={KOUT_N_LV**2*KOUT_AL}
+.param KOUT_LS={KOUT_N_HV**2*KOUT_AL}
+;.param Rload_HV_SE={2*Rload_LV_SE*KOUT_LS/(4*KOUT_LP)/(Nfets/2)}
+.param Rload_HV_SE=50
+KIN L10 L8 L9 1
+;inductance per each unit winding
+.param KIN_AL=10u
+;winding on each side of low voltage center-tapped side
+.param KIN_N_LV=1
+.param KIN_N_HV=2
+.param KIN_LP={KIN_N_HV**2*KOUT_AL}
+.param KIN_LS={KIN_N_LV**2*KOUT_AL}
+;.param Rsource_HV_SE={2*Rsource_LV_SE*KIN_LP/(4*KIN_LS)/(Nfets/2)}
+.param Rsource_HV_SE=50
+.param tpulse=1m
+.param VG_tpad=50u
+.param VG_trise=10u
+.param VG_tdelay=50u
+.param VG_init = 0
+.param Vin_scale=1
+.param Vin={20*Vin_scale}
+.param bpf_Q=10
+.param bpf_C={bpf_Q/(w0)}
+.param bpf_L={1/(bpf_Q*w0)}
+.param Lpar_S=7.5n
+.param EPR_S=100
+.param Lpar_D=4.5n
+.param EPR_D=100
+.param Lpar_G=7.5n
+.param EPR_G=100
+.param atten_Rin={Rsource_LV_SE}
+.param atten_Rout={Rsource_LV_SE}
+;.param atten_Rin=12.5
+;.param atten_Rout=12.5
+.param atten_dB=2
+;atten_Rin
+;atten_Rout
+;atten_Vout
+.param atten_Vout={sqrt(atten_Rout/atten_Rin/(10**(atten_dB*0.1)))}
+;.param atten_Rshunt_in={((atten_Rout*atten_Rin)-(atten_Rin**2)*(atten_Vout**2))}
+.param atten_Rshunt_in={((atten_Rout*atten_Rin)-(atten_Rin**2)*(atten_Vout**2))/(atten_Rout+(atten_Rin*atten_Vout**2)-(2*atten_Rin*atten_Vout))}
+.param atten_Rshunt_out={atten_Vout/(1/atten_Rin-atten_Vout/atten_Rout-1/atten_Rshunt_in)}
+.param atten_Rser={((1-atten_Vout)*(atten_Rin*atten_Rshunt_in))/(atten_Rshunt_in-atten_Rin)}
+.meas atten_Vout PARAM {atten_Vout}
+.meas atten_Rshunt_in PARAM {atten_Rshunt_in}
+.meas atten_Rshunt_out PARAM {atten_Rshunt_out}
+.meas atten_Rser PARAM {atten_Rser}
+* BPF for measuring fundamental \ncomponent of RFPA output
+* Input/output transformer baluns
+.func kstab(S11,S21,S12,S22) {(1-abs(S11)**2-abs(S22)**2+abs(S11*S22-S12*S21)**2)/(2*abs(S21*S12))}
+;.include /FET_bias_conditions/fetprops_irf510_ID_1p0.inc
+;.include /FET_bias_conditions/fetprops_irf520_ID_1p0.inc
+.include /FET_bias_conditions/fetprops_irf520n_ID_1p0.inc
+;.include /FET_bias_conditions/fetprops_irf530_ID_1p0.inc
+;.include /FET_bias_conditions/fetprops_irf530n_ID_1p0.inc
+;.include /FET_bias_conditions/fetprops_irf540n_ID_1p0.inc
+;.include /FET_bias_conditions/fetprops_irf630_ID_1p0.inc
+;.include /FET_bias_conditions/fetprops_irf630n_ID_1p0.inc
+;.include /FET_bias_conditions/fetprops_irf510_ID_3p1.inc
+;.include /FET_bias_conditions/fetprops_irf520_ID_3p1.inc
+;.include /FET_bias_conditions/fetprops_irf520n_ID_3p1.inc
+;.include /FET_bias_conditions/fetprops_irf530_ID_3p1.inc
+;.include /FET_bias_conditions/fetprops_irf530n_ID_3p1.inc
+;.include /FET_bias_conditions/fetprops_irf540n_ID_3p1.inc
+;.include /FET_bias_conditions/fetprops_irf630_ID_3p1.inc
+;.include /FET_bias_conditions/fetprops_irf630n_ID_3p1.inc
+; measurements of AC response
+; get some network parameters at f0
+.meas f0 PARAM {f0}
+.meas AC S21_at_f0 FIND mag(S21(v2)) AT f0
+.meas AC S11_at_f0 FIND mag(S11(v2)) AT f0
+.meas AC S22_at_f0 FIND mag(S22(v2)) AT f0
+.meas AC kstab_at_f0 FIND kstab(S11(v2),S21(v2),S12(v2),S22(v2)) AT f0
+;also give Zin and Zout at f0. But output will be in dB/phase....
+.meas AC Zin_at_f0 FIND mag(Zin(v2)) AT f0
+.meas AC Zout_at_f0 FIND mag(Zout(v2)) AT f0
+; find the actual peak of S21
+.MEAS AC S21_at_S21_max max mag(S21(v2)); find the peak response
+.MEAS AC f_at_S21_max when mag(S21(v2))=(S21_at_S21_max)
+; find the minimum kstab
+.MEAS AC kstab_at_stab_min min kstab(S11(v2),S21(v2),S12(v2),S22(v2))
+.MEAS AC f_at_kstab_min when kstab(S11(v2),S21(v2),S12(v2),S22(v2))=(kstab_at_stab_min)
+.backanno
+.end
