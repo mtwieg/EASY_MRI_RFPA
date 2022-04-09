@@ -74,6 +74,14 @@
 <layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="BOM" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="VOLTAGE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="DEVICE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="PARTNO" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="PACKAGE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="CURRENT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="TOL" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="POWER" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -320,6 +328,24 @@ In this library the device names are the same as the pin names of the symbols, t
 </package>
 </packages>
 <symbols>
+<symbol name="R90">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<text x="0" y="3.556" size="1.6764" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="1.524" size="1.6764" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="-3.048" size="1.6764" layer="112" align="bottom-center">&gt;PACKAGE</text>
+<text x="0" y="-7.112" size="1.6764" layer="108" align="bottom-center">&gt;BOM</text>
+<text x="0" y="-5.08" size="1.6764" layer="114" align="bottom-center">&gt;TOL</text>
+</symbol>
 <symbol name="R">
 <wire x1="0" y1="-2.54" x2="-1.016" y2="-2.159" width="0.2032" layer="94"/>
 <wire x1="-1.016" y1="-2.159" x2="1.016" y2="-1.524" width="0.2032" layer="94"/>
@@ -334,12 +360,173 @@ In this library the device names are the same as the pin names of the symbols, t
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <text x="1.27" y="3.556" size="1.6764" layer="95">&gt;NAME</text>
 <text x="1.27" y="1.524" size="1.6764" layer="96">&gt;VALUE</text>
-<text x="1.27" y="-0.508" size="1.6764" layer="97">&gt;PACKAGE</text>
-<text x="1.27" y="-4.572" size="1.6764" layer="97">&gt;BOM</text>
-<text x="1.27" y="-2.54" size="1.6764" layer="97">&gt;TOL</text>
+<text x="1.27" y="-0.508" size="1.6764" layer="112">&gt;PACKAGE</text>
+<text x="1.27" y="-4.572" size="1.6764" layer="108">&gt;BOM</text>
+<text x="1.27" y="-2.54" size="1.6764" layer="114">&gt;TOL</text>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="R90" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R90" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0402_IPC" package="0402_IPC-7351B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VALUE" value="1.0K" constant="no"/>
+</technology>
+<technology name="R-0-JUMPER-0402-0.1W">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="PARTNO" value="ERJ-2GE0R00X" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VALUE" value="0" constant="no"/>
+</technology>
+<technology name="R-1.0K-0.1%-0402-0.1W">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="PARTNO" value="?" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="TOL" value="0.1%" constant="no"/>
+<attribute name="VALUE" value="1.0K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0603_IPC" package="0603_IPC-7351B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="0603" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VALUE" value="1.0K" constant="no"/>
+</technology>
+<technology name="R-0-JUMPER-0603-0.1W">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="0603" constant="no"/>
+<attribute name="PARTNO" value="ERJ-3GEY0R00V" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VALUE" value="0" constant="no"/>
+</technology>
+<technology name="R-1.0K-0.1%-0603-0.1W">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="0603" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VALUE" value="1.0K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0805_IPC" package="0805_IPC-7351B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VALUE" value="1.0K" constant="no"/>
+</technology>
+<technology name="R-0-JUMPER-0805-0.125W">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="PARTNO" value="ERJ-6GEY0R00V" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VALUE" value="0" constant="no"/>
+</technology>
+<technology name="R-1.0K-0.1%-0805-0.1W">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VALUE" value="1.0K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="R1206" package="R1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="R-1.0K-1%-1206-0.25W">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="1206" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="POWER" value="0.25" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="R1210" package="R1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R2512" package="R2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="R-0.020-1%-2512-2W">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="2512" constant="no"/>
+<attribute name="PARTNO" value="CSRN2512FK20L0" constant="no"/>
+<attribute name="POWER" value="2" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="0.020" constant="no"/>
+</technology>
+<technology name="R-100-5%-2512-1W">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="2512" constant="no"/>
+<attribute name="PARTNO" value="CRCW2512100RJNEG" constant="no"/>
+<attribute name="POWER" value="1" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="100" constant="no"/>
+</technology>
+<technology name="R-1K-1%-2512-1W">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="2512" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="POWER" value="1" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1K" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="R" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
@@ -3051,8 +3238,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="R8" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
 <part name="R9" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
-<part name="R10" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
-<part name="R11" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
+<part name="R10" library="MDT_R" deviceset="R90" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
+<part name="R11" library="MDT_R" deviceset="R90" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
 <part name="R12" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
 <part name="R13" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="SOD123"/>
@@ -3118,18 +3305,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="SUPPLY8" gate="GND" x="198.12" y="7.62" smashed="yes"/>
 <instance part="R8" gate="G$1" x="15.24" y="17.78" rot="MR0"/>
 <instance part="R9" gate="G$1" x="5.08" y="17.78" rot="MR0"/>
-<instance part="R10" gate="G$1" x="-5.08" y="25.4" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-5.08" y="30.48" size="1.6764" layer="95" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="-5.08" y="28.575" size="1.6764" layer="96" rot="MR0" align="bottom-center"/>
-<attribute name="PACKAGE" x="-5.08" y="26.67" size="1.6764" layer="97" rot="MR0" align="bottom-center"/>
-<attribute name="BOM" x="-9.652" y="26.67" size="1.6764" layer="97" rot="MR90"/>
-</instance>
-<instance part="R11" gate="G$1" x="-5.08" y="35.56" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-5.08" y="40.64" size="1.6764" layer="95" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="-5.08" y="38.735" size="1.6764" layer="96" rot="MR0" align="bottom-center"/>
-<attribute name="PACKAGE" x="-5.08" y="36.83" size="1.6764" layer="97" rot="MR0" align="bottom-center"/>
-<attribute name="BOM" x="-9.652" y="36.83" size="1.6764" layer="97" rot="MR90"/>
-</instance>
+<instance part="R10" gate="G$1" x="-5.08" y="25.4" rot="MR0"/>
+<instance part="R11" gate="G$1" x="-5.08" y="35.56" rot="MR0"/>
 <instance part="R12" gate="G$1" x="-15.24" y="17.78" rot="MR0"/>
 <instance part="R13" gate="G$1" x="-25.4" y="17.78" rot="MR0"/>
 <instance part="D3" gate="G$1" x="-50.8" y="17.78" rot="MR90"/>
