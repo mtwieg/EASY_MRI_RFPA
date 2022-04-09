@@ -1,0 +1,39 @@
+Circuit: * K:\Git_personal\EASY_MRI_RFPA\LTSPICE simulations\Easy_DICO\DICO_george_simple.asc
+
+Direct Newton iteration for .op point succeeded.
+.step load_port=3 source_port=1
+.step load_port=4 source_port=1
+.step load_port=3 source_port=2
+.step load_port=4 source_port=2
+
+
+Measurement: ftest
+  step	1000000
+     1	(120dB,0°)
+     2	(120dB,0°)
+     3	(120dB,0°)
+     4	(120dB,0°)
+
+Measurement: s21_at_ftest
+  step	(s21(vs))	at
+     1	(-52.2402dB,-82.6822°)	1e+006
+     2	(-26.0435dB,-174.387°)	1e+006
+     3	(-25.9987dB,0.0214593°)	1e+006
+     4	(-52.2402dB,-82.6822°)	1e+006
+
+
+Date: Sat Apr 09 09:29:01 2022
+Total elapsed time: 0.255 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 4
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 38
+fillins = 33
+Matrix Compiler1:     191 opcodes
+Matrix Compiler2: 3.03 KB object code size
