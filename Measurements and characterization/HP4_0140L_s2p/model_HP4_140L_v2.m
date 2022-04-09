@@ -173,15 +173,6 @@ Z2=Z(2,2)-Z(1,2)/N;
 
 
 return;
-ZL1=Z(1,1)-Z(2,1);
-ZL2=Z(2,2)-Z(2,1);
-fprintf('primary leakage ZL1 = Z11-Z21\n')
-print_series_equivalent(ftest,ZL1)
-fprintf('secondary leakage ZL2 = Z22-Z21\n')
-print_series_equivalent(ftest,ZL2)
-fprintf('magnetizing impedance = Z21\n')
-% print_series_equivalent(ftest,Z(2,1))
-print_parallel_equivalent(ftest,Z(2,1))
 
 fprintf('\n')
 fprintf('*******************************************\n')
