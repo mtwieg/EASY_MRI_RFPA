@@ -1,0 +1,121 @@
+% while changing Pin_dBm_gen from function generator, measure rms Vout and
+% the peak of the FFT of Vout (in dBm)
+
+attenuator_gain_dB=30.21;
+%% ss gain of cascades
+% irf520n followed by irf630 (no attenuator in between):
+% Pin=10dBm, Vout_rms=30.573, Pout=42.717dBm, gain=32.717dB
+% irf520n followed by irf630 (6dB attenuator in between)
+% Pin=10dBm, Vout_rms=15.290, Pout=36.698dBm, gain=32.698dB
+% irf630 followed by irf520n (no attenuator in between):
+% Pin=7dBm, Vout_rms=21.495, Pout=39.657dBm, gain=32.657dB
+% irf630 followed by irf520n (6dB attenuator in between)
+% Pin=7dBm, Vout_rms=10.742, Pout=33.632dBm, gain=32.632dB
+
+% irf520n.ssgain_dB=16.65;
+% irf520n.ssgain_dB=16.5;
+irf520n.ssgain_dB=16.65;
+irf520n.Pgen_dBm=[      7,      10,     13,     14,     15,     15.5,   16.0,   16.2,   16.4,   16.6,   16.8,   17.0,   18.0,   19.0,   20.0];
+irf520n.Vout_rms=[  	0.6640, 0.9259, 1.3023, 1.4425, 1.5862, 1.6560, 1.7229, 1.7468, 1.7727, 1.7980, 1.8233, 1.8458, 1.9517, 2.0249, 2.0783];
+irf520n.Pout_fund_dBm=[ 9.39,   12.32,  15.27,  16.16,  16.97,  17.36,  17.67,  17.79,  17.90,  18.02,  18.14,  18.25,  18.70,  19.00,  19.19];
+
+% irf630.ssgain_dB=16.21;
+% irf630.ssgain_dB=16.1;
+irf630.ssgain_dB=15.86;
+irf630.Pgen_dBm= [      10,     13,     16,     19,     20,     21,     21.2,   21.4,   21.6,   21.8,   22.0,   23.0];
+irf630.Vout_rms= [  	0.9365, 1.3351, 1.8757, 2.5979, 2.8392, 3.0456, 3.0787, 3.1095, 3.1368, 3.1625, 3.1869, 3.2901];
+irf630.Pout_fund_dBm= [ 12.41,  15.48,  18.45,  21.28,  22.02,  22.61,  22.73,  22.79,  22.86,  22.90,  23.0,   23.25];
+
+% correct Pin_dBm for the external gain (the other amp)
+irf520n.Pin_dBm=irf520n.Pgen_dBm+irf630.ssgain_dB;
+irf630.Pin_dBm=irf630.Pgen_dBm+irf520n.ssgain_dB;
+
+% correct output for attenuator gain
+% irf520n.Vout_rms=irf520n.Vout_rms*10^(attenuator_gain_dB/20);
+% irf520n.Pout_fund_dBm=irf520n.Pout_fund_dBm+attenuator_gain_dB;
+% irf630.Vout_rms=irf630.Vout_rms*10^(attenuator_gain_dB/20);
+% irf630.Pout_fund_dBm=irf630.Pout_fund_dBm+attenuator_gain_dB;
+
+amp=irf520n;
+% correct output for attenuator gain
+amp.Vout_rms=amp.Vout_rms*10^(attenuator_gain_dB/20);
+amp.Pout_fund_dBm=amp.Pout_fund_dBm+attenuator_gain_dB;
+% convert Vout_rms to dBm
+amp.Pout_dBm=10*log10(amp.Vout_rms.^2/50*1000);
+% substitute fundamental Pout for total Pout
+amp.Pout_dBm=amp.Pout_fund_dBm;
+
+amp.gain_dB=amp.Pout_dBm-amp.Pin_dBm;
+amp.Pout_dBm_ref=amp.Pin_dBm+amp.ssgain_dB;
+amp.gain_P1dB_intercept=amp.gain_dB(2)-1;
+amp.OP1dB=interp1(amp.gain_dB,amp.Pout_dBm,amp.gain_P1dB_intercept);
+amp.IP1dB=interp1(amp.gain_dB,amp.Pin_dBm,amp.gain_P1dB_intercept);
+irf520n=amp;
+
+amp=irf630;
+% correct output for attenuator gain
+amp.Vout_rms=amp.Vout_rms*10^(attenuator_gain_dB/20);
+amp.Pout_fund_dBm=amp.Pout_fund_dBm+attenuator_gain_dB;
+% convert Vout_rms to dBm
+amp.Pout_dBm=10*log10(amp.Vout_rms.^2/50*1000);
+% substitute fundamental Pout for total Pout
+amp.Pout_dBm=amp.Pout_fund_dBm;
+
+amp.gain_dB=amp.Pout_dBm-amp.Pin_dBm;
+amp.Pout_dBm_ref=amp.Pin_dBm+amp.ssgain_dB;
+amp.gain_P1dB_intercept=amp.gain_dB(2)-1;
+amp.OP1dB=interp1(amp.gain_dB,amp.Pout_dBm,amp.gain_P1dB_intercept);
+amp.IP1dB=interp1(amp.gain_dB,amp.Pin_dBm,amp.gain_P1dB_intercept);
+irf630=amp;
+
+h1=figure(1); clf; 
+ha1=plot(irf520n.Pin_dBm,irf520n.Pout_dBm,irf520n.Pin_dBm,irf520n.Pout_fund_dBm,irf630.Pin_dBm,irf630.Pout_dBm,irf630.Pin_dBm,irf630.Pout_fund_dBm);
+
+xlabel('Pin (dBm)')
+ylabel('Pout (dBm)')
+legend('IRF520N x2','IRF630 x4','Location','SouthEast')
+% xlim([0.1 20]);
+% ylim([-10 20]);
+grid on;
+
+h2=figure(2); clf; 
+ha2=plot(irf520n.Pin_dBm,irf520n.gain_dB,irf630.Pin_dBm,irf630.gain_dB);
+xlims=h2.Children.XLim;
+hold on;
+refline1=plot(xlims,(irf520n.gain_dB(2)-1)*[1 1],'Color',ha2(1).Color,'LineStyle','--');
+refline2=plot(xlims,(irf630.gain_dB(2)-1)*[1 1],'Color',ha2(2).Color,'LineStyle','--');
+hold off;
+xlabel('Pin (dBm)')
+ylabel('Gain (dB)')
+legend('S1 - IRF520N x2','IRF630 x4','Location','NorthEast')
+% xlim([0.1 20]);
+% ylim([-10 20]);
+
+h3=figure(3); clf; 
+ha3=plot(irf520n.Pout_dBm,irf520n.gain_dB,irf630.Pout_dBm,irf630.gain_dB,'LineWidth',2);
+xlim([38 56]);
+xlims=h3.Children.XLim;
+hold on;
+refline1=plot(xlims,(irf520n.gain_P1dB_intercept)*[1 1],'Color',ha3(1).Color,'LineStyle','--','LineWidth',2);
+mark1=scatter(irf520n.OP1dB,irf520n.gain_P1dB_intercept,200,'x','MarkerEdgeColor','red','LineWidth',1.5);
+refline2=plot(xlims,(irf630.gain_P1dB_intercept)*[1 1],'Color',ha3(2).Color,'LineStyle','--','LineWidth',2);
+mark2=scatter(irf630.OP1dB,irf630.gain_P1dB_intercept,200,'x','MarkerEdgeColor','red','LineWidth',1.5);
+hold off;
+
+th1=text(irf520n.OP1dB-0.5,irf520n.gain_P1dB_intercept-0.17,sprintf('OP1dB=%.2f W',10^(irf520n.OP1dB/10-3)));
+th1.HorizontalAlignment='right';
+th1.BackgroundColor='w';
+th1.EdgeColor=ha3(1).Color;
+th2=text(irf630.OP1dB-0.5,irf630.gain_P1dB_intercept-0.17,sprintf('OP1dB=%.2f W',10^(irf630.OP1dB/10-3)));
+th2.HorizontalAlignment='right';
+th2.BackgroundColor='w';
+th2.EdgeColor=ha3(2).Color;
+xlabel('Pout (dBm)')
+ylabel('Gain (dB)')
+legend('IRF520N x2','IRF630 x4','Location','NorthEast')
+% xlim([0.1 20]);
+% ylim([-10 20]);
+grid on;
+
+return;
+print(h3,'OP1dB_plot.png','-dpng','-r300');     
