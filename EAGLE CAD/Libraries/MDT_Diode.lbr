@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -225,6 +225,29 @@
 <rectangle x1="-5.207" y1="-0.381" x2="-3.81" y2="0.381" layer="21"/>
 <rectangle x1="3.81" y1="-0.381" x2="5.207" y2="0.381" layer="21"/>
 </package>
+<package name="SOD123">
+<wire x1="-2.55" y1="-1.15" x2="-2.55" y2="1.15" width="0" layer="39"/>
+<wire x1="-2.55" y1="1.15" x2="2.55" y2="1.15" width="0" layer="39"/>
+<wire x1="2.55" y1="1.15" x2="2.55" y2="-1.15" width="0" layer="39"/>
+<wire x1="2.55" y1="-1.15" x2="-2.55" y2="-1.15" width="0" layer="39"/>
+<wire x1="-1.4" y1="0.9" x2="1.4" y2="0.9" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-0.9" x2="1.4" y2="-0.9" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.9" x2="-1.4" y2="0.7175" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.9" x2="1.4" y2="0.7175" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-0.9" x2="-1.4" y2="-0.7175" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.9" x2="1.4" y2="-0.7175" width="0.2032" layer="21"/>
+<wire x1="-1.425" y1="-0.9" x2="-1.425" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-1.425" y1="0.9" x2="1.425" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="1.425" y1="0.9" x2="1.425" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="1.425" y1="-0.9" x2="-1.425" y2="-0.9" width="0.2032" layer="51"/>
+<circle x="-2.025" y="0.904" radius="0.3048" width="0" layer="21"/>
+<smd name="K" x="-1.7" y="0" dx="0.8" dy="1.15" layer="1" rot="R90"/>
+<smd name="A" x="1.7" y="0" dx="0.8" dy="1.15" layer="1" rot="R90"/>
+<text x="0" y="1.27" size="0.8128" layer="25" font="vector" ratio="25" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.425" y1="-0.9" x2="-0.855" y2="0.9" layer="51"/>
+<rectangle x1="-1.85" y1="-0.3" x2="-1.425" y2="0.3" layer="51"/>
+<rectangle x1="1.425" y1="-0.3" x2="1.85" y2="0.3" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="D">
@@ -345,11 +368,11 @@
 <technologies>
 <technology name="">
 <attribute name="BOM" value="" constant="no"/>
-<attribute name="CURRENT" value="" constant="no"/>
-<attribute name="DEVICE" value="" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
-<attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
+<attribute name="CURRENT" value=""/>
+<attribute name="DEVICE" value=""/>
+<attribute name="PACKAGE" value=""/>
+<attribute name="PARTNO" value=""/>
+<attribute name="VOLTAGE" value=""/>
 </technology>
 <technology name="SK810L-TP">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
@@ -358,6 +381,30 @@
 <attribute name="PACKAGE" value="SMC"/>
 <attribute name="PARTNO" value="SK810L-TP"/>
 <attribute name="VOLTAGE" value="100V"/>
+</technology>
+</technologies>
+</device>
+<device name="SOD123" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A1" pad="A"/>
+<connect gate="G$1" pin="C1" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="CURRENT" value=""/>
+<attribute name="DEVICE" value=""/>
+<attribute name="PACKAGE" value=""/>
+<attribute name="PARTNO" value=""/>
+<attribute name="VOLTAGE" value=""/>
+</technology>
+<technology name="1N5711W-7-F">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="CURRENT" value="15mA"/>
+<attribute name="DEVICE" value="1N5711W-7-F"/>
+<attribute name="PACKAGE" value="SOD123"/>
+<attribute name="PARTNO" value="1N5711W-7-F"/>
+<attribute name="VOLTAGE" value="70V"/>
 </technology>
 </technologies>
 </device>
@@ -419,11 +466,11 @@
 <technologies>
 <technology name="">
 <attribute name="BOM" value="" constant="no"/>
-<attribute name="DEVICE" value="" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
-<attribute name="PARTNO" value="" constant="no"/>
-<attribute name="POWER" value="" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
+<attribute name="CURRENT" value=""/>
+<attribute name="DEVICE" value=""/>
+<attribute name="PACKAGE" value=""/>
+<attribute name="PARTNO" value=""/>
+<attribute name="VOLTAGE" value=""/>
 </technology>
 <technology name="1N5355B-TP">
 <attribute name="BOM" value="INCLUDE" constant="no"/>

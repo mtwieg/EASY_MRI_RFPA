@@ -184,6 +184,23 @@
 <rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
 <rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
+<package name="1206_IPC-7351B">
+<wire x1="-2.25" y1="-1.1" x2="-2.25" y2="1.1" width="0" layer="39"/>
+<wire x1="-2.25" y1="1.1" x2="2.25" y2="1.1" width="0" layer="39"/>
+<wire x1="2.25" y1="1.1" x2="2.25" y2="-1.1" width="0" layer="39"/>
+<wire x1="2.25" y1="-1.1" x2="-2.25" y2="-1.1" width="0" layer="39"/>
+<wire x1="-0.5" y1="0.8" x2="0.5" y2="0.8" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="-0.8" x2="0.5" y2="-0.8" width="0.2032" layer="21"/>
+<wire x1="-1.5625" y1="-0.775" x2="-1.5625" y2="0.775" width="0.2032" layer="51"/>
+<wire x1="-1.5625" y1="0.775" x2="1.5625" y2="0.775" width="0.2032" layer="51"/>
+<wire x1="1.5625" y1="0.775" x2="1.5625" y2="-0.775" width="0.2032" layer="51"/>
+<wire x1="1.5625" y1="-0.775" x2="-1.5625" y2="-0.775" width="0.2032" layer="51"/>
+<smd name="1" x="-1.45" y="0" dx="1.7" dy="1.1" layer="1" rot="R90"/>
+<smd name="2" x="1.45" y="0" dx="1.7" dy="1.1" layer="1" rot="R90"/>
+<text x="0" y="1.016" size="0.8128" layer="25" font="vector" ratio="25" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.5625" y1="-0.775" x2="-1.0625" y2="0.775" layer="51"/>
+<rectangle x1="1.0625" y1="-0.775" x2="1.5625" y2="0.775" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R">
@@ -383,6 +400,23 @@
 </technology>
 </technologies>
 </device>
+<device name="1206_IPC" package="1206_IPC-7351B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="R-1.0K-1%-1206-0.25W">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="1206" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="POWER" value="0.25" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1K" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="R90" prefix="R" uservalue="yes">
@@ -539,6 +573,23 @@
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="1" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1206_IPC" package="1206_IPC-7351B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="R-1.0K-1%-1206-0.25W">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PACKAGE" value="1206" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="POWER" value="0.25" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
 </technology>
