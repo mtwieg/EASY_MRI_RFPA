@@ -445,7 +445,13 @@
 <connect gate="G$1" pin="S6" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="CURRENT" value="1.88A"/>
+<attribute name="ISAT" value="1A"/>
+<attribute name="PARTNO" value="HP4-0140LB"/>
+<attribute name="RATIO" value="1:1:1:1:1:1"/>
+</technology>
 </technologies>
 </device>
 </devices>

@@ -101,53 +101,6 @@
 <text x="2.54" y="12.7" size="1.778" layer="1" font="vector" ratio="15">Rev A</text>
 </plain>
 <libraries>
-<library name="linear">
-<description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;
-Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SO14">
-<description>&lt;b&gt;Small Outline Package 14&lt;/b&gt;</description>
-<wire x1="4.305" y1="-1.9" x2="-4.305" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-4.305" y1="-1.9" x2="-4.305" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-4.305" y1="-1.4" x2="-4.305" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="4.305" y1="-1.4" x2="-4.305" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="4.305" y1="1.9" x2="4.305" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="4.305" y1="-1.4" x2="4.305" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-4.305" y1="1.9" x2="4.305" y2="1.9" width="0.2032" layer="51"/>
-<smd name="2" x="-2.54" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="13" x="-2.54" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-3.81" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="-1.27" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="0" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="14" x="-3.81" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="12" x="-1.27" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="11" x="0" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="2.54" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="9" x="2.54" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.27" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="3.81" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="10" x="1.27" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="3.81" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-4.572" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.842" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-4.055" y1="-3.1" x2="-3.565" y2="-2" layer="51"/>
-<rectangle x1="-2.785" y1="-3.1" x2="-2.295" y2="-2" layer="51"/>
-<rectangle x1="-1.515" y1="-3.1" x2="-1.025" y2="-2" layer="51"/>
-<rectangle x1="-0.245" y1="-3.1" x2="0.245" y2="-2" layer="51"/>
-<rectangle x1="-0.245" y1="2" x2="0.245" y2="3.1" layer="51"/>
-<rectangle x1="-1.515" y1="2" x2="-1.025" y2="3.1" layer="51"/>
-<rectangle x1="-2.785" y1="2" x2="-2.295" y2="3.1" layer="51"/>
-<rectangle x1="-4.055" y1="2" x2="-3.565" y2="3.1" layer="51"/>
-<rectangle x1="1.025" y1="-3.1" x2="1.515" y2="-2" layer="51"/>
-<rectangle x1="2.295" y1="-3.1" x2="2.785" y2="-2" layer="51"/>
-<rectangle x1="3.565" y1="-3.1" x2="4.055" y2="-2" layer="51"/>
-<rectangle x1="3.565" y1="2" x2="4.055" y2="3.1" layer="51"/>
-<rectangle x1="2.295" y1="2" x2="2.785" y2="3.1" layer="51"/>
-<rectangle x1="1.025" y1="2" x2="1.515" y2="3.1" layer="51"/>
-</package>
-</packages>
-</library>
 <library name="rcl">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -1513,39 +1466,6 @@ grid 2.54 mm, diameter 7 mm</description>
 </package>
 </packages>
 </library>
-<library name="v-reg">
-<description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="78XXS">
-<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
-<wire x1="4.826" y1="-4.318" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="4.826" y1="-4.318" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-4.064" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.143" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
-<circle x="-4.6228" y="-3.7084" radius="0.254" width="0" layer="21"/>
-<pad name="IN" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="GND" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="OUT" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-0.635" y="-3.81" size="1.27" layer="51" ratio="10">-</text>
-<text x="-3.175" y="-3.81" size="1.27" layer="51" ratio="10">I</text>
-<text x="1.905" y="-3.81" size="1.27" layer="51" ratio="10">O</text>
-<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="0" layer="21"/>
-<rectangle x1="-3.429" y1="-0.762" x2="-1.651" y2="0" layer="21"/>
-<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="0" layer="21"/>
-<rectangle x1="-0.889" y1="-0.762" x2="0.889" y2="0" layer="21"/>
-<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="0" layer="21"/>
-<rectangle x1="1.651" y1="-0.762" x2="3.429" y2="0" layer="21"/>
-<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="0" layer="21"/>
-<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
-<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
-<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
-</package>
-</packages>
-</library>
 <library name="MDT_TRAFO">
 <packages>
 <package name="HP4">
@@ -1765,30 +1685,6 @@ Grid 5.00 mm&lt;p&gt;
 </package>
 </packages>
 </library>
-<library name="led">
-<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
-Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
-<packages>
-<package name="LED5MM">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-5 mm, round</description>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205"/>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 <library name="MDT_Diode">
 <packages>
 <package name="DO-214AB(SMC)">
@@ -1827,6 +1723,22 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <rectangle x1="-3.048" y1="-1.778" x2="-2.413" y2="1.778" layer="21"/>
 <rectangle x1="-5.207" y1="-0.381" x2="-3.81" y2="0.381" layer="21"/>
 <rectangle x1="3.81" y1="-0.381" x2="5.207" y2="0.381" layer="21"/>
+</package>
+<package name="LED5MM">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+5 mm, round</description>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205"/>
+<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.524" shape="square"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.524"/>
+<text x="3.175" y="0.5334" size="1.016" layer="25" font="vector" ratio="20">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -2962,6 +2874,86 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </package>
 </packages>
 </library>
+<library name="MDT_IC">
+<packages>
+<package name="SO14">
+<description>&lt;b&gt;Small Outline Package 14&lt;/b&gt;</description>
+<wire x1="4.3688" y1="-1.9" x2="-4.3688" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-4.3688" y1="-1.9" x2="-4.3688" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-4.3688" y1="-1.4" x2="-4.3688" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="4.3688" y1="-1.4" x2="-4.3688" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="4.3688" y1="1.9" x2="4.3688" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="4.3688" y1="-1.4" x2="4.3688" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-4.3688" y1="1.9" x2="4.3688" y2="1.9" width="0.2032" layer="51"/>
+<smd name="2" x="-2.54" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="-2.54" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-3.81" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-1.27" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="0" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="-3.81" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="-1.27" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="0" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="2.54" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="2.54" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.27" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="3.81" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="1.27" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="3.81" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-5.08" y="0" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-4.055" y1="-3.1" x2="-3.565" y2="-2" layer="51"/>
+<rectangle x1="-2.785" y1="-3.1" x2="-2.295" y2="-2" layer="51"/>
+<rectangle x1="-1.515" y1="-3.1" x2="-1.025" y2="-2" layer="51"/>
+<rectangle x1="-0.245" y1="-3.1" x2="0.245" y2="-2" layer="51"/>
+<rectangle x1="-0.245" y1="2" x2="0.245" y2="3.1" layer="51"/>
+<rectangle x1="-1.515" y1="2" x2="-1.025" y2="3.1" layer="51"/>
+<rectangle x1="-2.785" y1="2" x2="-2.295" y2="3.1" layer="51"/>
+<rectangle x1="-4.055" y1="2" x2="-3.565" y2="3.1" layer="51"/>
+<rectangle x1="1.025" y1="-3.1" x2="1.515" y2="-2" layer="51"/>
+<rectangle x1="2.295" y1="-3.1" x2="2.785" y2="-2" layer="51"/>
+<rectangle x1="3.565" y1="-3.1" x2="4.055" y2="-2" layer="51"/>
+<rectangle x1="3.565" y1="2" x2="4.055" y2="3.1" layer="51"/>
+<rectangle x1="2.295" y1="2" x2="2.785" y2="3.1" layer="51"/>
+<rectangle x1="1.025" y1="2" x2="1.515" y2="3.1" layer="51"/>
+<wire x1="-4.3688" y1="-1.9" x2="-4.3688" y2="1.9" width="0.2032" layer="22"/>
+<wire x1="4.3688" y1="1.9" x2="4.3688" y2="-1.9" width="0.2032" layer="22"/>
+<rectangle x1="-4.055" y1="-3.1" x2="-3.565" y2="-2" layer="22"/>
+<rectangle x1="-2.785" y1="-3.1" x2="-2.295" y2="-2" layer="22"/>
+<rectangle x1="-1.515" y1="-3.1" x2="-1.025" y2="-2" layer="22"/>
+<rectangle x1="-0.245" y1="-3.1" x2="0.245" y2="-2" layer="22"/>
+<rectangle x1="-0.245" y1="2" x2="0.245" y2="3.1" layer="22"/>
+<rectangle x1="-1.515" y1="2" x2="-1.025" y2="3.1" layer="22"/>
+<rectangle x1="-2.785" y1="2" x2="-2.295" y2="3.1" layer="22"/>
+<rectangle x1="-4.055" y1="2" x2="-3.565" y2="3.1" layer="22"/>
+<rectangle x1="1.025" y1="-3.1" x2="1.515" y2="-2" layer="22"/>
+<rectangle x1="2.295" y1="-3.1" x2="2.785" y2="-2" layer="22"/>
+<rectangle x1="3.565" y1="-3.1" x2="4.055" y2="-2" layer="22"/>
+<rectangle x1="3.565" y1="2" x2="4.055" y2="3.1" layer="22"/>
+<rectangle x1="2.295" y1="2" x2="2.785" y2="3.1" layer="22"/>
+<rectangle x1="1.025" y1="2" x2="1.515" y2="3.1" layer="22"/>
+<text x="-4.318" y="-3.556" size="1.016" layer="21" font="vector" ratio="20" align="bottom-right">1</text>
+</package>
+<package name="TO220BV">
+<wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-4.318" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
+<circle x="-4.4958" y="-3.7084" radius="0.254" width="0" layer="21"/>
+<pad name="1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<text x="0" y="-5.08" size="1.016" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
+<rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
+<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="-0.762" layer="21"/>
+<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="-0.762" layer="21"/>
+<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
+<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="-0.762" layer="21"/>
+<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="-0.762" layer="21"/>
+<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
+<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3169,7 +3161,12 @@ design rules under a new name.</description>
 <attribute name="VENDOR" value="STM" x="46.355" y="95.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="46.355" y="95.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC302" library="linear" package="SO14" value="LM324D" x="106.172" y="22.86" rot="R180"/>
+<element name="U302" library="MDT_IC" package="SO14" value="OPAMP_QUADTLV274IDSOIC14" x="106.172" y="22.86" rot="R180">
+<attribute name="BOM" value="INCLUDE" x="106.172" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="TLV274ID" x="106.172" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="IC OPAMP GP 4 CIRCUIT 14SOIC" x="106.172" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Texas Instruments" x="106.172" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="Q303" library="MDT_TRANS" package="SOT23R_INFINEON" value="NPNMMBT3904SOT23_BEC" x="120.142" y="39.37" rot="R180">
 <attribute name="PACKAGE" value="SOT23-3" x="120.142" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CURRENT" value="0.2A" x="120.142" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3275,8 +3272,20 @@ design rules under a new name.</description>
 <element name="J301" library="MDT_CON" package="BNC_EDGE" value="" x="101.6" y="2.54" rot="R90"/>
 <element name="JP302" library="pinhead" package="1X02" value="" x="98.044" y="9.144" rot="R180"/>
 <element name="JP301" library="pinhead" package="1X02" value="" x="104.14" y="9.144" rot="R180"/>
-<element name="IC401" library="v-reg" package="78XXS" value="" x="101.6" y="83.82" rot="R180"/>
-<element name="IC402" library="v-reg" package="78XXS" value="" x="101.6" y="60.96" rot="R180"/>
+<element name="IC401" library="MDT_IC" package="TO220BV" value="LDO_3TERMMC78M12CTGTO220_VERT" x="101.6" y="83.82" rot="R180">
+<attribute name="PACKAGE" value="TO220" x="101.6" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="MC78M12CTG" x="101.6" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="IC REG LINEAR 12V 500MA TO220AB" x="101.6" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="ONSEMI" x="101.6" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="BOM" value="INCLUDE" x="101.6" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="IC402" library="MDT_IC" package="TO220BV" value="LDO_3TERMMC78M05CTGTO220_VERT" x="101.6" y="60.96" rot="R180">
+<attribute name="PACKAGE" value="TO220" x="101.6" y="60.96" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="MC78M05CTG" x="101.6" y="60.96" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="IC REG LINEAR 5V 500MA TO220AB" x="101.6" y="60.96" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="ONSEMI" x="101.6" y="60.96" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="BOM" value="INCLUDE" x="101.6" y="60.96" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="D401" library="MDT_Diode" package="DO-214AB(SMC)" value="D-SCHOTTKYSK810L-TPSMC" x="127.762" y="31.242" rot="R270">
 <attribute name="PACKAGE" value="SMC" x="127.762" y="31.242" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CURRENT" value="8A" x="127.762" y="31.242" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3317,7 +3326,7 @@ design rules under a new name.</description>
 <attribute name="TOL" value="1%" x="111.76" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="0.25" x="111.76" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="IC301" library="74xx-little-us" package="SOT23-5" value="74AHC1G14DBV" x="76.2" y="19.05"/>
+<element name="U301" library="74xx-little-us" package="SOT23-5" value="74AHC1G14DBV" x="76.2" y="19.05"/>
 <element name="R120" library="MDT_R" package="R2512" value="1K" x="65.532" y="87.63" rot="R180">
 <attribute name="PACKAGE" value="2512" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4122,7 +4131,13 @@ design rules under a new name.</description>
 <attribute name="TOL" value="5" x="99.06" y="68.58" size="1.778" layer="27" display="off"/>
 <attribute name="DIALECTRIC" value="NP0" x="99.06" y="68.58" size="1.778" layer="27" display="off"/>
 </element>
-<element name="T101" library="MDT_TRAFO" package="HP4" value="HP4_TRAFO" x="50.8" y="25.4"/>
+<element name="T101" library="MDT_TRAFO" package="HP4" value="HP4_TRAFO" x="50.8" y="25.4">
+<attribute name="CURRENT" value="1.88A" x="50.8" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="HP4-0140LB" x="50.8" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="RATIO" value="1:1:1:1:1:1" x="50.8" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="ISAT" value="1A" x="50.8" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="BOM" value="INCLUDE" x="50.8" y="25.4" size="1.778" layer="27" display="off"/>
+</element>
 <element name="J401" library="MDT_FUSE" package="02540121Z" value="FUSE_2P" x="138.43" y="25.4" rot="R90">
 <attribute name="PARTNO" value="02540121Z" x="138.43" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="138.43" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4269,7 +4284,13 @@ design rules under a new name.</description>
 <element name="TP8" library="MDT_CON" package="PROBE_TP_7P5MM" value="PROBE_TPTP_7P5MM" x="38.862" y="43.942" rot="R180"/>
 <element name="TP9" library="MDT_CON" package="PROBE_TP_5MM" value="PROBE_TPTP_5MM" x="70.612" y="49.53"/>
 <element name="TP10" library="MDT_CON" package="PROBE_TP_5MM" value="PROBE_TPTP_5MM" x="62.738" y="70.358"/>
-<element name="T102" library="MDT_TRAFO" package="HP4" value="HP4_TRAFO" x="50.8" y="125.73"/>
+<element name="T102" library="MDT_TRAFO" package="HP4" value="HP4_TRAFO" x="50.8" y="125.73">
+<attribute name="CURRENT" value="1.88A" x="50.8" y="125.73" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="HP4-0140LB" x="50.8" y="125.73" size="1.778" layer="27" display="off"/>
+<attribute name="RATIO" value="1:1:1:1:1:1" x="50.8" y="125.73" size="1.778" layer="27" display="off"/>
+<attribute name="ISAT" value="1A" x="50.8" y="125.73" size="1.778" layer="27" display="off"/>
+<attribute name="BOM" value="INCLUDE" x="50.8" y="125.73" size="1.778" layer="27" display="off"/>
+</element>
 <element name="TP11" library="MDT_CON" package="PROBE_TP_5MM" value="PROBE_TPTP_5MM" x="116.84" y="42.164" rot="R180"/>
 <element name="TP12" library="MDT_CON" package="PROBE_TP_5MM" value="PROBE_TPTP_5MM" x="100.838" y="25.654" rot="R180"/>
 <element name="TP13" library="MDT_CON" package="PROBE_TP_5MM" value="PROBE_TPTP_5MM" x="109.22" y="16.764"/>
@@ -4306,8 +4327,24 @@ design rules under a new name.</description>
 <element name="TP17" library="MDT_CON" package="PROBE_TP_7P5MM" value="PROBE_TPTP_7P5MM" x="66.294" y="72.39"/>
 <element name="TP18" library="MDT_CON" package="PROBE_TP_5MM" value="PROBE_TPTP_5MM" x="85.09" y="54.61"/>
 <element name="TP19" library="MDT_CON" package="PROBE_TP_5MM" value="PROBE_TPTP_5MM" x="15.24" y="59.69" rot="R180"/>
-<element name="LED402" library="led" package="LED5MM" value="" x="91.44" y="63.5" rot="R180"/>
-<element name="LED401" library="led" package="LED5MM" value="" x="91.44" y="86.36" rot="R180"/>
+<element name="LED402" library="MDT_Diode" package="LED5MM" value="LEDHLMP-3962-F0002T1_3/4" x="91.44" y="63.5" rot="R180">
+<attribute name="PACKAGE" value="T-1 3/4" x="91.44" y="63.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CURRENT" value="10mA" x="91.44" y="63.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="HLMP-3962-F0002" x="91.44" y="63.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="BROADCOM" x="91.44" y="63.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="BRIGHTNESS" value="10.6mcd" x="91.44" y="63.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="BOM" value="INCLUDE" x="91.44" y="63.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="COLOR" value="GREEN" x="91.44" y="63.5" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="LED401" library="MDT_Diode" package="LED5MM" value="LEDHLMP-3962-F0002T1_3/4" x="91.44" y="86.36" rot="R180">
+<attribute name="PACKAGE" value="T-1 3/4" x="91.44" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CURRENT" value="10mA" x="91.44" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="HLMP-3962-F0002" x="91.44" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="BROADCOM" x="91.44" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="BRIGHTNESS" value="10.6mcd" x="91.44" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="BOM" value="INCLUDE" x="91.44" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="COLOR" value="GREEN" x="91.44" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="R406" library="MDT_R" package="0805_IPC-7351B" value="2K" x="90.17" y="80.01" rot="R270">
 <attribute name="PACKAGE" value="0805" x="90.17" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="" x="90.17" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4322,7 +4359,15 @@ design rules under a new name.</description>
 <attribute name="TOL" value="" x="90.17" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="" x="90.17" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LED301" library="led" package="LED5MM" value="" x="91.44" y="35.56" rot="R180"/>
+<element name="LED301" library="MDT_Diode" package="LED5MM" value="LEDHLMP-3401-E0002T1_3/4" x="91.44" y="35.56" rot="R180">
+<attribute name="PACKAGE" value="T-1 3/4" x="91.44" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CURRENT" value="10mA" x="91.44" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value=" HLMP-3401-E0002" x="91.44" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="BROADCOM" x="91.44" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="BRIGHTNESS" value="5.7mcd" x="91.44" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="BOM" value="INCLUDE" x="91.44" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="COLOR" value="YELLOW" x="91.44" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="R309" library="MDT_R" package="0805_IPC-7351B" value="1.0K" x="90.17" y="27.94" rot="R270">
 <attribute name="PACKAGE" value="0805" x="90.17" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="" x="90.17" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4462,13 +4507,13 @@ design rules under a new name.</description>
 <contactref element="J302" pad="G4"/>
 <contactref element="J302" pad="G1"/>
 <contactref element="Q301" pad="2"/>
-<contactref element="IC401" pad="GND"/>
-<contactref element="IC402" pad="GND"/>
+<contactref element="IC401" pad="2"/>
+<contactref element="IC402" pad="2"/>
 <contactref element="D401" pad="A"/>
 <contactref element="C401" pad="-"/>
 <contactref element="C405" pad="2"/>
 <contactref element="C408" pad="2"/>
-<contactref element="IC301" pad="3"/>
+<contactref element="U301" pad="3"/>
 <contactref element="C109" pad="2"/>
 <contactref element="C111" pad="2"/>
 <contactref element="C115" pad="2"/>
@@ -4495,7 +4540,7 @@ design rules under a new name.</description>
 <contactref element="C303" pad="2"/>
 <contactref element="C301" pad="2"/>
 <contactref element="C305" pad="2"/>
-<contactref element="IC302" pad="11"/>
+<contactref element="U302" pad="11"/>
 <contactref element="R224" pad="2"/>
 <contactref element="R222" pad="2"/>
 <contactref element="R206" pad="2"/>
@@ -4922,7 +4967,7 @@ design rules under a new name.</description>
 <wire x1="74.692" y1="68.326" x2="74.676" y2="68.31" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$1">
-<contactref element="IC302" pad="1"/>
+<contactref element="U302" pad="1"/>
 <contactref element="R315" pad="1"/>
 <contactref element="R314" pad="1"/>
 <wire x1="109.982" y1="25.46" x2="109.982" y2="26.67" width="0.4064" layer="1"/>
@@ -4955,7 +5000,7 @@ design rules under a new name.</description>
 <wire x1="121.412" y1="36.576" x2="116.84" y2="36.576" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$14">
-<contactref element="IC302" pad="2"/>
+<contactref element="U302" pad="2"/>
 <contactref element="R317" pad="1"/>
 <contactref element="R312" pad="2"/>
 <contactref element="R313" pad="2"/>
@@ -4971,7 +5016,7 @@ design rules under a new name.</description>
 <wire x1="105.172" y1="33.274" x2="105.156" y2="33.29" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$15">
-<contactref element="IC302" pad="3"/>
+<contactref element="U302" pad="3"/>
 <contactref element="R310" pad="2"/>
 <contactref element="C303" pad="1"/>
 <contactref element="R311" pad="1"/>
@@ -4986,8 +5031,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="+12V">
 <contactref element="Q303" pad="3"/>
-<contactref element="IC401" pad="OUT"/>
-<contactref element="IC302" pad="4"/>
+<contactref element="IC401" pad="3"/>
+<contactref element="U302" pad="4"/>
 <contactref element="C305" pad="1"/>
 <wire x1="106.172" y1="25.46" x2="106.172" y2="27.702" width="0.4064" layer="1"/>
 <contactref element="C406" pad="1"/>
@@ -5024,7 +5069,7 @@ design rules under a new name.</description>
 <wire x1="92.71" y1="86.36" x2="99.06" y2="86.36" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$3">
-<contactref element="IC301" pad="2"/>
+<contactref element="U301" pad="2"/>
 <contactref element="R307" pad="1"/>
 <wire x1="76.216" y1="12.7" x2="76.216" y2="17.744" width="0.4064" layer="1"/>
 <wire x1="76.216" y1="17.744" x2="76.2" y2="17.76" width="0.4064" layer="1"/>
@@ -5163,7 +5208,7 @@ design rules under a new name.</description>
 <wire x1="105.156" y1="37.1" x2="105.156" y2="35.29" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$16">
-<contactref element="IC302" pad="10"/>
+<contactref element="U302" pad="10"/>
 <contactref element="R303" pad="2"/>
 <contactref element="R306" pad="1"/>
 <wire x1="105.172" y1="16.764" x2="105.172" y2="14.7" width="0.4064" layer="1"/>
@@ -5172,7 +5217,7 @@ design rules under a new name.</description>
 <wire x1="104.902" y1="17.034" x2="105.172" y2="16.764" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$18">
-<contactref element="IC302" pad="8"/>
+<contactref element="U302" pad="8"/>
 <contactref element="JP302" pad="2"/>
 <contactref element="R308" pad="1"/>
 <contactref element="R305" pad="2"/>
@@ -5185,7 +5230,7 @@ design rules under a new name.</description>
 <wire x1="102.286" y1="20.336" x2="102.362" y2="20.26" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$19">
-<contactref element="IC302" pad="9"/>
+<contactref element="U302" pad="9"/>
 <contactref element="JP302" pad="1"/>
 <contactref element="R302" pad="2"/>
 <contactref element="R305" pad="1"/>
@@ -5233,7 +5278,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$23">
 <contactref element="Q301" pad="3"/>
-<contactref element="IC302" pad="5"/>
+<contactref element="U302" pad="5"/>
 <contactref element="R308" pad="2"/>
 <wire x1="99.06" y1="22.336" x2="99.552" y2="22.336" width="0.4064" layer="1"/>
 <wire x1="99.552" y1="22.336" x2="100.584" y2="23.368" width="0.4064" layer="1"/>
@@ -5245,7 +5290,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$24">
 <contactref element="Q301" pad="1"/>
-<contactref element="IC301" pad="4"/>
+<contactref element="U301" pad="4"/>
 <wire x1="77.15" y1="20.35" x2="90.17" y2="20.35" width="0.4064" layer="1"/>
 <wire x1="90.17" y1="20.35" x2="94.16" y2="20.35" width="0.4064" layer="1"/>
 <wire x1="94.16" y1="20.35" x2="94.3" y2="20.59" width="0.4064" layer="1"/>
@@ -5253,8 +5298,8 @@ design rules under a new name.</description>
 <wire x1="90.17" y1="26.94" x2="90.17" y2="20.35" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$26">
-<contactref element="IC302" pad="13"/>
-<contactref element="IC302" pad="14"/>
+<contactref element="U302" pad="13"/>
+<contactref element="U302" pad="14"/>
 <contactref element="R306" pad="2"/>
 <contactref element="TP13" pad="TP"/>
 <wire x1="107.172" y1="16.764" x2="109.22" y2="16.764" width="0.4064" layer="1"/>
@@ -5264,7 +5309,7 @@ design rules under a new name.</description>
 <wire x1="109.982" y1="17.526" x2="109.22" y2="16.764" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$25">
-<contactref element="IC302" pad="12"/>
+<contactref element="U302" pad="12"/>
 <contactref element="R301" pad="2"/>
 <contactref element="C301" pad="1"/>
 <wire x1="107.442" y1="20.26" x2="107.442" y2="22.098" width="0.4064" layer="1"/>
@@ -5276,8 +5321,8 @@ design rules under a new name.</description>
 <wire x1="112.776" y1="22.622" x2="113.014" y2="22.622" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$6">
-<contactref element="IC302" pad="6"/>
-<contactref element="IC302" pad="7"/>
+<contactref element="U302" pad="6"/>
+<contactref element="U302" pad="7"/>
 <contactref element="R310" pad="1"/>
 <wire x1="103.632" y1="25.46" x2="103.632" y2="27.432" width="0.4064" layer="1"/>
 <wire x1="103.632" y1="27.432" x2="103.124" y2="27.94" width="0.4064" layer="1"/>
@@ -5291,7 +5336,7 @@ design rules under a new name.</description>
 <wire x1="100.838" y1="27.702" x2="101.092" y2="27.956" width="0.4064" layer="1"/>
 </signal>
 <signal name="+5V">
-<contactref element="IC402" pad="OUT"/>
+<contactref element="IC402" pad="3"/>
 <contactref element="R408" pad="1"/>
 <contactref element="C407" pad="1"/>
 <contactref element="R301" pad="3"/>
@@ -5301,7 +5346,7 @@ design rules under a new name.</description>
 <wire x1="95.504" y1="76.2" x2="95.504" y2="70.736" width="0.6096" layer="1"/>
 <wire x1="95.504" y1="70.736" x2="97.66" y2="68.58" width="0.6096" layer="1"/>
 <contactref element="C306" pad="1"/>
-<contactref element="IC301" pad="5"/>
+<contactref element="U301" pad="5"/>
 <wire x1="75.25" y1="20.35" x2="73.198" y2="20.35" width="0.4064" layer="1"/>
 <wire x1="73.198" y1="20.35" x2="72.898" y2="20.05" width="0.4064" layer="1"/>
 <wire x1="118.618" y1="6.604" x2="117.348" y2="6.604" width="0.4064" layer="16"/>
@@ -5329,7 +5374,7 @@ design rules under a new name.</description>
 <wire x1="92.71" y1="63.5" x2="99.06" y2="63.5" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$43">
-<contactref element="IC401" pad="IN"/>
+<contactref element="IC401" pad="1"/>
 <contactref element="R402" pad="2"/>
 <contactref element="C403" pad="1"/>
 <wire x1="106.556" y1="91.44" x2="106.556" y2="88.776" width="0.6096" layer="1"/>
@@ -5442,7 +5487,7 @@ design rules under a new name.</description>
 <contactref element="L104" pad="2"/>
 </signal>
 <signal name="N$49">
-<contactref element="IC402" pad="IN"/>
+<contactref element="IC402" pad="1"/>
 <contactref element="R403" pad="2"/>
 <contactref element="C404" pad="1"/>
 <wire x1="106.048" y1="68.58" x2="106.048" y2="65.408" width="0.6096" layer="1"/>
