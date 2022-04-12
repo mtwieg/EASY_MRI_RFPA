@@ -319,7 +319,17 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="CORE" value="" constant="no"/>
+<attribute name="DCR" value="" constant="no"/>
+<attribute name="IDC" value="" constant="no"/>
+<attribute name="ISAT" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 <technology name="L-1.0U-AIR-5%-1008-0.37A">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="CORE" value="AIR"/>
@@ -330,6 +340,17 @@
 <attribute name="PARTNO" value="1008CS-102XJEC"/>
 <attribute name="TOL" value="5%"/>
 <attribute name="VALUE" value="1uH" constant="no"/>
+</technology>
+<technology name="L-47N-AIR-5%-1008-1A">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="CORE" value="AIR"/>
+<attribute name="DCR" value="0.16"/>
+<attribute name="IDC" value="1A"/>
+<attribute name="ISAT" value=""/>
+<attribute name="PACKAGE" value="1008"/>
+<attribute name="PARTNO" value="1008CS-470XJEC"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="47nH" constant="no"/>
 </technology>
 </technologies>
 </device>
