@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,14 +53,14 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -6191,9 +6191,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY109" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY107" library="supply2" deviceset="GND" device=""/>
 <part name="C113" library="MDT_C" deviceset="C" device="C1206" technology="C-22N-250V-5%-1206-NP0" value="22nF"/>
-<part name="R121" library="MDT_R" deviceset="R90" device="R2512" technology="R-1K-1%-2512-1W" value="1K"/>
-<part name="R125" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K"/>
-<part name="R123" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K"/>
+<part name="R121" library="MDT_R" deviceset="R90" device="R2512" technology="R-1K-1%-2512-1W" value="270"/>
+<part name="R125" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7"/>
+<part name="R123" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7"/>
 <part name="R111" library="MDT_R" deviceset="R" device="1206_IPC" value="100"/>
 <part name="L102" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-47N-AIR-5%-1008-1A" value="47nH"/>
 <part name="R107" library="MDT_R" deviceset="R" device="1206_IPC" value="75"/>
@@ -6225,33 +6225,33 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="R402" library="MDT_R" deviceset="R90" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
 <part name="R403" library="MDT_R" deviceset="R90" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
 <part name="U301" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="AHC"/>
-<part name="R120" library="MDT_R" deviceset="R90" device="R2512" technology="R-1K-1%-2512-1W" value="1K"/>
+<part name="R120" library="MDT_R" deviceset="R90" device="R2512" technology="R-1K-1%-2512-1W" value="2.74K"/>
 <part name="R115" library="MDT_R" deviceset="R90" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="15"/>
-<part name="R113" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R113" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="R117" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R117" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
 <part name="R131" library="MDT_R" deviceset="R90" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R110" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="C115" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF"/>
-<part name="C111" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="R110" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="100"/>
+<part name="C115" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="10nF"/>
+<part name="C111" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C109" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C109" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C107" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C107" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="27nF">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
 <part name="SUPPLY421" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY422" library="supply2" deviceset="GND" device=""/>
-<part name="C106" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C106" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="22nF">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
 <part name="J101" library="MDT_CON" deviceset="COAX" device="BNC_EDGE"/>
@@ -6270,45 +6270,45 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY106" library="supply2" deviceset="GND" device=""/>
 <part name="C112" library="MDT_C" deviceset="C" device="C1206" technology="C-22N-250V-5%-1206-NP0" value="22nF"/>
 <part name="R119" library="MDT_R" deviceset="R90" device="R2512" value="270"/>
-<part name="R124" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K"/>
-<part name="R122" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K"/>
+<part name="R124" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7"/>
+<part name="R122" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7"/>
 <part name="R109" library="MDT_R" deviceset="R" device="1206_IPC" value="100"/>
 <part name="L101" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-47N-AIR-5%-1008-1A" value="47nH"/>
 <part name="R106" library="MDT_R" deviceset="R" device="1206_IPC" value="75"/>
 <part name="R104" library="MDT_R" deviceset="R90" device="1206_IPC" value="4.99"/>
 <part name="R118" library="MDT_R" deviceset="R90" device="R2512" value="2.74K"/>
 <part name="R114" library="MDT_R" deviceset="R90" device="0805_IPC" value="15"/>
-<part name="R112" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R112" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="R116" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R116" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
 <part name="R130" library="MDT_R" deviceset="R90" device="0805_IPC" value="1.0K"/>
-<part name="R108" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="C114" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF"/>
-<part name="C110" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="R108" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="100"/>
+<part name="C114" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="10nF"/>
+<part name="C110" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C108" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C108" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C105" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C105" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="27nF">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
-<part name="C104" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C104" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="22nF">
 <attribute name="BOM" value="INCLUDE"/>
 </part>
 <part name="R102" library="MDT_R" deviceset="R" device="1206_IPC" value="75"/>
 <part name="R310" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R315" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R316" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R317" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R312" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
+<part name="R315" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10"/>
+<part name="R316" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="100"/>
+<part name="R317" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
+<part name="R312" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
 <part name="R313" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
@@ -6319,7 +6319,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="R306" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
 <part name="R305" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
 <part name="C304" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="33pF"/>
-<part name="R314" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
+<part name="R314" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="0"/>
 <part name="C302" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <attribute name="BOM" value="INCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
@@ -6350,67 +6350,67 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="C210" library="MDT_C" deviceset="C" device="C1206" technology="C-22N-250V-5%-1206-NP0" value="22nF">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R220" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R220" library="MDT_R" deviceset="R90" device="R2512" technology="R-1K-1%-2512-1W" value="270">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R224" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R224" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R222" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R222" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R210" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R210" library="MDT_R" deviceset="R" device="1206_IPC" value="100">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="L202" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-1.0U-AIR-5%-1008-0.37A" value="1uH">
+<part name="L202" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-47N-AIR-5%-1008-1A" value="47nH">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R206" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R206" library="MDT_R" deviceset="R" device="1206_IPC" value="75">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R204" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R204" library="MDT_R" deviceset="R90" device="1206_IPC" value="4.99">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R219" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R219" library="MDT_R" deviceset="R90" device="R2512" technology="R-1K-1%-2512-1W" value="2.74K">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R214" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R214" library="MDT_R" deviceset="R90" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="15">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="R212" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="R216" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R216" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="R230" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R230" library="MDT_R" deviceset="R90" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R209" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R209" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="100">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="C212" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C212" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="10nF">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="C208" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
-<variant name="IRF520N_20W" populate="no"/>
-<variant name="IRF630_200W" populate="no"/>
-</part>
-<part name="C206" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C208" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C204" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C206" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
+<variant name="IRF520N_20W" populate="no"/>
+<variant name="IRF630_200W" populate="no"/>
+</part>
+<part name="C204" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="27nF">
 <attribute name="BOM" value="INCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="C203" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C203" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="22nF">
 <attribute name="BOM" value="INCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R202" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R202" library="MDT_R" deviceset="R" device="1206_IPC" value="75">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="SUPPLY217" library="supply2" deviceset="GND" device=""/>
@@ -6424,67 +6424,67 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="C209" library="MDT_C" deviceset="C" device="C1206" technology="C-22N-250V-5%-1206-NP0" value="22nF">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R218" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R218" library="MDT_R" deviceset="R90" device="R2512" technology="R-1K-1%-2512-1W" value="270">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R223" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R223" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R221" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R221" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R208" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R208" library="MDT_R" deviceset="R" device="1206_IPC" value="100">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="L201" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-1.0U-AIR-5%-1008-0.37A" value="1uH">
+<part name="L201" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-47N-AIR-5%-1008-1A" value="47nH">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R205" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R205" library="MDT_R" deviceset="R" device="1206_IPC" value="75">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R203" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R203" library="MDT_R" deviceset="R90" device="1206_IPC" value="4.99">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R217" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R217" library="MDT_R" deviceset="R90" device="R2512" technology="R-1K-1%-2512-1W" value="2.74K">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R213" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R213" library="MDT_R" deviceset="R90" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="15">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R211" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
-<variant name="IRF520N_20W" populate="no"/>
-<variant name="IRF630_200W" populate="no"/>
-</part>
-<part name="R215" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R211" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="R229" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
-<variant name="IRF520N_20W" populate="no"/>
-</part>
-<part name="R207" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
-<variant name="IRF520N_20W" populate="no"/>
-</part>
-<part name="C211" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
-<variant name="IRF520N_20W" populate="no"/>
-</part>
-<part name="C207" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="R215" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C205" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="R229" library="MDT_R" deviceset="R90" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<variant name="IRF520N_20W" populate="no"/>
+</part>
+<part name="R207" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="100">
+<variant name="IRF520N_20W" populate="no"/>
+</part>
+<part name="C211" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="10nF">
+<variant name="IRF520N_20W" populate="no"/>
+</part>
+<part name="C207" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C202" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C205" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
+<variant name="IRF520N_20W" populate="no"/>
+<variant name="IRF630_200W" populate="no"/>
+</part>
+<part name="C202" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="27nF">
 <attribute name="BOM" value="INCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="C201" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C201" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="22nF">
 <attribute name="BOM" value="INCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R201" library="MDT_R" deviceset="R" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K">
+<part name="R201" library="MDT_R" deviceset="R" device="1206_IPC" value="75">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="R311" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
@@ -6515,9 +6515,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="J401" library="MDT_FUSE" deviceset="FUSE_2P" device=""/>
 <part name="L401" library="MDT_L" deviceset="L" device="" technology="L-3.3U-FERRITE-20%-12.5X12.5MM-10.5A" value="3.3uH"/>
 <part name="L402" library="MDT_L" deviceset="L" device="" technology="L-22U-FERRITE-20%-12.5X12.5MM-4A" value="22uH"/>
-<part name="R132" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="C116" library="MDT_C" deviceset="C" device="C1812" value="0.1uF"/>
-<part name="C117" library="MDT_C" deviceset="C" device="C1812" value="0.1uF"/>
+<part name="R132" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="0"/>
+<part name="C116" library="MDT_C" deviceset="C" device="C1812" value="DNP"/>
+<part name="C117" library="MDT_C" deviceset="C" device="C1812" value="DNP"/>
 <part name="C411" library="MDT_C" deviceset="C" device="C2220_CKG57N" technology="CC-10U-100V-20%-2220-X7T" value="10uF"/>
 <part name="C412" library="MDT_C" deviceset="C" device="C2220_CKG57N" technology="CC-10U-100V-20%-2220-X7T" value="10uF"/>
 <part name="C413" library="MDT_C" deviceset="C" device="C2220_CKG57N" technology="CC-10U-100V-20%-2220-X7T" value="10uF"/>
@@ -6525,7 +6525,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY418" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY419" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY102" library="supply2" deviceset="GND" device=""/>
-<part name="R101" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
+<part name="R101" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="0"/>
 <part name="SUPPLY105" library="supply2" deviceset="GND" device=""/>
 <part name="TP1" library="MDT_CON" deviceset="PROBE_TP" device="TP_5MM"/>
 <part name="TP2" library="MDT_CON" deviceset="PROBE_TP" device="TP_7P5MM" value="PROBE_TPTP_7P5MM"/>
@@ -6539,24 +6539,24 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY118" library="supply2" deviceset="GND" device=""/>
 <part name="TP6" library="MDT_CON" deviceset="PROBE_TP" device="TP_7P5MM" value="PROBE_TPTP_7P5MM"/>
 <part name="SUPPLY119" library="supply2" deviceset="GND" device=""/>
-<part name="R126" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K"/>
-<part name="R128" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K"/>
+<part name="R126" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7"/>
+<part name="R128" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="3.3"/>
 <part name="SUPPLY124" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY126" library="supply2" deviceset="GND" device=""/>
-<part name="R127" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K"/>
-<part name="R129" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K"/>
+<part name="R127" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7"/>
+<part name="R129" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="3.3"/>
 <part name="SUPPLY125" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY127" library="supply2" deviceset="GND" device=""/>
-<part name="R226" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R226" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R228" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R228" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="3.3">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R225" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R225" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="2.7">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R227" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="1K">
+<part name="R227" library="MDT_R" deviceset="R" device="R2512" technology="R-1K-1%-2512-1W" value="3.3">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="SUPPLY220" library="supply2" deviceset="GND" device=""/>
@@ -7729,9 +7729,9 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <wire x1="198.12" y1="139.7" x2="198.12" y2="218.44" width="0.1524" layer="94" style="longdash"/>
 <wire x1="198.12" y1="218.44" x2="154.94" y2="218.44" width="0.1524" layer="94" style="longdash"/>
 <wire x1="200.66" y1="218.44" x2="200.66" y2="139.7" width="0.1524" layer="94" style="longdash"/>
-<wire x1="200.66" y1="139.7" x2="264.16" y2="139.7" width="0.1524" layer="94" style="longdash"/>
-<wire x1="264.16" y1="139.7" x2="264.16" y2="218.44" width="0.1524" layer="94" style="longdash"/>
-<wire x1="264.16" y1="218.44" x2="200.66" y2="218.44" width="0.1524" layer="94" style="longdash"/>
+<wire x1="200.66" y1="139.7" x2="294.64" y2="139.7" width="0.1524" layer="94" style="longdash"/>
+<wire x1="294.64" y1="139.7" x2="294.64" y2="218.44" width="0.1524" layer="94" style="longdash"/>
+<wire x1="294.64" y1="218.44" x2="200.66" y2="218.44" width="0.1524" layer="94" style="longdash"/>
 <wire x1="96.52" y1="129.54" x2="127" y2="129.54" width="0.1524" layer="94" style="longdash"/>
 <wire x1="127" y1="129.54" x2="127" y2="50.8" width="0.1524" layer="94" style="longdash"/>
 <wire x1="127" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="94" style="longdash"/>
@@ -7745,9 +7745,9 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <wire x1="198.12" y1="50.8" x2="198.12" y2="129.54" width="0.1524" layer="94" style="longdash"/>
 <wire x1="198.12" y1="129.54" x2="154.94" y2="129.54" width="0.1524" layer="94" style="longdash"/>
 <wire x1="200.66" y1="129.54" x2="200.66" y2="50.8" width="0.1524" layer="94" style="longdash"/>
-<wire x1="200.66" y1="50.8" x2="264.16" y2="50.8" width="0.1524" layer="94" style="longdash"/>
-<wire x1="264.16" y1="50.8" x2="264.16" y2="129.54" width="0.1524" layer="94" style="longdash"/>
-<wire x1="264.16" y1="129.54" x2="200.66" y2="129.54" width="0.1524" layer="94" style="longdash"/>
+<wire x1="200.66" y1="50.8" x2="294.64" y2="50.8" width="0.1524" layer="94" style="longdash"/>
+<wire x1="294.64" y1="50.8" x2="294.64" y2="129.54" width="0.1524" layer="94" style="longdash"/>
+<wire x1="294.64" y1="129.54" x2="200.66" y2="129.54" width="0.1524" layer="94" style="longdash"/>
 </plain>
 <instances>
 <instance part="Q201" gate="G$1" x="241.3" y="172.72"/>
@@ -7767,18 +7767,18 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <attribute name="PACKAGE" x="231.14" y="101.981" size="1.6764" layer="96" align="bottom-center"/>
 <attribute name="BOM" x="231.14" y="96.266" size="1.6764" layer="96" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="R220" gate="G$1" x="218.44" y="99.06" rot="R90"/>
+<instance part="R220" gate="G$1" x="218.44" y="99.06"/>
 <instance part="R224" gate="G$1" x="241.3" y="66.04"/>
 <instance part="R222" gate="G$1" x="233.68" y="66.04"/>
 <instance part="R210" gate="G$1" x="144.78" y="96.52"/>
 <instance part="L202" gate="G$1" x="177.8" y="91.44"/>
 <instance part="R206" gate="G$1" x="119.38" y="73.66"/>
-<instance part="R204" gate="G$1" x="111.76" y="81.28" rot="R90"/>
-<instance part="R219" gate="G$1" x="218.44" y="109.22" rot="R90"/>
-<instance part="R214" gate="G$1" x="177.8" y="81.28" rot="R90"/>
+<instance part="R204" gate="G$1" x="111.76" y="81.28"/>
+<instance part="R219" gate="G$1" x="218.44" y="109.22"/>
+<instance part="R214" gate="G$1" x="177.8" y="81.28"/>
 <instance part="R212" gate="G$1" x="162.56" y="73.66"/>
 <instance part="R216" gate="G$1" x="190.5" y="73.66"/>
-<instance part="R230" gate="G$1" x="264.16" y="73.66" rot="R90"/>
+<instance part="R230" gate="G$1" x="264.16" y="73.66"/>
 <instance part="R209" gate="G$1" x="144.78" y="116.84"/>
 <instance part="C212" gate="G$1" x="271.78" y="66.04"/>
 <instance part="C208" gate="G$1" x="190.5" y="63.5"/>
@@ -7813,18 +7813,18 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <attribute name="PACKAGE" x="231.14" y="190.881" size="1.6764" layer="96" align="bottom-center"/>
 <attribute name="BOM" x="231.14" y="185.166" size="1.6764" layer="96" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="R218" gate="G$1" x="218.44" y="187.96" rot="R90"/>
+<instance part="R218" gate="G$1" x="218.44" y="187.96"/>
 <instance part="R223" gate="G$1" x="241.3" y="154.94"/>
 <instance part="R221" gate="G$1" x="233.68" y="154.94"/>
 <instance part="R208" gate="G$1" x="144.78" y="185.42"/>
 <instance part="L201" gate="G$1" x="177.8" y="180.34"/>
 <instance part="R205" gate="G$1" x="119.38" y="162.56"/>
-<instance part="R203" gate="G$1" x="111.76" y="170.18" rot="R90"/>
-<instance part="R217" gate="G$1" x="218.44" y="198.12" rot="R90"/>
-<instance part="R213" gate="G$1" x="177.8" y="170.18" rot="R90"/>
+<instance part="R203" gate="G$1" x="111.76" y="170.18"/>
+<instance part="R217" gate="G$1" x="218.44" y="198.12"/>
+<instance part="R213" gate="G$1" x="177.8" y="170.18"/>
 <instance part="R211" gate="G$1" x="162.56" y="162.56"/>
 <instance part="R215" gate="G$1" x="190.5" y="162.56"/>
-<instance part="R229" gate="G$1" x="264.16" y="162.56" rot="R90"/>
+<instance part="R229" gate="G$1" x="264.16" y="162.56"/>
 <instance part="R207" gate="G$1" x="144.78" y="205.74"/>
 <instance part="C211" gate="G$1" x="271.78" y="154.94"/>
 <instance part="C207" gate="G$1" x="190.5" y="152.4"/>
