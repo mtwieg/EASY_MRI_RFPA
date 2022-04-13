@@ -150,7 +150,7 @@
 <gate name="G$1" symbol="HEATSINK_DS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="UNI-30-50-D" package="OMNI-UNI-30-50-D">
+<device name="30-50-D" package="OMNI-UNI-30-50-D">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P1"/>
 <connect gate="G$1" pin="P$2" pad="P2"/>
@@ -159,10 +159,12 @@
 <technology name="">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="OMNI-UNI-30-50-D">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PARTNO" value="OMNI-UNI-30-50-D"/>
+<attribute name="VENDOR" value="Wakefield-Vette"/>
 </technology>
 </technologies>
 </device>
@@ -172,7 +174,16 @@
 <connect gate="G$1" pin="P$2" pad="P2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+</technology>
+<technology name="OMNI-UNI-30-75-D">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="PARTNO" value="OMNI-UNI-30-75-D"/>
+<attribute name="VENDOR" value="Wakefield-Vette"/>
+</technology>
 </technologies>
 </device>
 </devices>
