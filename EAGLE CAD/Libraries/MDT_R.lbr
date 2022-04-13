@@ -265,12 +265,11 @@ type 0817, grid 6.35 mm</description>
 </connects>
 <technologies>
 <technology name="GEN">
-<attribute name="BOM" value="" constant="no"/>
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0-JUMPER-0402-0.1W">
@@ -300,12 +299,11 @@ type 0817, grid 6.35 mm</description>
 </connects>
 <technologies>
 <technology name="GEN">
-<attribute name="BOM" value="" constant="no"/>
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0-JUMPER-0603-0.1W">
@@ -335,12 +333,11 @@ type 0817, grid 6.35 mm</description>
 </connects>
 <technologies>
 <technology name="GEN">
-<attribute name="BOM" value="" constant="no"/>
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0-JUMPER-0805-0.125W">
@@ -397,12 +394,11 @@ type 0817, grid 6.35 mm</description>
 </connects>
 <technologies>
 <technology name="GEN">
-<attribute name="BOM" value="" constant="no"/>
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0.020-1%-2512-2W">
@@ -441,12 +437,11 @@ type 0817, grid 6.35 mm</description>
 </connects>
 <technologies>
 <technology name="GEN">
-<attribute name="BOM" value="" constant="no"/>
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1.0K-1%-1206-0.25W">
@@ -492,12 +487,11 @@ type 0817, grid 6.35 mm</description>
 </connects>
 <technologies>
 <technology name="GEN">
-<attribute name="BOM" value="" constant="no"/>
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0-JUMPER-0402-0.1W">
@@ -527,12 +521,11 @@ type 0817, grid 6.35 mm</description>
 </connects>
 <technologies>
 <technology name="GEN">
-<attribute name="BOM" value="" constant="no"/>
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0-JUMPER-0603-0.1W">
@@ -562,12 +555,11 @@ type 0817, grid 6.35 mm</description>
 </connects>
 <technologies>
 <technology name="GEN">
-<attribute name="BOM" value="" constant="no"/>
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0-JUMPER-0805-0.125W">
@@ -597,12 +589,11 @@ type 0817, grid 6.35 mm</description>
 </connects>
 <technologies>
 <technology name="GEN">
-<attribute name="BOM" value="" constant="no"/>
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1.0K-1%-1206-0.25W">
@@ -632,12 +623,11 @@ type 0817, grid 6.35 mm</description>
 </connects>
 <technologies>
 <technology name="GEN">
-<attribute name="BOM" value="" constant="no"/>
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0.020-1%-2512-2W">
@@ -676,12 +666,11 @@ type 0817, grid 6.35 mm</description>
 </connects>
 <technologies>
 <technology name="GEN">
-<attribute name="BOM" value="" constant="no"/>
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1.0K-1%-1206-0.25W">

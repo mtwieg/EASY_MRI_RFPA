@@ -2468,7 +2468,6 @@ design rules under a new name.</description>
 <attribute name="VENDOR" value="" x="20.828" y="97.79" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="" x="20.828" y="97.79" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="" x="20.828" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="" x="20.828" y="97.79" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="" x="20.828" y="97.79" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R118" library="MDT_R" package="R2512" value="2.74K" x="36.068" y="102.87">
