@@ -307,14 +307,14 @@ grid 2.54 mm, diameter 7 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="BOM" value="" constant="no"/>
+<technology name="GEN">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="DIALECTRIC" value=""/>
 <attribute name="PACKAGE" value="0402"/>
 <attribute name="PARTNO" value=""/>
+<attribute name="VENDOR" value=""/>
 <attribute name="TOL" value=""/>
-<attribute name="VALUE" value="0.1uF"/>
-<attribute name="VOLTAGE" value="16V"/>
+<attribute name="VOLTAGE" value=""/>
 </technology>
 <technology name="C-0.1U-16V-0402-X7R">
 <attribute name="BOM" value="" constant="no"/>
@@ -333,14 +333,14 @@ grid 2.54 mm, diameter 7 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="BOM" value="" constant="no"/>
+<technology name="GEN">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="DIALECTRIC" value=""/>
 <attribute name="PACKAGE" value="0603"/>
 <attribute name="PARTNO" value=""/>
+<attribute name="VENDOR" value=""/>
 <attribute name="TOL" value=""/>
-<attribute name="VALUE" value="0.1uF"/>
-<attribute name="VOLTAGE" value="16V"/>
+<attribute name="VOLTAGE" value=""/>
 </technology>
 <technology name="C-0.1U-16V-0603-X7R">
 <attribute name="BOM" value="" constant="no"/>
@@ -377,14 +377,14 @@ grid 2.54 mm, diameter 7 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="BOM" value="" constant="no"/>
-<attribute name="DIALECTRIC" value=""/>
-<attribute name="PACKAGE" value="0805"/>
-<attribute name="PARTNO" value=""/>
-<attribute name="TOL" value=""/>
-<attribute name="VALUE" value="0.1uF"/>
-<attribute name="VOLTAGE" value="16V"/>
+<technology name="GEN">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DIALECTRIC" value="t3" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
 <technology name="C-0.1U-16V-0805-X7R">
 <attribute name="BOM" value="" constant="no"/>
@@ -403,14 +403,14 @@ grid 2.54 mm, diameter 7 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="BOM" value="" constant="no"/>
-<attribute name="DIALECTRIC" value=""/>
-<attribute name="PACKAGE" value="1206"/>
-<attribute name="PARTNO" value=""/>
-<attribute name="TOL" value=""/>
-<attribute name="VALUE" value="0.1uF"/>
-<attribute name="VOLTAGE" value="16V"/>
+<technology name="GEN">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DIALECTRIC" value="" constant="no"/>
+<attribute name="PACKAGE" value="1206" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
 <technology name="C-0.1U-100V-5%-1206-NP0">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
@@ -456,14 +456,14 @@ grid 2.54 mm, diameter 7 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="BOM" value="" constant="no"/>
-<attribute name="DIALECTRIC" value=""/>
-<attribute name="PACKAGE" value="1812"/>
-<attribute name="PARTNO" value=""/>
-<attribute name="TOL" value=""/>
-<attribute name="VALUE" value="0.1uF"/>
-<attribute name="VOLTAGE" value="16V"/>
+<technology name="GEN">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DIALECTRIC" value="" constant="no"/>
+<attribute name="PACKAGE" value="1812" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -473,14 +473,14 @@ grid 2.54 mm, diameter 7 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="BOM" value="" constant="no"/>
-<attribute name="DIALECTRIC" value=""/>
-<attribute name="PACKAGE" value="2220"/>
-<attribute name="PARTNO" value=""/>
-<attribute name="TOL" value=""/>
-<attribute name="VALUE" value="0.1uF"/>
-<attribute name="VOLTAGE" value="16V"/>
+<technology name="GEN">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DIALECTRIC" value="" constant="no"/>
+<attribute name="PACKAGE" value="2220" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -490,14 +490,14 @@ grid 2.54 mm, diameter 7 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="BOM" value="" constant="no"/>
-<attribute name="DIALECTRIC" value=""/>
-<attribute name="PACKAGE" value="1210"/>
-<attribute name="PARTNO" value=""/>
-<attribute name="TOL" value=""/>
-<attribute name="VALUE" value="0.1uF"/>
-<attribute name="VOLTAGE" value="16V"/>
+<technology name="GEN">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DIALECTRIC" value="" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
 <technology name="CC-6.8U-50V-10%-1210-X7S">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
@@ -549,7 +549,14 @@ grid 2.54 mm, diameter 7 mm</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="GEN">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DIALECTRIC" value="" constant="no"/>
+<attribute name="SIZE" value="25DX37L" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
 <technology name="C-3300U-63V-20%-25DX37L-ELEC">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
@@ -569,7 +576,14 @@ grid 2.54 mm, diameter 7 mm</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="GEN">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DIALECTRIC" value="" constant="no"/>
+<attribute name="SIZE" value="6.3DX12.5L" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+<attribute name="TOL" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
 <technology name="C-22U-63V-20%-6.3DX12.5L-ELEC">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
