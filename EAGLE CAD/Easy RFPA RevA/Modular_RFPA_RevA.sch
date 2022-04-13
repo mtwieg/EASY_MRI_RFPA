@@ -6222,8 +6222,8 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="C405" library="MDT_C" deviceset="C" device="C2220_CKG57N" technology="CC-10U-100V-20%-2220-X7T" value="10uF"/>
 <part name="C408" library="MDT_C" deviceset="C" device="C2220_CKG57N" technology="CC-10U-100V-20%-2220-X7T" value="10uF"/>
 <part name="SUPPLY412" library="supply2" deviceset="GND" device=""/>
-<part name="R402" library="MDT_R" deviceset="R90" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
-<part name="R403" library="MDT_R" deviceset="R90" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
+<part name="R402" library="MDT_R" deviceset="R90" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1.0"/>
+<part name="R403" library="MDT_R" deviceset="R90" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1.0"/>
 <part name="U301" library="74xx-little-us" deviceset="74*1G14" device="DBV" technology="AHC"/>
 <part name="R120" library="MDT_R" deviceset="R90" device="R2512" technology="R-1K-1%-2512-1W" value="2.74K"/>
 <part name="R115" library="MDT_R" deviceset="R90" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="15"/>
@@ -6309,15 +6309,15 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="R316" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="100"/>
 <part name="R317" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
 <part name="R312" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
-<part name="R313" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R313" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
 <part name="R308" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R303" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R302" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R306" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R305" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
+<part name="R303" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
+<part name="R302" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
+<part name="R306" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
+<part name="R305" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="10K"/>
 <part name="C304" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="33pF"/>
 <part name="R314" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="0"/>
 <part name="C302" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
@@ -6487,11 +6487,11 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="R201" library="MDT_R" deviceset="R" device="1206_IPC" value="75">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R311" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K">
+<part name="R311" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="R307" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
+<part name="R307" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="100K"/>
 <part name="X401" library="con-wago-500" deviceset="W237-102" device=""/>
 <part name="SUPPLY401" library="supply2" deviceset="GND" device=""/>
 <part name="H401" library="holes" deviceset="MOUNT-PAD-SQUARE" device="3.2"/>
@@ -6581,7 +6581,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="C306" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF"/>
 <part name="SUPPLY314" library="supply2" deviceset="GND" device=""/>
 <part name="P+305" library="supply1" deviceset="+5V" device=""/>
-<part name="R405" library="MDT_R" deviceset="R90" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
+<part name="R405" library="MDT_R" deviceset="R90" device="1206_IPC" value="0.5"/>
 <part name="C402" library="MDT_C" deviceset="C" device="C2220_CKG57N" technology="CC-10U-100V-20%-2220-X7T" value="10uF"/>
 <part name="SUPPLY404" library="supply2" deviceset="GND" device=""/>
 <part name="J402" library="MDT_CON" deviceset="KK_PCFAN" device=""/>
@@ -6599,39 +6599,39 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY104" library="supply2" deviceset="GND" device=""/>
 <part name="LED402" library="MDT_Diode" deviceset="LED" device="T1_3/4" technology="HLMP-3962-F0002" value="LEDHLMP-3962-F0002T1_3/4"/>
 <part name="LED401" library="MDT_Diode" deviceset="LED" device="T1_3/4" technology="HLMP-3962-F0002" value="LEDHLMP-3962-F0002T1_3/4"/>
-<part name="R406" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R407" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
+<part name="R406" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="2K"/>
+<part name="R407" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="590"/>
 <part name="SUPPLY416" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY415" library="supply2" deviceset="GND" device=""/>
 <part name="LED301" library="MDT_Diode" deviceset="LED" device="T1_3/4" technology="HLMP-3401-E0002" value="LEDHLMP-3401-E0002T1_3/4"/>
 <part name="P+302" library="supply1" deviceset="+5V" device=""/>
-<part name="R309" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="C103" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="R309" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="150"/>
+<part name="C103" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="3nF">
 <attribute name="BOM" value="INCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="C102" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C102" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <attribute name="BOM" value="INCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C101" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="0.1uF">
+<part name="C101" library="MDT_C" deviceset="C" device="0805_IPC" technology="C-0.1U-16V-0805-X7R" value="DNP">
 <attribute name="BOM" value="INCLUDE"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C120" library="MDT_C" deviceset="C" device="C1812" value="0.1uF">
+<part name="C120" library="MDT_C" deviceset="C" device="C1812" value="3nF">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" value="1.5nF"/>
 </part>
-<part name="C119" library="MDT_C" deviceset="C" device="C1812" value="0.1uF">
+<part name="C119" library="MDT_C" deviceset="C" device="C1812" value="DNP">
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C118" library="MDT_C" deviceset="C" device="C1812" value="0.1uF">
+<part name="C118" library="MDT_C" deviceset="C" device="C1812" value="DNP">
 <variant name="IRF630_200W" populate="no"/>
 </part>
 <part name="R304" library="MDT_R" deviceset="R" device="0805_IPC" technology="R-1.0K-0.1%-0805-0.1W" value="1.0K"/>
-<part name="R404" library="MDT_R" deviceset="R90" device="R1206" technology="R-1.0K-1%-1206-0.25W" value="1K"/>
+<part name="R404" library="MDT_R" deviceset="R90" device="1206_IPC" value="1.0"/>
 <part name="D402" library="MDT_Diode" deviceset="D-ZENER" device="DO15-12" technology="1N5355B-TP" value="D-ZENER1N5355B-TPDO15-12"/>
 <part name="C404" library="MDT_C" deviceset="C" device="C1210" technology="CC-6.8U-50V-10%-1210-X7S" value="6.8uF"/>
 <part name="C403" library="MDT_C" deviceset="C" device="C1210" technology="CC-6.8U-50V-10%-1210-X7S" value="6.8uF"/>
@@ -6735,8 +6735,6 @@ solver = Normal
 Matrix Compiler1: 328 opcodes
 Matrix Compiler2: 5.85 KB object code size
 </text>
-<text x="71.12" y="213.36" size="1.778" layer="91">Values shown in this branch are for preamp
-uses one pair of IRF520N</text>
 <text x="459.74" y="25.4" size="1.778" layer="91">Circuit: * C:\Workspace\Git\BASIC_MRI_RFPA\LTSPICE simulations\RFPA_IRF630_pushpullx2_tran_param.asc
 
 Direct Newton iteration for .op point succeeded.
@@ -8348,13 +8346,12 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <description>Gate bias driver</description>
 <plain>
 <text x="160.02" y="213.36" size="5.08" layer="94">Gate Bias Generator</text>
-<text x="99.06" y="218.44" size="2.54" layer="94" align="bottom-center">If not using analog bias tracking
+<text x="114.3" y="215.9" size="2.54" layer="94" align="bottom-center">If not using analog bias tracking
 Then short out jumpers JP1 and JP2</text>
-<text x="73.66" y="190.5" size="2.54" layer="94" align="bottom-center">Analog bias tracking input</text>
-<text x="60.96" y="149.86" size="2.54" layer="94" align="bottom-center">Fixed bias offset</text>
-<text x="269.24" y="195.58" size="2.54" layer="94" align="bottom-center">Gate bias driver</text>
-<text x="71.12" y="101.6" size="2.54" layer="94" align="bottom-center">Unblanking input</text>
-<text x="162.56" y="144.78" size="1.778" layer="91" align="bottom-center">‎HLMP-3401-E0002‎</text>
+<text x="38.1" y="167.64" size="2.54" layer="94" align="bottom-center">Analog bias tracking input</text>
+<text x="45.72" y="139.7" size="2.54" layer="94" align="bottom-center">Fixed bias offset</text>
+<text x="271.78" y="195.58" size="2.54" layer="94" align="bottom-center">Gate bias driver</text>
+<text x="63.5" y="81.28" size="2.54" layer="94" align="bottom-center">Unblanking input</text>
 </plain>
 <instances>
 <instance part="FRAME301" gate="G$1" x="0" y="0"/>
@@ -8369,23 +8366,23 @@ Then short out jumpers JP1 and JP2</text>
 </instance>
 <instance part="SUPPLY309" gate="GND" x="233.68" y="162.56" smashed="yes"/>
 <instance part="SUPPLY310" gate="GND" x="246.38" y="162.56" smashed="yes"/>
-<instance part="R301" gate="G$1" x="81.28" y="144.78"/>
-<instance part="SUPPLY302" gate="GND" x="81.28" y="132.08" smashed="yes"/>
-<instance part="SUPPLY304" gate="GND" x="129.54" y="93.98" smashed="yes"/>
+<instance part="R301" gate="G$1" x="66.04" y="134.62"/>
+<instance part="SUPPLY302" gate="GND" x="66.04" y="121.92" smashed="yes"/>
+<instance part="SUPPLY304" gate="GND" x="119.38" y="73.66" smashed="yes"/>
 <instance part="U302" gate="C" x="119.38" y="180.34" rot="MR180">
 <attribute name="BOM" x="119.38" y="180.34" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="U302" gate="D" x="114.3" y="142.24"/>
+<instance part="U302" gate="D" x="114.3" y="132.08"/>
 <instance part="U302" gate="B" x="193.04" y="177.8"/>
-<instance part="Q301" gate="G$1" x="175.26" y="116.84"/>
-<instance part="J302" gate="G$1" x="73.66" y="114.3"/>
-<instance part="SUPPLY301" gate="GND" x="78.74" y="106.68" smashed="yes"/>
+<instance part="Q301" gate="G$1" x="175.26" y="96.52"/>
+<instance part="J302" gate="G$1" x="66.04" y="93.98"/>
+<instance part="SUPPLY301" gate="GND" x="71.12" y="86.36" smashed="yes"/>
 <instance part="J301" gate="G$1" x="66.04" y="170.18"/>
-<instance part="SUPPLY306" gate="GND" x="175.26" y="106.68" smashed="yes"/>
-<instance part="SUPPLY303" gate="GND" x="91.44" y="132.08" smashed="yes"/>
+<instance part="SUPPLY306" gate="GND" x="175.26" y="86.36" smashed="yes"/>
+<instance part="SUPPLY303" gate="GND" x="76.2" y="121.92" smashed="yes"/>
 <instance part="JP302" gate="G$1" x="121.92" y="210.82" rot="R90"/>
 <instance part="JP301" gate="G$1" x="81.28" y="175.26" rot="R180"/>
-<instance part="U301" gate="A" x="147.32" y="114.3"/>
+<instance part="U301" gate="A" x="137.16" y="93.98"/>
 <instance part="R310" gate="G$1" x="220.98" y="177.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="220.98" y="183.261" size="1.6764" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="220.98" y="181.229" size="1.6764" layer="96" align="bottom-center"/>
@@ -8428,19 +8425,19 @@ Then short out jumpers JP1 and JP2</text>
 <attribute name="BOM" x="245.872" y="135.89" size="1.6764" layer="97" rot="R90"/>
 <attribute name="TOL" x="243.84" y="135.89" size="1.6764" layer="97" rot="R90"/>
 </instance>
-<instance part="R308" gate="G$1" x="139.7" y="180.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="139.7" y="185.801" size="1.6764" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="139.7" y="183.769" size="1.6764" layer="96" align="bottom-center"/>
-<attribute name="PACKAGE" x="139.7" y="181.737" size="1.6764" layer="97" align="bottom-center"/>
-<attribute name="BOM" x="144.272" y="181.61" size="1.6764" layer="97" rot="R90"/>
-<attribute name="TOL" x="142.24" y="181.61" size="1.6764" layer="97" rot="R90"/>
+<instance part="R308" gate="G$1" x="152.4" y="180.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="152.4" y="185.801" size="1.6764" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="152.4" y="183.769" size="1.6764" layer="96" align="bottom-center"/>
+<attribute name="PACKAGE" x="152.4" y="181.737" size="1.6764" layer="97" align="bottom-center"/>
+<attribute name="BOM" x="156.972" y="181.61" size="1.6764" layer="97" rot="R90"/>
+<attribute name="TOL" x="154.94" y="181.61" size="1.6764" layer="97" rot="R90"/>
 </instance>
-<instance part="R303" gate="G$1" x="96.52" y="167.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="96.52" y="173.101" size="1.6764" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="96.52" y="171.069" size="1.6764" layer="96" align="bottom-center"/>
-<attribute name="PACKAGE" x="96.52" y="169.037" size="1.6764" layer="97" align="bottom-center"/>
-<attribute name="BOM" x="101.092" y="168.91" size="1.6764" layer="97" rot="R90"/>
-<attribute name="TOL" x="99.06" y="168.91" size="1.6764" layer="97" rot="R90"/>
+<instance part="R303" gate="G$1" x="96.52" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="96.52" y="168.021" size="1.6764" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="96.52" y="165.989" size="1.6764" layer="96" align="bottom-center"/>
+<attribute name="PACKAGE" x="96.52" y="163.957" size="1.6764" layer="97" align="bottom-center"/>
+<attribute name="BOM" x="101.092" y="163.83" size="1.6764" layer="97" rot="R90"/>
+<attribute name="TOL" x="99.06" y="163.83" size="1.6764" layer="97" rot="R90"/>
 </instance>
 <instance part="R302" gate="G$1" x="96.52" y="182.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="96.52" y="188.341" size="1.6764" layer="95" align="bottom-center"/>
@@ -8449,12 +8446,12 @@ Then short out jumpers JP1 and JP2</text>
 <attribute name="BOM" x="101.092" y="184.15" size="1.6764" layer="97" rot="R90"/>
 <attribute name="TOL" x="99.06" y="184.15" size="1.6764" layer="97" rot="R90"/>
 </instance>
-<instance part="R306" gate="G$1" x="119.38" y="167.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="119.38" y="173.101" size="1.6764" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="119.38" y="171.069" size="1.6764" layer="96" align="bottom-center"/>
-<attribute name="PACKAGE" x="119.38" y="169.037" size="1.6764" layer="97" align="bottom-center"/>
-<attribute name="BOM" x="123.952" y="168.91" size="1.6764" layer="97" rot="R90"/>
-<attribute name="TOL" x="121.92" y="168.91" size="1.6764" layer="97" rot="R90"/>
+<instance part="R306" gate="G$1" x="119.38" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="119.38" y="168.021" size="1.6764" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="119.38" y="165.989" size="1.6764" layer="96" align="bottom-center"/>
+<attribute name="PACKAGE" x="119.38" y="163.957" size="1.6764" layer="97" align="bottom-center"/>
+<attribute name="BOM" x="123.952" y="163.83" size="1.6764" layer="97" rot="R90"/>
+<attribute name="TOL" x="121.92" y="163.83" size="1.6764" layer="97" rot="R90"/>
 </instance>
 <instance part="R305" gate="G$1" x="119.38" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="119.38" y="195.961" size="1.6764" layer="95" align="bottom-center"/>
@@ -8473,7 +8470,7 @@ Then short out jumpers JP1 and JP2</text>
 <attribute name="BOM" x="231.14" y="131.699" size="1.6764" layer="96" align="top-center"/>
 </instance>
 <instance part="C303" gate="G$1" x="246.38" y="170.18"/>
-<instance part="C301" gate="G$1" x="91.44" y="139.7"/>
+<instance part="C301" gate="G$1" x="76.2" y="129.54"/>
 <instance part="U302" gate="P" x="276.86" y="119.38"/>
 <instance part="C305" gate="G$1" x="284.48" y="119.38"/>
 <instance part="SUPPLY311" gate="GND" x="276.86" y="104.14" smashed="yes"/>
@@ -8481,33 +8478,33 @@ Then short out jumpers JP1 and JP2</text>
 <attribute name="VALUE" x="276.86" y="137.16" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R311" gate="G$1" x="233.68" y="170.18"/>
-<instance part="R307" gate="G$1" x="129.54" y="104.14"/>
-<instance part="P+301" gate="1" x="81.28" y="154.94" smashed="yes">
-<attribute name="VALUE" x="81.28" y="157.48" size="1.778" layer="96" align="top-center"/>
+<instance part="R307" gate="G$1" x="119.38" y="83.82"/>
+<instance part="P+301" gate="1" x="66.04" y="144.78" smashed="yes">
+<attribute name="VALUE" x="66.04" y="147.32" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="TP11" gate="G$1" x="335.28" y="149.86" rot="MR0"/>
 <instance part="SUPPLY313" gate="GND" x="327.66" y="142.24" smashed="yes"/>
 <instance part="TP12" gate="G$1" x="213.36" y="167.64" rot="MR0"/>
 <instance part="SUPPLY307" gate="GND" x="208.28" y="160.02" smashed="yes"/>
-<instance part="TP13" gate="G$1" x="137.16" y="142.24" rot="MR0"/>
-<instance part="SUPPLY305" gate="GND" x="132.08" y="134.62" smashed="yes"/>
+<instance part="TP13" gate="G$1" x="137.16" y="132.08" rot="MR0"/>
+<instance part="SUPPLY305" gate="GND" x="132.08" y="124.46" smashed="yes"/>
 <instance part="U301" gate="P" x="304.8" y="119.38"/>
 <instance part="C306" gate="G$1" x="312.42" y="119.38"/>
 <instance part="SUPPLY314" gate="GND" x="304.8" y="104.14" smashed="yes"/>
 <instance part="P+305" gate="1" x="304.8" y="134.62" smashed="yes">
 <attribute name="VALUE" x="304.8" y="137.16" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="LED301" gate="G$1" x="162.56" y="132.08"/>
-<instance part="P+302" gate="1" x="162.56" y="137.16" smashed="yes">
-<attribute name="VALUE" x="162.56" y="139.7" size="1.778" layer="96" align="top-center"/>
+<instance part="LED301" gate="G$1" x="152.4" y="111.76"/>
+<instance part="P+302" gate="1" x="152.4" y="116.84" smashed="yes">
+<attribute name="VALUE" x="152.4" y="119.38" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R309" gate="G$1" x="162.56" y="121.92"/>
-<instance part="R304" gate="G$1" x="111.76" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="111.76" y="119.761" size="1.6764" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="111.76" y="117.729" size="1.6764" layer="96" align="bottom-center"/>
-<attribute name="PACKAGE" x="111.76" y="115.697" size="1.6764" layer="97" align="bottom-center"/>
-<attribute name="BOM" x="116.332" y="115.57" size="1.6764" layer="97" rot="R90"/>
-<attribute name="TOL" x="114.3" y="115.57" size="1.6764" layer="97" rot="R90"/>
+<instance part="R309" gate="G$1" x="152.4" y="101.6"/>
+<instance part="R304" gate="G$1" x="101.6" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="101.6" y="99.441" size="1.6764" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="101.6" y="97.409" size="1.6764" layer="96" align="bottom-center"/>
+<attribute name="PACKAGE" x="101.6" y="95.377" size="1.6764" layer="97" align="bottom-center"/>
+<attribute name="BOM" x="106.172" y="95.25" size="1.6764" layer="97" rot="R90"/>
+<attribute name="TOL" x="104.14" y="95.25" size="1.6764" layer="97" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -8536,27 +8533,27 @@ Then short out jumpers JP1 and JP2</text>
 <segment>
 <pinref part="R301" gate="G$1" pin="A"/>
 <pinref part="SUPPLY302" gate="GND" pin="GND"/>
-<wire x1="81.28" y1="139.7" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="129.54" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY304" gate="GND" pin="GND"/>
-<wire x1="129.54" y1="96.52" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="76.2" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R307" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J302" gate="G$1" pin="GND1"/>
 <pinref part="SUPPLY301" gate="GND" pin="GND"/>
-<wire x1="76.2" y1="111.76" x2="78.74" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="111.76" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="91.44" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q301" gate="G$1" pin="S"/>
 <pinref part="SUPPLY306" gate="GND" pin="GND"/>
-<wire x1="175.26" y1="109.22" x2="175.26" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="88.9" x2="175.26" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY303" gate="GND" pin="GND"/>
-<wire x1="91.44" y1="137.16" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="127" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C301" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -8588,8 +8585,8 @@ Then short out jumpers JP1 and JP2</text>
 <segment>
 <pinref part="TP13" gate="G$1" pin="GND1"/>
 <pinref part="SUPPLY305" gate="GND" pin="GND"/>
-<wire x1="134.62" y1="139.7" x2="132.08" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="139.7" x2="132.08" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="129.54" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="129.54" x2="132.08" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C306" gate="G$1" pin="2"/>
@@ -8704,12 +8701,12 @@ Then short out jumpers JP1 and JP2</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="129.54" y1="109.22" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="88.9" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U301" gate="A" pin="I"/>
 <pinref part="R307" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="114.3" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
-<junction x="129.54" y="114.3"/>
+<wire x1="106.68" y1="93.98" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
+<junction x="119.38" y="93.98"/>
 <pinref part="R304" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -8722,12 +8719,12 @@ Then short out jumpers JP1 and JP2</text>
 </net>
 <net name="N$16" class="0">
 <segment>
-<wire x1="114.3" y1="167.64" x2="109.22" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="162.56" x2="109.22" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U302" gate="C" pin="+IN"/>
-<wire x1="109.22" y1="167.64" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="162.56" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="177.8" x2="109.22" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="177.8" x2="109.22" y2="167.64" width="0.1524" layer="91"/>
-<junction x="109.22" y="167.64"/>
+<wire x1="109.22" y1="177.8" x2="109.22" y2="162.56" width="0.1524" layer="91"/>
+<junction x="109.22" y="162.56"/>
 <pinref part="R303" gate="G$1" pin="2"/>
 <pinref part="R306" gate="G$1" pin="1"/>
 </segment>
@@ -8738,7 +8735,7 @@ Then short out jumpers JP1 and JP2</text>
 <wire x1="127" y1="180.34" x2="132.08" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="180.34" x2="132.08" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="190.5" x2="124.46" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="180.34" x2="134.62" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="180.34" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
 <junction x="132.08" y="180.34"/>
 <pinref part="JP302" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="208.28" x2="121.92" y2="203.2" width="0.1524" layer="91"/>
@@ -8782,21 +8779,23 @@ Then short out jumpers JP1 and JP2</text>
 </net>
 <net name="N$21" class="0">
 <segment>
-<wire x1="91.44" y1="167.64" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="162.56" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="J301" gate="G$1" pin="GND1"/>
 <pinref part="JP301" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="167.64" x2="68.58" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="162.56" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="162.56" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="167.64" x2="68.58" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="172.72" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="172.72" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
-<junction x="88.9" y="167.64"/>
+<wire x1="88.9" y1="172.72" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
+<junction x="88.9" y="162.56"/>
 <pinref part="R303" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<wire x1="144.78" y1="180.34" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="180.34" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="Q301" gate="G$1" pin="D"/>
-<wire x1="175.26" y1="180.34" x2="175.26" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="180.34" x2="175.26" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U302" gate="B" pin="+IN"/>
 <wire x1="185.42" y1="180.34" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
 <junction x="175.26" y="180.34"/>
@@ -8806,39 +8805,39 @@ Then short out jumpers JP1 and JP2</text>
 <net name="N$24" class="0">
 <segment>
 <pinref part="Q301" gate="G$1" pin="G"/>
-<wire x1="170.18" y1="114.3" x2="162.56" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U301" gate="A" pin="O"/>
 <pinref part="R309" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="116.84" x2="162.56" y2="114.3" width="0.1524" layer="91"/>
-<junction x="162.56" y="114.3"/>
+<wire x1="152.4" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="96.52" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
+<junction x="152.4" y="93.98"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<wire x1="124.46" y1="167.64" x2="127" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="162.56" x2="127" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U302" gate="D" pin="-IN"/>
-<wire x1="106.68" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="139.7" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="129.54" x2="127" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="127" y1="129.54" x2="127" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="129.54" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="129.54" x2="104.14" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="119.38" x2="127" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="127" y1="119.38" x2="127" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U302" gate="D" pin="OUT"/>
-<wire x1="127" y1="142.24" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="127" y1="167.64" x2="127" y2="142.24" width="0.1524" layer="91"/>
-<junction x="127" y="142.24"/>
+<wire x1="127" y1="132.08" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="127" y1="162.56" x2="127" y2="132.08" width="0.1524" layer="91"/>
+<junction x="127" y="132.08"/>
 <pinref part="R306" gate="G$1" pin="2"/>
 <pinref part="TP13" gate="G$1" pin="1"/>
-<wire x1="127" y1="142.24" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="127" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="U302" gate="D" pin="+IN"/>
 <pinref part="R301" gate="G$1" pin="S"/>
-<wire x1="106.68" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="144.78" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="142.24" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
-<junction x="91.44" y="144.78"/>
+<wire x1="106.68" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="132.08" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
+<junction x="76.2" y="134.62"/>
 <pinref part="C301" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -8868,7 +8867,7 @@ Then short out jumpers JP1 and JP2</text>
 <net name="+5V" class="0">
 <segment>
 <pinref part="R301" gate="G$1" pin="E"/>
-<wire x1="81.28" y1="152.4" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="142.24" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="P+301" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -8895,7 +8894,7 @@ Then short out jumpers JP1 and JP2</text>
 <net name="N$53" class="0">
 <segment>
 <pinref part="J302" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R304" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -8905,18 +8904,17 @@ Then short out jumpers JP1 and JP2</text>
 <description>Power entry</description>
 <plain>
 <text x="337.82" y="76.2" size="5.08" layer="97">Heatsink</text>
-<text x="228.6" y="76.2" size="1.778" layer="91" rot="R90" align="bottom-center">860010773010</text>
 </plain>
 <instances>
 <instance part="FRAME401" gate="G$1" x="0" y="0"/>
 <instance part="FRAME401" gate="G$2" x="325.12" y="0"/>
 <instance part="IC401" gate="G$1" x="198.12" y="137.16"/>
 <instance part="IC402" gate="G$1" x="198.12" y="101.6"/>
-<instance part="P+402" gate="1" x="241.3" y="106.68" smashed="yes">
-<attribute name="VALUE" x="241.3" y="109.22" size="1.778" layer="96" align="top-center"/>
+<instance part="P+402" gate="1" x="259.08" y="106.68" smashed="yes">
+<attribute name="VALUE" x="259.08" y="109.22" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="P+401" gate="1" x="241.3" y="142.24" smashed="yes">
-<attribute name="VALUE" x="241.3" y="146.05" size="1.778" layer="96" align="top-center"/>
+<instance part="P+401" gate="1" x="259.08" y="142.24" smashed="yes">
+<attribute name="VALUE" x="259.08" y="146.05" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY407" gate="GND" x="198.12" y="124.46" smashed="yes"/>
 <instance part="SUPPLY408" gate="GND" x="198.12" y="91.44" smashed="yes"/>
@@ -8955,10 +8953,10 @@ Then short out jumpers JP1 and JP2</text>
 <instance part="R408" gate="G$1" x="269.24" y="55.88"/>
 <instance part="SUPPLY405" gate="GND" x="185.42" y="124.46" smashed="yes"/>
 <instance part="SUPPLY406" gate="GND" x="185.42" y="88.9" smashed="yes"/>
-<instance part="C406" gate="G$1" x="213.36" y="129.54"/>
-<instance part="C407" gate="G$1" x="213.36" y="93.98"/>
-<instance part="SUPPLY410" gate="GND" x="213.36" y="124.46" smashed="yes"/>
-<instance part="SUPPLY411" gate="GND" x="213.36" y="88.9" smashed="yes"/>
+<instance part="C406" gate="G$1" x="220.98" y="129.54"/>
+<instance part="C407" gate="G$1" x="220.98" y="93.98"/>
+<instance part="SUPPLY410" gate="GND" x="220.98" y="124.46" smashed="yes"/>
+<instance part="SUPPLY411" gate="GND" x="220.98" y="88.9" smashed="yes"/>
 <instance part="SUPPLY421" gate="GND" x="337.82" y="172.72" smashed="yes"/>
 <instance part="SUPPLY422" gate="GND" x="342.9" y="172.72" smashed="yes"/>
 <instance part="X402" gate="G$1" x="340.36" y="177.8"/>
@@ -8971,7 +8969,7 @@ Then short out jumpers JP1 and JP2</text>
 <instance part="SUPPLY417" gate="GND" x="243.84" y="157.48" smashed="yes"/>
 <instance part="SUPPLY418" gate="GND" x="259.08" y="157.48" smashed="yes"/>
 <instance part="SUPPLY419" gate="GND" x="274.32" y="157.48" smashed="yes"/>
-<instance part="R405" gate="G$1" x="215.9" y="187.96"/>
+<instance part="R405" gate="G$1" x="215.9" y="190.5"/>
 <instance part="C402" gate="G$1" x="170.18" y="165.1" smashed="yes">
 <attribute name="NAME" x="172.72" y="168.402" size="1.6764" layer="95"/>
 <attribute name="VALUE" x="172.72" y="166.37" size="1.6764" layer="96"/>
@@ -8981,20 +8979,20 @@ Then short out jumpers JP1 and JP2</text>
 </instance>
 <instance part="SUPPLY404" gate="GND" x="170.18" y="157.48" smashed="yes"/>
 <instance part="J402" gate="G$1" x="289.56" y="53.34"/>
-<instance part="LED402" gate="G$1" x="241.3" y="96.52"/>
-<instance part="LED401" gate="G$1" x="241.3" y="132.08"/>
-<instance part="R406" gate="G$1" x="241.3" y="121.92"/>
-<instance part="R407" gate="G$1" x="241.3" y="86.36"/>
-<instance part="SUPPLY416" gate="GND" x="241.3" y="78.74" smashed="yes"/>
-<instance part="SUPPLY415" gate="GND" x="241.3" y="114.3" smashed="yes"/>
-<instance part="R404" gate="G$1" x="215.9" y="198.12"/>
+<instance part="LED402" gate="G$1" x="259.08" y="96.52"/>
+<instance part="LED401" gate="G$1" x="259.08" y="132.08"/>
+<instance part="R406" gate="G$1" x="259.08" y="121.92"/>
+<instance part="R407" gate="G$1" x="259.08" y="86.36"/>
+<instance part="SUPPLY416" gate="GND" x="259.08" y="78.74" smashed="yes"/>
+<instance part="SUPPLY415" gate="GND" x="259.08" y="114.3" smashed="yes"/>
+<instance part="R404" gate="G$1" x="215.9" y="200.66"/>
 <instance part="D402" gate="G$1" x="157.48" y="149.86" rot="R90"/>
 <instance part="C404" gate="G$1" x="185.42" y="93.98" rot="MR0"/>
 <instance part="C403" gate="G$1" x="185.42" y="129.54" rot="MR0"/>
-<instance part="C410" gate="G$1" x="228.6" y="96.52"/>
-<instance part="SUPPLY414" gate="GND" x="228.6" y="88.9" smashed="yes"/>
-<instance part="C409" gate="G$1" x="228.6" y="132.08"/>
-<instance part="SUPPLY413" gate="GND" x="228.6" y="124.46" smashed="yes"/>
+<instance part="C410" gate="G$1" x="238.76" y="96.52"/>
+<instance part="SUPPLY414" gate="GND" x="238.76" y="88.9" smashed="yes"/>
+<instance part="C409" gate="G$1" x="238.76" y="132.08"/>
+<instance part="SUPPLY413" gate="GND" x="238.76" y="124.46" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -9124,19 +9122,19 @@ Then short out jumpers JP1 and JP2</text>
 <segment>
 <pinref part="IC401" gate="G$1" pin="OUT"/>
 <pinref part="P+401" gate="1" pin="+12V"/>
-<wire x1="205.74" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="137.16" x2="220.98" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C406" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="132.08" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
-<junction x="213.36" y="137.16"/>
+<wire x1="220.98" y1="132.08" x2="220.98" y2="137.16" width="0.1524" layer="91"/>
+<junction x="220.98" y="137.16"/>
 <pinref part="C409" gate="G$1" pin="+"/>
-<wire x1="213.36" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="137.16" x2="228.6" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="137.16" x2="238.76" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="LED401" gate="G$1" pin="A"/>
-<wire x1="228.6" y1="137.16" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="137.16" x2="241.3" y2="134.62" width="0.1524" layer="91"/>
-<junction x="228.6" y="137.16"/>
-<wire x1="241.3" y1="139.7" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
-<junction x="241.3" y="137.16"/>
+<wire x1="238.76" y1="137.16" x2="259.08" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="137.16" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
+<junction x="238.76" y="137.16"/>
+<wire x1="259.08" y1="139.7" x2="259.08" y2="137.16" width="0.1524" layer="91"/>
+<junction x="259.08" y="137.16"/>
 </segment>
 <segment>
 <pinref part="P+404" gate="1" pin="+12V"/>
@@ -9149,19 +9147,19 @@ Then short out jumpers JP1 and JP2</text>
 <segment>
 <pinref part="IC402" gate="G$1" pin="OUT"/>
 <pinref part="P+402" gate="1" pin="+5V"/>
-<wire x1="205.74" y1="101.6" x2="213.36" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="C407" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="96.52" x2="213.36" y2="101.6" width="0.1524" layer="91"/>
-<junction x="213.36" y="101.6"/>
+<wire x1="220.98" y1="96.52" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
+<junction x="220.98" y="101.6"/>
 <pinref part="C410" gate="G$1" pin="+"/>
-<wire x1="213.36" y1="101.6" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="101.6" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="101.6" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="101.6" x2="238.76" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="LED402" gate="G$1" pin="A"/>
-<wire x1="228.6" y1="101.6" x2="241.3" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="101.6" x2="241.3" y2="99.06" width="0.1524" layer="91"/>
-<junction x="228.6" y="101.6"/>
-<wire x1="241.3" y1="104.14" x2="241.3" y2="101.6" width="0.1524" layer="91"/>
-<junction x="241.3" y="101.6"/>
+<wire x1="238.76" y1="101.6" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="101.6" x2="259.08" y2="99.06" width="0.1524" layer="91"/>
+<junction x="238.76" y="101.6"/>
+<wire x1="259.08" y1="104.14" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
+<junction x="259.08" y="101.6"/>
 </segment>
 <segment>
 <wire x1="259.08" y1="55.88" x2="259.08" y2="60.96" width="0.1524" layer="91"/>
@@ -9223,8 +9221,8 @@ Then short out jumpers JP1 and JP2</text>
 <wire x1="195.58" y1="175.26" x2="203.2" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="175.26" x2="205.74" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="175.26" x2="208.28" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="187.96" x2="205.74" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="187.96" x2="205.74" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="190.5" x2="205.74" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="190.5" x2="205.74" y2="175.26" width="0.1524" layer="91"/>
 <junction x="205.74" y="175.26"/>
 <pinref part="C405" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="167.64" x2="203.2" y2="175.26" width="0.1524" layer="91"/>
@@ -9233,15 +9231,15 @@ Then short out jumpers JP1 and JP2</text>
 <pinref part="L402" gate="G$1" pin="1"/>
 <pinref part="R405" gate="G$1" pin="1"/>
 <pinref part="R404" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="198.12" x2="205.74" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="198.12" x2="205.74" y2="187.96" width="0.1524" layer="91"/>
-<junction x="205.74" y="187.96"/>
+<wire x1="210.82" y1="200.66" x2="205.74" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="200.66" x2="205.74" y2="190.5" width="0.1524" layer="91"/>
+<junction x="205.74" y="190.5"/>
 </segment>
 </net>
 <net name="VB" class="3">
 <segment>
-<wire x1="220.98" y1="187.96" x2="226.06" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="187.96" x2="226.06" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="190.5" x2="226.06" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="190.5" x2="226.06" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="175.26" x2="223.52" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="175.26" x2="228.6" y2="175.26" width="0.1524" layer="91"/>
 <junction x="226.06" y="175.26"/>
@@ -9265,9 +9263,9 @@ Then short out jumpers JP1 and JP2</text>
 <junction x="274.32" y="175.26"/>
 <pinref part="R405" gate="G$1" pin="2"/>
 <pinref part="R404" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="198.12" x2="226.06" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="198.12" x2="226.06" y2="187.96" width="0.1524" layer="91"/>
-<junction x="226.06" y="187.96"/>
+<wire x1="220.98" y1="200.66" x2="226.06" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="200.66" x2="226.06" y2="190.5" width="0.1524" layer="91"/>
+<junction x="226.06" y="190.5"/>
 </segment>
 </net>
 <net name="N$49" class="0">
