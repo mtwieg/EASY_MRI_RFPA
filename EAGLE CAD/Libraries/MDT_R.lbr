@@ -264,32 +264,32 @@ type 0817, grid 6.35 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="GEN">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="1.0K" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0-JUMPER-0402-0.1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 <attribute name="PARTNO" value="ERJ-2GE0R00X" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="0" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1.0K-0.1%-0402-0.1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 <attribute name="PARTNO" value="?" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="0.1%" constant="no"/>
 <attribute name="VALUE" value="1.0K" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -299,32 +299,32 @@ type 0817, grid 6.35 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="GEN">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="1.0K" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0-JUMPER-0603-0.1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="PARTNO" value="ERJ-3GEY0R00V" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="0" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1.0K-0.1%-0603-0.1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="1.0K" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -334,32 +334,32 @@ type 0817, grid 6.35 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="GEN">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="1.0K" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0-JUMPER-0805-0.125W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="PARTNO" value="ERJ-6GEY0R00V" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="0" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1.0K-0.1%-0805-0.1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="1.0K" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -374,10 +374,10 @@ type 0817, grid 6.35 mm</description>
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="0.25" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -396,41 +396,41 @@ type 0817, grid 6.35 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="BOM" value="INCLUDE" constant="no"/>
+<technology name="GEN">
+<attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0.020-1%-2512-2W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="PARTNO" value="CSRN2512FK20L0" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="2" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 <attribute name="VALUE" value="0.020" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-100-5%-2512-1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="PARTNO" value="CRCW2512100RJNEG" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="1" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="VALUE" value="100" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1K-1%-2512-1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="1" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -440,23 +440,23 @@ type 0817, grid 6.35 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="GEN">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1.0K-1%-1206-0.25W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="0.25" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -471,10 +471,10 @@ type 0817, grid 6.35 mm</description>
 <attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="AXIAL"/>
 <attribute name="PARTNO" value="PAC300001008FAC000"/>
-<attribute name="VENDOR" value="Vishay"/>
 <attribute name="POWER" value="3W"/>
 <attribute name="TOL" value="1%"/>
 <attribute name="VALUE" value="1.0"/>
+<attribute name="VENDOR" value="Vishay"/>
 </technology>
 </technologies>
 </device>
@@ -491,32 +491,32 @@ type 0817, grid 6.35 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="GEN">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="1.0K" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0-JUMPER-0402-0.1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 <attribute name="PARTNO" value="ERJ-2GE0R00X" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="0" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1.0K-0.1%-0402-0.1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 <attribute name="PARTNO" value="?" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="0.1%" constant="no"/>
 <attribute name="VALUE" value="1.0K" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -526,32 +526,32 @@ type 0817, grid 6.35 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="GEN">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="1.0K" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0-JUMPER-0603-0.1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="PARTNO" value="ERJ-3GEY0R00V" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="0" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1.0K-0.1%-0603-0.1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="1.0K" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -561,32 +561,32 @@ type 0817, grid 6.35 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="GEN">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
-<attribute name="VALUE" value="1.0K" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0-JUMPER-0805-0.125W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="PARTNO" value="ERJ-6GEY0R00V" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="0" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1.0K-0.1%-0805-0.1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="1.0K" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -596,23 +596,23 @@ type 0817, grid 6.35 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="GEN">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1.0K-1%-1206-0.25W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="0.25" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -631,41 +631,41 @@ type 0817, grid 6.35 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="BOM" value="INCLUDE" constant="no"/>
+<technology name="GEN">
+<attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-0.020-1%-2512-2W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="PARTNO" value="CSRN2512FK20L0" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="2" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 <attribute name="VALUE" value="0.020" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-100-5%-2512-1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="PARTNO" value="CRCW2512100RJNEG" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="1" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="VALUE" value="100" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1K-1%-2512-1W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="1" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -675,23 +675,23 @@ type 0817, grid 6.35 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="GEN">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="R-1.0K-1%-1206-0.25W">
 <attribute name="BOM" value="" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="PARTNO" value=""/>
-<attribute name="VENDOR" value=""/>
 <attribute name="POWER" value="0.25"/>
 <attribute name="TOL" value="1%"/>
 <attribute name="VALUE" value="1K"/>
+<attribute name="VENDOR" value=""/>
 </technology>
 </technologies>
 </device>
@@ -706,10 +706,10 @@ type 0817, grid 6.35 mm</description>
 <attribute name="BOM" value="INCLUDE" constant="no"/>
 <attribute name="PACKAGE" value="AXIAL"/>
 <attribute name="PARTNO" value="PAC300001008FAC000"/>
-<attribute name="VENDOR" value="Vishay"/>
 <attribute name="POWER" value="3W"/>
 <attribute name="TOL" value="1%"/>
 <attribute name="VALUE" value="1.0"/>
+<attribute name="VENDOR" value="Vishay"/>
 </technology>
 </technologies>
 </device>

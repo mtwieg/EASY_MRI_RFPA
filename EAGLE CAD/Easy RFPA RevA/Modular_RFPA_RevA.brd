@@ -2151,24 +2151,24 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="65.532" y="83.058" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="83.058" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="" x="65.532" y="83.058" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOL" value="1%" x="65.532" y="83.058" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="1" x="65.532" y="83.058" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL" value="" x="65.532" y="83.058" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="" x="65.532" y="83.058" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="65.532" y="83.058" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R125" library="MDT_R" package="R2512" value="2.7" x="65.532" y="100.838">
 <attribute name="PACKAGE" value="2512" x="65.532" y="100.838" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="100.838" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="" x="65.532" y="100.838" size="1.778" layer="27" display="off"/>
-<attribute name="TOL" value="1%" x="65.532" y="100.838" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="1" x="65.532" y="100.838" size="1.778" layer="27" display="off"/>
+<attribute name="TOL" value="" x="65.532" y="100.838" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="" x="65.532" y="100.838" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="" x="65.532" y="100.838" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R123" library="MDT_R" package="R2512" value="2.7" x="65.532" y="105.41">
 <attribute name="PACKAGE" value="2512" x="65.532" y="105.41" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="105.41" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="" x="65.532" y="105.41" size="1.778" layer="27" display="off"/>
-<attribute name="TOL" value="1%" x="65.532" y="105.41" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="1" x="65.532" y="105.41" size="1.778" layer="27" display="off"/>
+<attribute name="TOL" value="" x="65.532" y="105.41" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="" x="65.532" y="105.41" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="" x="65.532" y="105.41" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R111" library="MDT_R" package="1206_IPC-7351B" value="100" x="74.676" y="97.79" rot="R270">
@@ -2280,16 +2280,16 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1206" x="111.76" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="111.76" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="" x="111.76" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOL" value="1%" x="111.76" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="0.25" x="111.76" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL" value="" x="111.76" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="" x="111.76" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="111.76" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R403" library="MDT_R" package="R1206" value="1.0" x="111.76" y="68.58" rot="R180">
 <attribute name="PACKAGE" value="1206" x="111.76" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="111.76" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="" x="111.76" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOL" value="1%" x="111.76" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="0.25" x="111.76" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL" value="" x="111.76" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="" x="111.76" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="111.76" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U301" library="74xx-little-us" package="SOT23-5" value="74AHC1G14DBV" x="76.2" y="19.05"/>
@@ -2297,8 +2297,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOL" value="1%" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="1" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL" value="" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R115" library="MDT_R" package="0805_IPC-7351B" value="15" x="67.564" y="96.266" rot="R180">
@@ -2329,7 +2329,7 @@ design rules under a new name.</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </element>
-<element name="R131" library="MDT_R" package="0805_IPC-7351B" value="1.0K" x="63.754" y="110.49">
+<element name="R131" library="MDT_R" package="0805_IPC-7351B" value="" x="63.754" y="110.49">
 <attribute name="PACKAGE" value="0805" x="63.754" y="110.49" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="63.754" y="110.49" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="" x="63.754" y="110.49" size="1.778" layer="27" display="off"/>
@@ -2415,7 +2415,7 @@ design rules under a new name.</description>
 <element name="R119" library="MDT_R" package="R2512" value="270" x="36.068" y="107.442">
 <attribute name="PACKAGE" value="2512" x="36.068" y="100.838" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="36.068" y="100.838" size="1.778" layer="27" display="off"/>
-<attribute name="BOM" value="INCLUDE" x="36.068" y="100.838" size="1.778" layer="27" display="off"/>
+<attribute name="BOM" value="" x="36.068" y="100.838" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="" x="36.068" y="100.838" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="" x="36.068" y="100.838" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="" x="36.068" y="107.442" size="1.778" layer="27" display="off"/>
@@ -2424,16 +2424,16 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="44.196" y="99.314" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="44.196" y="99.314" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="" x="44.196" y="99.314" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOL" value="1%" x="44.196" y="99.314" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="1" x="44.196" y="99.314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL" value="" x="44.196" y="99.314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="" x="44.196" y="99.314" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="36.068" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R122" library="MDT_R" package="R2512" value="2.7" x="36.068" y="89.662" rot="R180">
 <attribute name="PACKAGE" value="2512" x="36.068" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="36.068" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="" x="36.068" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOL" value="1%" x="36.068" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="1" x="36.068" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL" value="" x="36.068" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="" x="36.068" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="36.068" y="89.662" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R109" library="MDT_R" package="1206_IPC-7351B" value="100" x="26.924" y="92.71" rot="R90">
@@ -2474,7 +2474,7 @@ design rules under a new name.</description>
 <element name="R118" library="MDT_R" package="R2512" value="2.74K" x="36.068" y="102.87">
 <attribute name="PACKAGE" value="2512" x="23.876" y="62.23" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="23.876" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="BOM" value="INCLUDE" x="23.876" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="BOM" value="" x="23.876" y="62.23" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="" x="23.876" y="62.23" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="" x="23.876" y="62.23" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="" x="36.068" y="102.87" size="1.778" layer="27" display="off"/>
@@ -2507,7 +2507,7 @@ design rules under a new name.</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </element>
-<element name="R130" library="MDT_R" package="0805_IPC-7351B" value="1.0K" x="37.846" y="80.01" rot="R180">
+<element name="R130" library="MDT_R" package="0805_IPC-7351B" value="" x="37.846" y="80.01" rot="R180">
 <attribute name="PACKAGE" value="0805" x="52.578" y="119.634" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="52.578" y="119.634" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="" x="52.578" y="119.634" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2575,7 +2575,7 @@ design rules under a new name.</description>
 <attribute name="POWER" value="" x="-56.388" y="97.79" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="" x="19.304" y="93.726" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R310" library="MDT_R" package="0805_IPC-7351B" value="1.0K" x="101.092" y="28.956" rot="R90">
+<element name="R310" library="MDT_R" package="0805_IPC-7351B" value="1K" x="101.092" y="28.956" rot="R90">
 <attribute name="PACKAGE" value="0805" x="101.092" y="28.956" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="" x="101.092" y="28.956" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="BOM" value="" x="101.092" y="28.956" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2625,7 +2625,7 @@ design rules under a new name.</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </element>
-<element name="R308" library="MDT_R" package="0805_IPC-7351B" value="1.0K" x="99.06" y="21.336" rot="R90">
+<element name="R308" library="MDT_R" package="0805_IPC-7351B" value="1K" x="99.06" y="21.336" rot="R90">
 <attribute name="PACKAGE" value="0805" x="99.06" y="21.336" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="" x="99.06" y="21.336" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="BOM" value="" x="99.06" y="21.336" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2752,8 +2752,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="65.532" y="44.958" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="44.958" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="" x="65.532" y="44.958" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOL" value="1%" x="65.532" y="44.958" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="1" x="65.532" y="44.958" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL" value="" x="65.532" y="44.958" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="" x="65.532" y="44.958" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="65.532" y="44.958" size="1.778" layer="27" rot="R180" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
@@ -2761,8 +2761,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="65.532" y="62.738" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="62.738" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="" x="65.532" y="62.738" size="1.778" layer="27" display="off"/>
-<attribute name="TOL" value="1%" x="65.532" y="62.738" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="1" x="65.532" y="62.738" size="1.778" layer="27" display="off"/>
+<attribute name="TOL" value="" x="65.532" y="62.738" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="" x="65.532" y="62.738" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="" x="65.532" y="62.738" size="1.778" layer="27" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
@@ -2770,8 +2770,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="65.532" y="67.31" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="67.31" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="" x="65.532" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="TOL" value="1%" x="65.532" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="1" x="65.532" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="TOL" value="" x="65.532" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="" x="65.532" y="67.31" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="" x="65.532" y="67.31" size="1.778" layer="27" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
@@ -2817,8 +2817,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="65.532" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="" x="65.532" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOL" value="1%" x="65.532" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="1" x="65.532" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL" value="" x="65.532" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="" x="65.532" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="65.532" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
@@ -2831,7 +2831,7 @@ design rules under a new name.</description>
 <attribute name="VENDOR" value="" x="67.564" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
-<element name="R212" library="MDT_R" package="0805_IPC-7351B" value="1.0K" x="71.628" y="55.626" rot="R90">
+<element name="R212" library="MDT_R" package="0805_IPC-7351B" value="DNP" x="71.628" y="55.626" rot="R90">
 <attribute name="PACKAGE" value="0805" x="71.628" y="55.626" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="" x="71.628" y="55.626" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="BOM" value="" x="71.628" y="55.626" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2851,7 +2851,7 @@ design rules under a new name.</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </element>
-<element name="R230" library="MDT_R" package="0805_IPC-7351B" value="1.0K" x="63.754" y="72.39">
+<element name="R230" library="MDT_R" package="0805_IPC-7351B" value="1K" x="63.754" y="72.39">
 <attribute name="PACKAGE" value="0805" x="63.754" y="72.39" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="63.754" y="72.39" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="" x="63.754" y="72.39" size="1.778" layer="27" display="off"/>
@@ -2938,8 +2938,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="36.068" y="62.738" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="36.068" y="62.738" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="" x="36.068" y="62.738" size="1.778" layer="27" display="off"/>
-<attribute name="TOL" value="1%" x="36.068" y="62.738" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="1" x="36.068" y="62.738" size="1.778" layer="27" display="off"/>
+<attribute name="TOL" value="" x="36.068" y="62.738" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="" x="36.068" y="62.738" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="" x="36.068" y="69.342" size="1.778" layer="27" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
@@ -2947,8 +2947,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="44.196" y="61.214" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="44.196" y="61.214" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="" x="44.196" y="61.214" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOL" value="1%" x="44.196" y="61.214" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="1" x="44.196" y="61.214" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL" value="" x="44.196" y="61.214" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="" x="44.196" y="61.214" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="36.068" y="46.99" size="1.778" layer="27" rot="R180" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
@@ -2956,8 +2956,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="36.068" y="65.786" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="36.068" y="65.786" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="" x="36.068" y="65.786" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOL" value="1%" x="36.068" y="65.786" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="1" x="36.068" y="65.786" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOL" value="" x="36.068" y="65.786" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="" x="36.068" y="65.786" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="36.068" y="51.562" size="1.778" layer="27" rot="R180" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
@@ -3003,8 +3003,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="23.876" y="24.13" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="23.876" y="24.13" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="" x="23.876" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="TOL" value="1%" x="23.876" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="1" x="23.876" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="TOL" value="" x="23.876" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="" x="23.876" y="24.13" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="" x="36.068" y="64.77" size="1.778" layer="27" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
@@ -3037,7 +3037,7 @@ design rules under a new name.</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </element>
-<element name="R229" library="MDT_R" package="0805_IPC-7351B" value="1.0K" x="37.846" y="41.91" rot="R180">
+<element name="R229" library="MDT_R" package="0805_IPC-7351B" value="1K" x="37.846" y="41.91" rot="R180">
 <attribute name="PACKAGE" value="0805" x="52.578" y="81.534" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="52.578" y="81.534" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="" x="52.578" y="81.534" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3139,7 +3139,7 @@ design rules under a new name.</description>
 <element name="H402" library="holes" package="3,2-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.2" x="147.32" y="5.08"/>
 <element name="H403" library="holes" package="3,2-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.2" x="147.32" y="147.32"/>
 <element name="H404" library="holes" package="3,2-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.2" x="5.08" y="147.32"/>
-<element name="R408" library="MDT_R" package="0805_IPC-7351B" value="1.0K" x="95.504" y="103.124" rot="R90">
+<element name="R408" library="MDT_R" package="0805_IPC-7351B" value="10K" x="95.504" y="103.124" rot="R90">
 <attribute name="PACKAGE" value="0805" x="95.504" y="103.124" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="" x="95.504" y="103.124" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="BOM" value="" x="95.504" y="103.124" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3258,40 +3258,40 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="36.068" y="85.09" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PARTNO" value="" x="36.068" y="85.09" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="BOM" value="" x="36.068" y="85.09" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TOL" value="1%" x="36.068" y="85.09" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="POWER" value="1" x="36.068" y="85.09" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOL" value="" x="36.068" y="85.09" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POWER" value="" x="36.068" y="85.09" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="" x="36.068" y="85.09" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R128" library="MDT_R" package="R2512" value="3.3" x="36.068" y="89.662" rot="MR0">
 <attribute name="PACKAGE" value="2512" x="36.068" y="89.662" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PARTNO" value="" x="36.068" y="89.662" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="BOM" value="" x="36.068" y="89.662" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TOL" value="1%" x="36.068" y="89.662" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="POWER" value="1" x="36.068" y="89.662" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOL" value="" x="36.068" y="89.662" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POWER" value="" x="36.068" y="89.662" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="" x="36.068" y="89.662" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R127" library="MDT_R" package="R2512" value="2.7" x="65.532" y="100.838" rot="MR180">
 <attribute name="PACKAGE" value="2512" x="65.532" y="100.838" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="100.838" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="BOM" value="" x="65.532" y="100.838" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOL" value="1%" x="65.532" y="100.838" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="POWER" value="1" x="65.532" y="100.838" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOL" value="" x="65.532" y="100.838" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POWER" value="" x="65.532" y="100.838" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="" x="65.532" y="100.838" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R129" library="MDT_R" package="R2512" value="3.3" x="65.532" y="105.41" rot="MR180">
 <attribute name="PACKAGE" value="2512" x="65.532" y="105.41" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="105.41" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="BOM" value="" x="65.532" y="105.41" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOL" value="1%" x="65.532" y="105.41" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="POWER" value="1" x="65.532" y="105.41" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOL" value="" x="65.532" y="105.41" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POWER" value="" x="65.532" y="105.41" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="" x="65.532" y="105.41" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R226" library="MDT_R" package="R2512" value="2.7" x="65.532" y="62.738" rot="MR180">
 <attribute name="PACKAGE" value="2512" x="65.532" y="62.738" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="62.738" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="BOM" value="" x="65.532" y="62.738" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOL" value="1%" x="65.532" y="62.738" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="POWER" value="1" x="65.532" y="62.738" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOL" value="" x="65.532" y="62.738" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POWER" value="" x="65.532" y="62.738" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="" x="65.532" y="62.738" size="1.778" layer="28" rot="MR180" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
@@ -3299,8 +3299,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="65.532" y="67.31" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="67.31" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="BOM" value="" x="65.532" y="67.31" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOL" value="1%" x="65.532" y="67.31" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="POWER" value="1" x="65.532" y="67.31" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOL" value="" x="65.532" y="67.31" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POWER" value="" x="65.532" y="67.31" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="" x="65.532" y="67.31" size="1.778" layer="28" rot="MR180" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
@@ -3308,8 +3308,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="36.068" y="46.99" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PARTNO" value="" x="36.068" y="46.99" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="BOM" value="" x="36.068" y="46.99" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TOL" value="1%" x="36.068" y="46.99" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="POWER" value="1" x="36.068" y="46.99" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOL" value="" x="36.068" y="46.99" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POWER" value="" x="36.068" y="46.99" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="" x="36.068" y="46.99" size="1.778" layer="28" rot="MR0" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
@@ -3317,8 +3317,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="2512" x="36.068" y="51.562" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PARTNO" value="" x="36.068" y="51.562" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="BOM" value="" x="36.068" y="51.562" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TOL" value="1%" x="36.068" y="51.562" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="POWER" value="1" x="36.068" y="51.562" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOL" value="" x="36.068" y="51.562" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POWER" value="" x="36.068" y="51.562" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="" x="36.068" y="51.562" size="1.778" layer="28" rot="MR0" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
@@ -3478,7 +3478,7 @@ design rules under a new name.</description>
 <attribute name="DIALECTRIC" value="" x="34.29" y="140.97" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 <variant name="IRF630_200W" populate="no"/>
 </element>
-<element name="R304" library="MDT_R" package="0805_IPC-7351B" value="1.0K" x="76.2" y="9.144" rot="R90">
+<element name="R304" library="MDT_R" package="0805_IPC-7351B" value="1K" x="76.2" y="9.144" rot="R90">
 <attribute name="PACKAGE" value="0805" x="76.2" y="9.144" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 <attribute name="PARTNO" value="" x="76.2" y="9.144" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
 <attribute name="BOM" value="" x="76.2" y="9.144" size="1.778" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
