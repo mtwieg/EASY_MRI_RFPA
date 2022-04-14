@@ -379,7 +379,7 @@ grid 2.54 mm, diameter 7 mm</description>
 <technologies>
 <technology name="GEN">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
-<attribute name="DIALECTRIC" value="t3" constant="no"/>
+<attribute name="DIALECTRIC" value="" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
