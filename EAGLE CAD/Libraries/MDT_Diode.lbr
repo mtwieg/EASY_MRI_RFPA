@@ -415,6 +415,7 @@
 <attribute name="DEVICE" value=""/>
 <attribute name="PACKAGE" value=""/>
 <attribute name="PARTNO" value=""/>
+<attribute name="VENDOR" value="" constant="no"/>
 <attribute name="VOLTAGE" value=""/>
 </technology>
 <technology name="SK810L-TP">
@@ -423,6 +424,7 @@
 <attribute name="DEVICE" value="SK810L-TP"/>
 <attribute name="PACKAGE" value="SMC"/>
 <attribute name="PARTNO" value="SK810L-TP"/>
+<attribute name="VENDOR" value="Micro Commercial"/>
 <attribute name="VOLTAGE" value="100V"/>
 </technology>
 </technologies>
@@ -553,8 +555,7 @@
 <attribute name="COLOR" value="YELLOW" constant="no"/>
 <attribute name="CURRENT" value="10mA" constant="no"/>
 <attribute name="PACKAGE" value="T-1 3/4" constant="no"/>
-<attribute name="PARTNO" value="
-HLMP-3401-E0002" constant="no"/>
+<attribute name="PARTNO" value=" HLMP-3401-E0002" constant="no"/>
 <attribute name="VENDOR" value="BROADCOM" constant="no"/>
 </technology>
 <technology name="HLMP-3962-F0002">

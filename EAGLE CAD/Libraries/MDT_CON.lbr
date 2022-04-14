@@ -321,7 +321,7 @@
 <technologies>
 <technology name="0732511150">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
-<attribute name="DESCRIPTION" value=""/>
+<attribute name="DESCRIPTION" value="CONN SMA RCPT STR 50OHM EDGE MNT"/>
 <attribute name="PARTNO" value="0732511150"/>
 <attribute name="VENDOR" value="Molex"/>
 </technology>
@@ -348,7 +348,7 @@
 <technologies>
 <technology name="">
 <attribute name="BOM" value="EXCLUDE" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Probe testpoint 5mm" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
@@ -362,7 +362,7 @@
 <technologies>
 <technology name="">
 <attribute name="BOM" value="EXCLUDE" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Probe testpoint 7.5mm" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
@@ -385,9 +385,9 @@
 <technologies>
 <technology name="">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
-<attribute name="DESCRIPTION" value=""/>
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 4POS 2.54MM"/>
 <attribute name="PARTNO" value="47053-1000"/>
-<attribute name="VENDOR" value=""/>
+<attribute name="VENDOR" value="MOLEX"/>
 </technology>
 </technologies>
 </device>

@@ -337,7 +337,7 @@
 <attribute name="IDC" value="0.37A"/>
 <attribute name="ISAT" value=""/>
 <attribute name="PACKAGE" value="1008"/>
-<attribute name="PARTNO" value="1008CS-102XJEC"/>
+<attribute name="PARTNO" value="1008CS-102XJLC"/>
 <attribute name="TOL" value="5%"/>
 <attribute name="VALUE" value="1uH" constant="no"/>
 </technology>
@@ -348,7 +348,7 @@
 <attribute name="IDC" value="1A"/>
 <attribute name="ISAT" value=""/>
 <attribute name="PACKAGE" value="1008"/>
-<attribute name="PARTNO" value="1008CS-470XJEC"/>
+<attribute name="PARTNO" value="1008CS-470XJLC"/>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="VALUE" value="47nH" constant="no"/>
 </technology>

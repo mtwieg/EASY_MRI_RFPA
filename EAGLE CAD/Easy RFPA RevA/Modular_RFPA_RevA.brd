@@ -1127,7 +1127,7 @@ design rules under a new name.</description>
 <element name="L102" library="MDT_L" package="L1008" value="47nH" x="67.564" y="92.71" rot="R180">
 <attribute name="PACKAGE" value="1008" x="67.564" y="92.71" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="IDC" value="1A" x="67.564" y="92.71" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PARTNO" value="1008CS-470XJEC" x="67.564" y="92.71" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="1008CS-470XJLC" x="67.564" y="92.71" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ISAT" value="" x="67.564" y="92.71" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="67.564" y="92.71" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="5%" x="67.564" y="92.71" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1247,7 +1247,13 @@ design rules under a new name.</description>
 <attribute name="POWER" value="" x="111.76" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="111.76" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U301" library="74xx-little-us" package="SOT23-5" value="74AHC1G14DBV" x="76.2" y="19.05"/>
+<element name="U301" library="74xx-little-us" package="SOT23-5" value="74AHC1G14DBV" x="76.2" y="19.05">
+<attribute name="BOM" value="INCLUDE" x="76.2" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="74AHC1G14QW5-7" x="76.2" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Diodes Inc" x="76.2" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="IC INVERT SCHMITT 1CH 1-IN SOT25" x="76.2" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="SOT23-5" x="76.2" y="19.05" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R120" library="MDT_R" package="R2512" value="2.74K" x="65.532" y="87.63" rot="R180">
 <attribute name="PACKAGE" value="2512" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1284,7 +1290,7 @@ design rules under a new name.</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </element>
-<element name="R131" library="MDT_R" package="0805_IPC-7351B" value="10K" x="63.754" y="110.49">
+<element name="R131" library="MDT_R" package="0805_IPC-7351B" value="1K" x="63.754" y="110.49">
 <attribute name="PACKAGE" value="0805" x="63.754" y="110.49" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="63.754" y="110.49" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="63.754" y="110.49" size="1.778" layer="27" display="off"/>
@@ -1418,7 +1424,7 @@ design rules under a new name.</description>
 <element name="L101" library="MDT_L" package="L1008" value="47nH" x="34.036" y="97.79">
 <attribute name="PACKAGE" value="1008" x="29.464" y="89.154" size="1.778" layer="27" display="off"/>
 <attribute name="IDC" value="1A" x="29.464" y="89.154" size="1.778" layer="27" display="off"/>
-<attribute name="PARTNO" value="1008CS-470XJEC" x="29.464" y="89.154" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="1008CS-470XJLC" x="29.464" y="89.154" size="1.778" layer="27" display="off"/>
 <attribute name="ISAT" value="" x="29.464" y="89.154" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="29.464" y="89.154" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="29.464" y="89.154" size="1.778" layer="27" display="off"/>
@@ -1477,7 +1483,7 @@ design rules under a new name.</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </element>
-<element name="R130" library="MDT_R" package="0805_IPC-7351B" value="10K" x="37.846" y="80.01" rot="R180">
+<element name="R130" library="MDT_R" package="0805_IPC-7351B" value="1K" x="37.846" y="80.01" rot="R180">
 <attribute name="PACKAGE" value="0805" x="52.578" y="119.634" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="52.578" y="119.634" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="52.578" y="119.634" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1768,7 +1774,7 @@ design rules under a new name.</description>
 <element name="L202" library="MDT_L" package="L1008" value="47nH" x="67.564" y="54.61" rot="R180">
 <attribute name="PACKAGE" value="1008" x="67.564" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="IDC" value="1A" x="67.564" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PARTNO" value="1008CS-470XJEC" x="67.564" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="1008CS-470XJLC" x="67.564" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ISAT" value="" x="67.564" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="67.564" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="5%" x="67.564" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1960,7 +1966,7 @@ design rules under a new name.</description>
 <element name="L201" library="MDT_L" package="L1008" value="47nH" x="34.036" y="59.69">
 <attribute name="PACKAGE" value="1008" x="29.464" y="51.054" size="1.778" layer="27" display="off"/>
 <attribute name="IDC" value="1A" x="29.464" y="51.054" size="1.778" layer="27" display="off"/>
-<attribute name="PARTNO" value="1008CS-470XJEC" x="29.464" y="51.054" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="1008CS-470XJLC" x="29.464" y="51.054" size="1.778" layer="27" display="off"/>
 <attribute name="ISAT" value="" x="29.464" y="51.054" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="29.464" y="51.054" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="29.464" y="51.054" size="1.778" layer="27" display="off"/>

@@ -750,6 +750,7 @@ type 0817, grid 6.35 mm</description>
 <technologies>
 <technology name="">
 <attribute name="BOM" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
@@ -757,6 +758,7 @@ type 0817, grid 6.35 mm</description>
 </technology>
 <technology name="GEN">
 <attribute name="BOM" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="POWER" value="" constant="no"/>
 <attribute name="TOL" value="" constant="no"/>
@@ -764,6 +766,7 @@ type 0817, grid 6.35 mm</description>
 </technology>
 <technology name="RTRIM-10K-10%-3299W-0.5W">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DESCRIPTION" value="TRIMMER 10K OHM 0.5W PC PIN TOP" constant="no"/>
 <attribute name="PARTNO" value="3299W-1-103LF" constant="no"/>
 <attribute name="POWER" value="0.5W" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
