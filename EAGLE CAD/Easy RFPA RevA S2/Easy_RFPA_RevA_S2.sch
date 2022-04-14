@@ -3882,7 +3882,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY113" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY109" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY107" library="supply2" deviceset="GND" device=""/>
-<part name="C113" library="MDT_C" deviceset="C" device="C1206" technology="GEN" value="22nF">
+<part name="C113" library="MDT_C" deviceset="C" device="C1206" technology="GEN" value="2.2nF">
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="R121" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="270"/>
@@ -3925,7 +3925,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <attribute name="PARTNO" value="74AHC1G14QW5-7"/>
 <attribute name="VENDOR" value="Diodes Inc"/>
 </part>
-<part name="R120" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="2.74K"/>
+<part name="R120" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="330"/>
 <part name="R115" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="15"/>
 <part name="R113" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="DNP">
 <attribute name="BOM" value="EXCLUDE"/>
@@ -3976,7 +3976,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY112" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY108" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY106" library="supply2" deviceset="GND" device=""/>
-<part name="C112" library="MDT_C" deviceset="C" device="C1206" technology="GEN" value="22nF">
+<part name="C112" library="MDT_C" deviceset="C" device="C1206" technology="GEN" value="2.2nF">
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="R119" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="270"/>
@@ -3986,7 +3986,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="L101" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-47N-AIR-5%-1008-1A" value="47nH"/>
 <part name="R106" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="75"/>
 <part name="R104" library="MDT_R" deviceset="R90" device="1206_IPC" technology="GEN" value="4.99"/>
-<part name="R118" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="2.74K"/>
+<part name="R118" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="330"/>
 <part name="R114" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="15"/>
 <part name="R112" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="DNP">
 <attribute name="BOM" value="EXCLUDE"/>
@@ -4100,7 +4100,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="R204" library="MDT_R" deviceset="R90" device="1206_IPC" technology="GEN" value="4.99">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R219" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="2.74K">
+<part name="R219" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="330">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="R214" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="15">
@@ -4182,7 +4182,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="R203" library="MDT_R" deviceset="R90" device="1206_IPC" technology="GEN" value="4.99">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R217" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="2.74K">
+<part name="R217" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="330">
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="R213" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="15">

@@ -1083,7 +1083,7 @@ design rules under a new name.</description>
 <attribute name="VENDOR" value="STM" x="55.245" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="55.245" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C113" library="MDT_C" package="C1206" value="22nF" x="58.42" y="84.582" rot="R90">
+<element name="C113" library="MDT_C" package="C1206" value="2.2nF" x="58.42" y="84.582" rot="R90">
 <attribute name="PACKAGE" value="1206" x="58.42" y="84.582" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="" x="58.42" y="84.582" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="100V" x="58.42" y="84.582" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1254,7 +1254,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="IC INVERT SCHMITT 1CH 1-IN SOT25" x="76.2" y="19.05" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="SOT23-5" x="76.2" y="19.05" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R120" library="MDT_R" package="R2512" value="2.74K" x="65.532" y="87.63" rot="R180">
+<element name="R120" library="MDT_R" package="R2512" value="330" x="65.532" y="87.63" rot="R180">
 <attribute name="PACKAGE" value="2512" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="65.532" y="87.63" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1381,7 +1381,7 @@ design rules under a new name.</description>
 <attribute name="POWER" value="" x="82.296" y="96.774" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="" x="82.296" y="96.774" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C112" library="MDT_C" package="C1206" value="22nF" x="43.18" y="105.918" rot="R270">
+<element name="C112" library="MDT_C" package="C1206" value="2.2nF" x="43.18" y="105.918" rot="R270">
 <attribute name="PACKAGE" value="1206" x="50.8" y="122.174" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="" x="50.8" y="122.174" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="100V" x="50.8" y="122.174" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1448,7 +1448,7 @@ design rules under a new name.</description>
 <attribute name="TOL" value="" x="20.828" y="97.79" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="" x="20.828" y="97.79" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R118" library="MDT_R" package="R2512" value="2.74K" x="36.068" y="102.87">
+<element name="R118" library="MDT_R" package="R2512" value="330" x="36.068" y="102.87">
 <attribute name="PACKAGE" value="2512" x="23.876" y="62.23" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="23.876" y="62.23" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="23.876" y="62.23" size="1.778" layer="27" display="off"/>
@@ -1801,7 +1801,7 @@ design rules under a new name.</description>
 <attribute name="VENDOR" value="" x="80.772" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
-<element name="R219" library="MDT_R" package="R2512" value="2.74K" x="65.532" y="49.53" rot="R180">
+<element name="R219" library="MDT_R" package="R2512" value="330" x="65.532" y="49.53" rot="R180">
 <attribute name="PACKAGE" value="2512" x="65.532" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="65.532" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="65.532" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1993,7 +1993,7 @@ design rules under a new name.</description>
 <attribute name="VENDOR" value="" x="20.828" y="59.69" size="1.778" layer="27" display="off"/>
 <variant name="IRF520N_20W" populate="no"/>
 </element>
-<element name="R217" library="MDT_R" package="R2512" value="2.74K" x="36.068" y="64.77">
+<element name="R217" library="MDT_R" package="R2512" value="330" x="36.068" y="64.77">
 <attribute name="PACKAGE" value="2512" x="23.876" y="24.13" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="23.876" y="24.13" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="23.876" y="24.13" size="1.778" layer="27" display="off"/>

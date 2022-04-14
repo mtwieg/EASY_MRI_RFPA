@@ -3859,7 +3859,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="Q101" library="MDT_TRANS" deviceset="MOSFET_N" device="TO-220-VERT" technology="IRF630" value="IRF520N"/>
+<part name="Q101" library="MDT_TRANS" deviceset="MOSFET_N" device="TO-220-VERT" technology="IRF520N" value="IRF520N"/>
 <part name="FRAME301" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME101" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="U302" library="MDT_IC" deviceset="OPAMP_QUAD" device="SOIC14" technology="TLV274ID" value="OPAMP_QUADTLV274IDSOIC14"/>
@@ -3873,7 +3873,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="R301" library="MDT_R" deviceset="RTRIM" device="3299W" technology="RTRIM-10K-10%-3299W-0.5W" value="10K"/>
 <part name="SUPPLY302" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY304" library="supply2" deviceset="GND" device=""/>
-<part name="Q102" library="MDT_TRANS" deviceset="MOSFET_N" device="TO-220-VERT" technology="IRF630" value="IRF630"/>
+<part name="Q102" library="MDT_TRANS" deviceset="MOSFET_N" device="TO-220-VERT" technology="IRF520N" value="IRF520N"/>
 <part name="SUPPLY123" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY121" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY111" library="supply2" deviceset="GND" device=""/>
@@ -3882,15 +3882,15 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY113" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY109" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY107" library="supply2" deviceset="GND" device=""/>
-<part name="C113" library="MDT_C" deviceset="C" device="C1206" technology="GEN" value="22nF">
+<part name="C113" library="MDT_C" deviceset="C" device="C1206" technology="GEN" value="2.2nF">
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="R121" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="270"/>
-<part name="R125" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="2.7"/>
-<part name="R123" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="2.7"/>
+<part name="R125" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="6.8"/>
+<part name="R123" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="6.8"/>
 <part name="R111" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="100"/>
 <part name="L102" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-47N-AIR-5%-1008-1A" value="47nH"/>
-<part name="R107" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="75"/>
+<part name="R107" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="220"/>
 <part name="R105" library="MDT_R" deviceset="R90" device="1206_IPC" technology="GEN" value="4.99"/>
 <part name="Q301" library="MDT_TRANS" deviceset="MOSFET_N" device="SOT23" technology="BSS123" value="MOSFET_NBSS123SOT23"/>
 <part name="J302" library="MDT_CON" deviceset="COAX" device="BNC_EDGE" technology="112640"/>
@@ -3954,7 +3954,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C107" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="27nF">
+<part name="C107" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="12nF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="SUPPLY421" library="supply2" deviceset="GND" device=""/>
@@ -3967,7 +3967,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="J102" library="MDT_CON" deviceset="COAX" device="BNC_EDGE" technology="112640"/>
 <part name="SUPPLY135" library="supply2" deviceset="GND" device=""/>
 <part name="X402" library="MDT_HEATSINK" deviceset="HEATSINK_OMNI_DUAL" device="30-75-D" technology="OMNI-UNI-30-75-D" value="HEATSINK_OMNI_DUALOMNI-UNI-30-75-D30-75-D"/>
-<part name="R103" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="75"/>
+<part name="R103" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="220"/>
 <part name="SUPPLY122" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY120" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY110" library="supply2" deviceset="GND" device=""/>
@@ -3976,15 +3976,15 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY112" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY108" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY106" library="supply2" deviceset="GND" device=""/>
-<part name="C112" library="MDT_C" deviceset="C" device="C1206" technology="GEN" value="22nF">
+<part name="C112" library="MDT_C" deviceset="C" device="C1206" technology="GEN" value="2.2nF">
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="R119" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="270"/>
-<part name="R124" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="2.7"/>
-<part name="R122" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="2.7"/>
+<part name="R124" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="6.8"/>
+<part name="R122" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="6.8"/>
 <part name="R109" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="100"/>
 <part name="L101" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-47N-AIR-5%-1008-1A" value="47nH"/>
-<part name="R106" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="75"/>
+<part name="R106" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="220"/>
 <part name="R104" library="MDT_R" deviceset="R90" device="1206_IPC" technology="GEN" value="4.99"/>
 <part name="R118" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="2.74K"/>
 <part name="R114" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="15"/>
@@ -4015,13 +4015,13 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C105" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="27nF">
+<part name="C105" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="12nF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="C104" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="22nF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="R102" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="75"/>
+<part name="R102" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="220"/>
 <part name="R310" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="1K"/>
 <part name="R315" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="10"/>
 <part name="R316" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="100"/>
@@ -4061,10 +4061,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </part>
 <part name="SUPPLY311" library="supply2" deviceset="GND" device=""/>
 <part name="P+303" library="supply1" deviceset="+12V" device=""/>
-<part name="Q201" library="MDT_TRANS" deviceset="MOSFET_N" device="TO-220-VERT" technology="IRF630" value="IRF630">
+<part name="Q201" library="MDT_TRANS" deviceset="MOSFET_N" device="TO-220-VERT" technology="IRF520N" value="IRF630">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="Q202" library="MDT_TRANS" deviceset="MOSFET_N" device="TO-220-VERT" technology="IRF630" value="IRF630">
+<part name="Q202" library="MDT_TRANS" deviceset="MOSFET_N" device="TO-220-VERT" technology="IRF520N" value="IRF630">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="SUPPLY218" library="supply2" deviceset="GND" device=""/>
@@ -4075,35 +4077,45 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY208" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY204" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY202" library="supply2" deviceset="GND" device=""/>
-<part name="C210" library="MDT_C" deviceset="C" device="C1206" technology="GEN" value="2.2nF">
+<part name="C210" library="MDT_C" deviceset="C" device="C1206" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="VOLTAGE" value="100V"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R220" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="270">
+<part name="R220" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R224" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="2.7">
+<part name="R224" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R222" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="2.7">
+<part name="R222" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R210" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="100">
+<part name="R210" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="L202" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-47N-AIR-5%-1008-1A" value="47nH">
+<part name="L202" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-47N-AIR-5%-1008-1A" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R206" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="75">
+<part name="R206" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R204" library="MDT_R" deviceset="R90" device="1206_IPC" technology="GEN" value="4.99">
+<part name="R204" library="MDT_R" deviceset="R90" device="1206_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R219" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="2.74K">
+<part name="R219" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R214" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="15">
+<part name="R214" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="R212" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="DNP">
@@ -4116,13 +4128,16 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="R230" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="1K">
+<part name="R230" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R209" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="100">
+<part name="R209" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="C212" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="10nF">
+<part name="C212" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="VOLTAGE" value="50V"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
@@ -4138,15 +4153,18 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C204" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="27nF">
+<part name="C204" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="VOLTAGE" value="50V"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="C203" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="22nF">
+<part name="C203" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="VOLTAGE" value="50V"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R202" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="75">
+<part name="R202" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="SUPPLY217" library="supply2" deviceset="GND" device=""/>
@@ -4157,35 +4175,45 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY207" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY203" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY201" library="supply2" deviceset="GND" device=""/>
-<part name="C209" library="MDT_C" deviceset="C" device="C1206" technology="GEN" value="2.2nF">
+<part name="C209" library="MDT_C" deviceset="C" device="C1206" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="VOLTAGE" value="100V"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R218" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="270">
+<part name="R218" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R223" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="2.7">
+<part name="R223" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R221" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="2.7">
+<part name="R221" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R208" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="100">
+<part name="R208" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="L201" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-47N-AIR-5%-1008-1A" value="47nH">
+<part name="L201" library="MDT_L" deviceset="L_CHIP" device="1008" technology="L-47N-AIR-5%-1008-1A" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R205" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="75">
+<part name="R205" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R203" library="MDT_R" deviceset="R90" device="1206_IPC" technology="GEN" value="4.99">
+<part name="R203" library="MDT_R" deviceset="R90" device="1206_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R217" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="2.74K">
+<part name="R217" library="MDT_R" deviceset="R90" device="R2512" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R213" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="15">
+<part name="R213" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="R211" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="DNP">
@@ -4198,13 +4226,16 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="R229" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="1K">
+<part name="R229" library="MDT_R" deviceset="R90" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R207" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="100">
+<part name="R207" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="C211" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="10nF">
+<part name="C211" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="VOLTAGE" value="50V"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
@@ -4220,15 +4251,18 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C202" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="27nF">
+<part name="C202" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="VOLTAGE" value="50V"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="C201" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="22nF">
+<part name="C201" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="VOLTAGE" value="50V"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R201" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="75">
+<part name="R201" library="MDT_R" deviceset="R" device="1206_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="R311" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="DNP">
@@ -4303,24 +4337,28 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY118" library="supply2" deviceset="GND" device=""/>
 <part name="TP6" library="MDT_CON" deviceset="PROBE_TP" device="TP_7P5MM" value="PROBE_TPTP_7P5MM"/>
 <part name="SUPPLY119" library="supply2" deviceset="GND" device=""/>
-<part name="R126" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="2.7"/>
-<part name="R128" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="3.3"/>
+<part name="R126" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="8.2"/>
+<part name="R128" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="8.2"/>
 <part name="SUPPLY124" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY126" library="supply2" deviceset="GND" device=""/>
-<part name="R127" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="2.7"/>
-<part name="R129" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="3.3"/>
+<part name="R127" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="8.2"/>
+<part name="R129" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="8.2"/>
 <part name="SUPPLY125" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY127" library="supply2" deviceset="GND" device=""/>
-<part name="R226" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="2.7">
+<part name="R226" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R228" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="3.3">
+<part name="R228" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R225" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="2.7">
+<part name="R225" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
-<part name="R227" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="3.3">
+<part name="R227" library="MDT_R" deviceset="R" device="R2512" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
 <part name="SUPPLY220" library="supply2" deviceset="GND" device=""/>
@@ -4372,7 +4410,8 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="LED301" library="MDT_Diode" deviceset="LED" device="T1_3/4" technology="HLMP-3401-E0002" value="LEDHLMP-3401-E0002T1_3/4"/>
 <part name="P+302" library="supply1" deviceset="+5V" device=""/>
 <part name="R309" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="150"/>
-<part name="C103" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="3nF">
+<part name="C103" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="VOLTAGE" value="50V"/>
 <variant name="IRF520N_20W" populate="no"/>
 </part>
@@ -4382,12 +4421,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C101" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="DNP">
-<attribute name="BOM" value="EXCLUDE"/>
+<part name="C101" library="MDT_C" deviceset="C" device="0805_IPC" technology="GEN" value="0.1uF">
 <attribute name="VOLTAGE" value="50V"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C120" library="MDT_C" deviceset="C" device="C1812" technology="GEN" value="3nF">
+<part name="C120" library="MDT_C" deviceset="C" device="C1812" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="VOLTAGE" value="250V"/>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" value="1.5nF"/>
@@ -4398,8 +4437,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <variant name="IRF520N_20W" populate="no"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
-<part name="C118" library="MDT_C" deviceset="C" device="C1812" technology="GEN" value="DNP">
-<attribute name="BOM" value="EXCLUDE"/>
+<part name="C118" library="MDT_C" deviceset="C" device="C1812" technology="GEN" value="0.1uF">
 <attribute name="VOLTAGE" value="250V"/>
 <variant name="IRF630_200W" populate="no"/>
 </part>
@@ -4419,12 +4457,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="C409" library="MDT_C" deviceset="CPOL" device="E2,5-7" technology="C-22U-63V-20%-6.3DX12.5L-ELEC" value="22uF"/>
 <part name="SUPPLY413" library="supply2" deviceset="GND" device=""/>
 <part name="FRAME201" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="L103" library="MDT_L" deviceset="L" device="" technology="L-3.3U-FERRITE-20%-12.5X12.5MM-10.5A" value="3.3uH">
-<variant name="IRF520N_20W" technology="L-22U-FERRITE-20%-12.5X12.5MM-4A" value="22uH"/>
+<part name="L103" library="MDT_L" deviceset="L" device="" technology="L-22U-FERRITE-20%-12.5X12.5MM-4A" value="22uH">
+<variant name="IRF520N_20W"/>
 <variant name="IRF630_200W"/>
 </part>
-<part name="L104" library="MDT_L" deviceset="L" device="" technology="L-3.3U-FERRITE-20%-12.5X12.5MM-10.5A" value="3.3uH">
-<variant name="IRF520N_20W" technology="L-22U-FERRITE-20%-12.5X12.5MM-4A" value="22uH"/>
+<part name="L104" library="MDT_L" deviceset="L" device="" technology="L-22U-FERRITE-20%-12.5X12.5MM-4A" value="22uH">
+<variant name="IRF520N_20W"/>
 <variant name="IRF630_200W"/>
 </part>
 <part name="J401" library="MDT_CON" deviceset="HDR_2X1" device="282836-1" technology="282836-1"/>
@@ -4480,7 +4518,7 @@ Current design lacks advanced self-protection features!
 User is responsible for limiting unblanking duty cycle and bias voltage/current
 Current design is tested under following conditions:
 Supply voltage VB: 48V
-Bias current: 3.1A (in each FET)
+Bias current: 1.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
 </plain>
@@ -5463,7 +5501,7 @@ Current design lacks advanced self-protection features!
 User is responsible for limiting unblanking duty cycle and bias voltage/current
 Current design is tested under following conditions:
 Supply voltage VB: 48V
-Bias current: 3.1A (in each FET)
+Bias current: 1.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
 </plain>
@@ -6068,7 +6106,7 @@ Current design lacks advanced self-protection features!
 User is responsible for limiting unblanking duty cycle and bias voltage/current
 Current design is tested under following conditions:
 Supply voltage VB: 48V
-Bias current: 3.1A (in each FET)
+Bias current: 1.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
 </plain>
@@ -6571,7 +6609,7 @@ Current design lacks advanced self-protection features!
 User is responsible for limiting unblanking duty cycle and bias voltage/current
 Current design is tested under following conditions:
 Supply voltage VB: 48V
-Bias current: 3.1A (in each FET)
+Bias current: 1.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
 </plain>
