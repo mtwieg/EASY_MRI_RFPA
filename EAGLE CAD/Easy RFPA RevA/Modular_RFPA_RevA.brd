@@ -1174,14 +1174,14 @@ design rules under a new name.</description>
 </element>
 <element name="JP302" library="pinhead" package="1X02" value="" x="98.044" y="9.144" rot="R180"/>
 <element name="JP301" library="pinhead" package="1X02" value="" x="104.14" y="9.144" rot="R180"/>
-<element name="IC401" library="MDT_IC" package="TO220BV" value="LDO_3TERMMC78M12CTGTO220_VERT" x="101.6" y="83.82" rot="R180">
+<element name="U401" library="MDT_IC" package="TO220BV" value="LDO_3TERMMC78M12CTGTO220_VERT" x="101.6" y="83.82" rot="R180">
 <attribute name="PACKAGE" value="TO220" x="101.6" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="MC78M12CTG" x="101.6" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="IC REG LINEAR 12V 500MA TO220AB" x="101.6" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="ONSEMI" x="101.6" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="101.6" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="IC402" library="MDT_IC" package="TO220BV" value="LDO_3TERMMC78M05CTGTO220_VERT" x="101.6" y="60.96" rot="R180">
+<element name="U402" library="MDT_IC" package="TO220BV" value="LDO_3TERMMC78M05CTGTO220_VERT" x="101.6" y="60.96" rot="R180">
 <attribute name="PACKAGE" value="TO220" x="101.6" y="60.96" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="MC78M05CTG" x="101.6" y="60.96" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="IC REG LINEAR 5V 500MA TO220AB" x="101.6" y="60.96" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2121,10 +2121,18 @@ design rules under a new name.</description>
 <attribute name="POWER" value="" x="77.216" y="12.7" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="" x="77.216" y="12.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H401" library="holes" package="3,2-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.2" x="5.08" y="5.08"/>
-<element name="H402" library="holes" package="3,2-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.2" x="147.32" y="5.08"/>
-<element name="H403" library="holes" package="3,2-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.2" x="147.32" y="147.32"/>
-<element name="H404" library="holes" package="3,2-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.2" x="5.08" y="147.32"/>
+<element name="H401" library="holes" package="3,2-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.2" x="5.08" y="5.08">
+<attribute name="BOM" value="EXCLUDE" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H402" library="holes" package="3,2-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.2" x="147.32" y="5.08">
+<attribute name="BOM" value="EXCLUDE" x="147.32" y="5.08" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H403" library="holes" package="3,2-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.2" x="147.32" y="147.32">
+<attribute name="BOM" value="EXCLUDE" x="147.32" y="147.32" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H404" library="holes" package="3,2-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.2" x="5.08" y="147.32">
+<attribute name="BOM" value="EXCLUDE" x="5.08" y="147.32" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R408" library="MDT_R" package="0805_IPC-7351B" value="10K" x="95.504" y="103.124" rot="R90">
 <attribute name="PACKAGE" value="0805" x="95.504" y="103.124" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="" x="95.504" y="103.124" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2136,19 +2144,19 @@ design rules under a new name.</description>
 <element name="C406" library="MDT_C" package="C1206" value="4.7uF" x="99.06" y="91.44">
 <attribute name="PACKAGE" value="1206" x="99.06" y="91.44" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="99.06" y="91.44" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="" x="99.06" y="91.44" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="99.06" y="91.44" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="99.06" y="91.44" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="" x="99.06" y="91.44" size="1.778" layer="27" display="off"/>
-<attribute name="DIALECTRIC" value="" x="99.06" y="91.44" size="1.778" layer="27" display="off"/>
+<attribute name="DIALECTRIC" value="X7R" x="99.06" y="91.44" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="" x="99.06" y="91.44" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C407" library="MDT_C" package="C1206" value="4.7uF" x="99.06" y="68.58">
 <attribute name="PACKAGE" value="1206" x="99.06" y="68.58" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="" x="99.06" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="" x="99.06" y="68.58" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="99.06" y="68.58" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="99.06" y="68.58" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="" x="99.06" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="DIALECTRIC" value="" x="99.06" y="68.58" size="1.778" layer="27" display="off"/>
+<attribute name="DIALECTRIC" value="X7R" x="99.06" y="68.58" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="" x="99.06" y="68.58" size="1.778" layer="27" display="off"/>
 </element>
 <element name="T101" library="MDT_TRAFO" package="HP4" value="HP4_TRAFO" x="50.8" y="25.4">
@@ -2599,19 +2607,19 @@ design rules under a new name.</description>
 <element name="C404" library="MDT_C" package="C1210" value="6.8uF" x="104.648" y="68.58" rot="R180">
 <attribute name="PACKAGE" value="1210" x="104.648" y="68.58" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="104.648" y="68.58" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
-<attribute name="VOLTAGE" value="" x="104.648" y="68.58" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="104.648" y="68.58" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="104.648" y="68.58" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
 <attribute name="TOL" value="" x="104.648" y="68.58" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
-<attribute name="DIALECTRIC" value="" x="104.648" y="68.58" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
+<attribute name="DIALECTRIC" value="X7S" x="104.648" y="68.58" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="104.648" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C403" library="MDT_C" package="C1210" value="6.8uF" x="105.156" y="91.44" rot="R180">
 <attribute name="PACKAGE" value="1210" x="105.156" y="91.44" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
 <attribute name="PARTNO" value="" x="105.156" y="91.44" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
-<attribute name="VOLTAGE" value="" x="105.156" y="91.44" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="105.156" y="91.44" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="105.156" y="91.44" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
 <attribute name="TOL" value="" x="105.156" y="91.44" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
-<attribute name="DIALECTRIC" value="" x="105.156" y="91.44" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
+<attribute name="DIALECTRIC" value="X7S" x="105.156" y="91.44" size="1.778" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
 <attribute name="VENDOR" value="" x="105.156" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C410" library="MDT_C" package="E2,5-7" value="22uF" x="98.806" y="76.2">
@@ -2676,8 +2684,8 @@ design rules under a new name.</description>
 <contactref element="J302" pad="G4"/>
 <contactref element="J302" pad="G1"/>
 <contactref element="Q301" pad="2"/>
-<contactref element="IC401" pad="2"/>
-<contactref element="IC402" pad="2"/>
+<contactref element="U401" pad="2"/>
+<contactref element="U402" pad="2"/>
 <contactref element="D401" pad="A"/>
 <contactref element="C401" pad="-"/>
 <contactref element="C405" pad="2"/>
@@ -3453,7 +3461,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="+12V">
 <contactref element="Q303" pad="3"/>
-<contactref element="IC401" pad="3"/>
+<contactref element="U401" pad="3"/>
 <contactref element="U302" pad="4"/>
 <contactref element="C305" pad="1"/>
 <wire x1="106.172" y1="25.46" x2="106.172" y2="27.702" width="0.4064" layer="1"/>
@@ -3758,7 +3766,7 @@ design rules under a new name.</description>
 <wire x1="100.838" y1="27.702" x2="101.092" y2="27.956" width="0.4064" layer="1"/>
 </signal>
 <signal name="+5V">
-<contactref element="IC402" pad="3"/>
+<contactref element="U402" pad="3"/>
 <contactref element="R408" pad="1"/>
 <contactref element="C407" pad="1"/>
 <contactref element="R301" pad="3"/>
@@ -3796,7 +3804,7 @@ design rules under a new name.</description>
 <wire x1="92.71" y1="63.5" x2="99.06" y2="63.5" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$43">
-<contactref element="IC401" pad="1"/>
+<contactref element="U401" pad="1"/>
 <contactref element="R402" pad="2"/>
 <contactref element="C403" pad="1"/>
 <wire x1="106.556" y1="91.44" x2="106.556" y2="88.776" width="0.6096" layer="1"/>
@@ -3856,7 +3864,6 @@ design rules under a new name.</description>
 <signal name="VB" class="3">
 <contactref element="C408" pad="1"/>
 <contactref element="L402" pad="2"/>
-<contactref element="R132" pad="1"/>
 <contactref element="C116" pad="1"/>
 <contactref element="C117" pad="1"/>
 <contactref element="C411" pad="1"/>
@@ -3907,9 +3914,31 @@ design rules under a new name.</description>
 <wire x1="100.178" y1="135.23" x2="99.568" y2="134.62" width="0.6096" layer="1"/>
 <contactref element="L103" pad="2"/>
 <contactref element="L104" pad="2"/>
+<contactref element="R132" pad="1"/>
+<wire x1="87.63" y1="125.984" x2="89.662" y2="124.714" width="0" layer="19" extent="1-1"/>
+<wire x1="86.36" y1="125.984" x2="87.63" y2="125.984" width="0" layer="19" extent="1-1"/>
+<wire x1="85.09" y1="125.984" x2="86.36" y2="125.984" width="0" layer="19" extent="1-1"/>
+<wire x1="86.36" y1="123.87" x2="86.36" y2="125.984" width="0" layer="19" extent="1-1"/>
+<wire x1="77.47" y1="123.698" x2="85.09" y2="125.984" width="0" layer="19" extent="1-1"/>
+<wire x1="74.93" y1="123.698" x2="77.47" y2="123.698" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="123.698" x2="74.93" y2="123.698" width="0" layer="19" extent="1-1"/>
+<wire x1="74.93" y1="126.895" x2="74.93" y2="123.698" width="0" layer="19" extent="1-1"/>
+<wire x1="74.93" y1="132.285" x2="74.93" y2="126.895" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="121.715" x2="72.39" y2="123.698" width="0" layer="19" extent="16-16"/>
+<wire x1="50.546" y1="122.92" x2="58.42" y2="121.715" width="0" layer="19" extent="16-16"/>
+<wire x1="42.672" y1="121.969" x2="50.546" y2="122.92" width="0" layer="19" extent="16-16"/>
+<wire x1="29.21" y1="123.444" x2="42.672" y2="121.969" width="0" layer="19" extent="16-16"/>
+<wire x1="26.67" y1="123.444" x2="29.21" y2="123.444" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="123.444" x2="26.67" y2="123.444" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="126.895" x2="26.67" y2="123.444" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="132.285" x2="26.67" y2="126.895" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="125.984" x2="24.13" y2="123.444" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="125.984" x2="16.51" y2="125.984" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="125.984" x2="15.24" y2="125.984" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="123.87" x2="15.24" y2="125.984" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$49">
-<contactref element="IC402" pad="1"/>
+<contactref element="U402" pad="1"/>
 <contactref element="R403" pad="2"/>
 <contactref element="C404" pad="1"/>
 <wire x1="106.048" y1="68.58" x2="106.048" y2="65.408" width="0.6096" layer="1"/>
