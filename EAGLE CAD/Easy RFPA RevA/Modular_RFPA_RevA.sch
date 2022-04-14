@@ -2355,8 +2355,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-2.54" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
-<pin name="P$1" x="-2.54" y="-2.54" visible="pad" length="short" rot="R90"/>
-<pin name="P$2" x="2.54" y="-2.54" visible="pad" length="short" rot="R90"/>
+<pin name="P$1" x="-2.54" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="P$2" x="2.54" y="-2.54" visible="off" length="short" rot="R90"/>
 <text x="0" y="22.225" size="1.6764" layer="95" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="20.32" size="1.6764" layer="97" ratio="20" align="bottom-center">&gt;PARTNO</text>
 <text x="0" y="18.415" size="1.6764" layer="97" ratio="20" align="bottom-center">&gt;BOM</text>
@@ -2376,11 +2376,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <technologies>
 <technology name="">
 <attribute name="BOM" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="OMNI-UNI-30-50-D">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DESCRIPTION" value="HEATSINK TO-247 TO-264 TO-220" constant="no"/>
 <attribute name="PARTNO" value="OMNI-UNI-30-50-D"/>
 <attribute name="VENDOR" value="Wakefield-Vette"/>
 </technology>
@@ -2394,11 +2396,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <technologies>
 <technology name="">
 <attribute name="BOM" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
 <attribute name="PARTNO" value="" constant="no"/>
 <attribute name="VENDOR" value="" constant="no"/>
 </technology>
 <technology name="OMNI-UNI-30-75-D">
 <attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DESCRIPTION" value="HEATSINK TO-247 TO-264 TO-220" constant="no"/>
 <attribute name="PARTNO" value="OMNI-UNI-30-75-D"/>
 <attribute name="VENDOR" value="Wakefield-Vette"/>
 </technology>
@@ -4266,7 +4270,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="P+301" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY134" library="supply2" deviceset="GND" device=""/>
 <part name="T101" library="MDT_TRAFO" deviceset="HP4_TRAFO" device=""/>
-<part name="J401" library="MDT_FUSE" deviceset="FUSE_2P" device=""/>
+<part name="F401" library="MDT_FUSE" deviceset="FUSE_2P" device=""/>
 <part name="L401" library="MDT_L" deviceset="L" device="" technology="L-3.3U-FERRITE-20%-12.5X12.5MM-10.5A" value="3.3uH"/>
 <part name="L402" library="MDT_L" deviceset="L" device="" technology="L-22U-FERRITE-20%-12.5X12.5MM-4A" value="22uH"/>
 <part name="R132" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="0"/>
@@ -4423,7 +4427,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <variant name="IRF520N_20W" technology="L-22U-FERRITE-20%-12.5X12.5MM-4A" value="22uH"/>
 <variant name="IRF630_200W"/>
 </part>
-<part name="J1" library="MDT_CON" deviceset="HDR_2X1" device="282836-1" technology="282836-1"/>
+<part name="J401" library="MDT_CON" deviceset="HDR_2X1" device="282836-1" technology="282836-1"/>
 </parts>
 <sheets>
 <sheet>
@@ -4461,6 +4465,24 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="220.98" y1="50.8" x2="325.12" y2="50.8" width="0.1524" layer="94" style="longdash"/>
 <wire x1="325.12" y1="50.8" x2="325.12" y2="129.54" width="0.1524" layer="94" style="longdash"/>
 <wire x1="325.12" y1="129.54" x2="220.98" y2="129.54" width="0.1524" layer="94" style="longdash"/>
+<text x="121.92" y="218.44" size="2.54" layer="94" align="center">Attenuator</text>
+<text x="154.94" y="167.64" size="2.54" layer="94" align="center">Bias T</text>
+<text x="195.58" y="218.44" size="2.54" layer="94" align="center">Gate damping</text>
+<text x="241.3" y="218.44" size="2.54" layer="94" align="center">Power FET</text>
+<text x="121.92" y="119.38" size="2.54" layer="94" align="center">Attenuator</text>
+<text x="154.94" y="68.58" size="2.54" layer="94" align="center">Bias T</text>
+<text x="195.58" y="119.38" size="2.54" layer="94" align="center">Gate damping</text>
+<text x="241.3" y="119.38" size="2.54" layer="94" align="center">Power FET</text>
+<text x="58.42" y="203.2" size="2.54" layer="94" align="center">Input balun</text>
+<text x="378.46" y="208.28" size="2.54" layer="94" align="center">Output balun</text>
+<text x="7.62" y="2.54" size="3.048" layer="94">! Caution !!
+Current design lacks advanced self-protection features!
+User is responsible for limiting unblanking duty cycle and bias voltage/current
+Current design is tested under following conditions:
+Supply voltage VB: 48V
+Bias current: 3.1A (in each FET)
+Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
+Max pulse width: 1ms</text>
 </plain>
 <instances>
 <instance part="Q101" gate="G$1" x="264.16" y="182.88"/>
@@ -5428,6 +5450,22 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="220.98" y1="50.8" x2="325.12" y2="50.8" width="0.1524" layer="94" style="longdash"/>
 <wire x1="325.12" y1="50.8" x2="325.12" y2="129.54" width="0.1524" layer="94" style="longdash"/>
 <wire x1="325.12" y1="129.54" x2="220.98" y2="129.54" width="0.1524" layer="94" style="longdash"/>
+<text x="121.92" y="218.44" size="2.54" layer="94" align="center">Attenuator</text>
+<text x="121.92" y="119.38" size="2.54" layer="94" align="center">Attenuator</text>
+<text x="154.94" y="167.64" size="2.54" layer="94" align="center">Bias T</text>
+<text x="154.94" y="68.58" size="2.54" layer="94" align="center">Bias T</text>
+<text x="193.04" y="218.44" size="2.54" layer="94" align="center">Gate damping</text>
+<text x="193.04" y="119.38" size="2.54" layer="94" align="center">Gate damping</text>
+<text x="238.76" y="218.44" size="2.54" layer="94" align="center">Power FET</text>
+<text x="236.22" y="119.38" size="2.54" layer="94" align="center">Power FET</text>
+<text x="7.62" y="5.08" size="3.048" layer="94">! Caution !!
+Current design lacks advanced self-protection features!
+User is responsible for limiting unblanking duty cycle and bias voltage/current
+Current design is tested under following conditions:
+Supply voltage VB: 48V
+Bias current: 3.1A (in each FET)
+Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
+Max pulse width: 1ms</text>
 </plain>
 <instances>
 <instance part="Q201" gate="G$1" x="264.16" y="182.88"/>
@@ -6018,12 +6056,21 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <sheet>
 <description>Gate bias driver</description>
 <plain>
-<text x="121.92" y="218.44" size="2.54" layer="94" align="bottom-center">If not using analog bias tracking
+<text x="121.92" y="218.44" size="2.54" layer="94" align="bottom-center">If not using analog input,
 Then short out jumpers JP1 and JP2</text>
 <text x="60.96" y="172.72" size="2.54" layer="94" align="center-right">Analog bias tracking input</text>
 <text x="53.34" y="137.16" size="2.54" layer="94" align="center-right">Fixed bias offset</text>
-<text x="281.94" y="210.82" size="2.54" layer="94" align="bottom-center">Gate bias driver</text>
-<text x="60.96" y="93.98" size="2.54" layer="94" align="center-right">Unblanking input</text>
+<text x="274.32" y="198.12" size="2.54" layer="94" align="bottom-center">Gate bias driver</text>
+<text x="60.96" y="93.98" size="2.54" layer="94" align="center-right">Unblanking input
+Active High, TTL logic</text>
+<text x="7.62" y="5.08" size="3.048" layer="94">! Caution !!
+Current design lacks advanced self-protection features!
+User is responsible for limiting unblanking duty cycle and bias voltage/current
+Current design is tested under following conditions:
+Supply voltage VB: 48V
+Bias current: 3.1A (in each FET)
+Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
+Max pulse width: 1ms</text>
 </plain>
 <instances>
 <instance part="FRAME301" gate="G$1" x="0" y="0"/>
@@ -6509,101 +6556,24 @@ Then short out jumpers JP1 and JP2</text>
 <sheet>
 <description>Power entry</description>
 <plain>
-<text x="449.58" y="124.46" size="1.778" layer="91">for preamp stage using one pair of IRF520N
-
-pep: 10=(20dB,0°)
-vd: 48=(33.6248dB,0°)
-vdmin: 26=(28.2995dB,0°)
-rload_lv_se_target: 24.2=(27.6763dB,0°)
-rload_lv_se: 24.2=(27.6763dB,0°)
-idmin: 0.5=(-6.0206dB,0°)
-id: 1.40909090909091=(2.97878dB,0°)
-gm0: 5.7=(15.1175dB,0°)
-gm: 0.5=(-6.0206dB,0°)
-rs: 1.82456140350877=(5.22317dB,0°)
-rgbias: 100=(40dB,0°)
-rsource_lv_se: 25=(27.9588dB,0°)
-rfb: 246.2=(47.8258dB,0°)
-cfb: 2.39424553245537e-009=(-172.417dB,0°)
-csource: 1.17892650018102e-008=(-158.57dB,0°)
-rin_lv_se: 17.1095925082258=(24.6648dB,0°)
-vg: 6.29097288676236=(15.9744dB,0°)
-coss: 2.5e-010=(-192.041dB,0°)
-ld: 1.38986769282908e-005=(-97.1405dB,0°)
-kin_lp: 4e-005=(-87.9588dB,0°)
-kin_ls: 1e-005=(-100dB,0°)
-kout_lp: 1e-005=(-100dB,0°)
-kout_ls: 4e-005=(-87.9588dB,0°)
-rload_hv_se: 48.4=(33.6969dB,0°)
-rsource_hv_se: 50=(33.9794dB,0°)
-atten_vout: 0.707945784384138=(-3dB,0°)
-atten_rshunt_in: 146.201089820134=(43.299dB,0°)
-atten_rshunt_out: 146.201089820134=(43.299dB,0°)
-atten_rser: 8.8073970029827=(18.897dB,0°)
-
-
-Date: Thu Mar 31 18:54:22 2022
-Total elapsed time: 0.277 seconds.
-
-tnom = 27
-temp = 27
-method = trap
-totiter = 16
-traniter = 0
-tranpoints = 0
-accept = 0
-rejected = 0
-matrix size = 63
-fillins = 52
-solver = Normal
-Matrix Compiler1: 328 opcodes
-Matrix Compiler2: 5.85 KB object code size
-</text>
-<text x="441.96" y="-5.08" size="1.778" layer="91">Circuit: * C:\Workspace\Git\BASIC_MRI_RFPA\LTSPICE simulations\RFPA_IRF630_pushpullx2_tran_param.asc
-
-Direct Newton iteration for .op point succeeded.
-
-pep: 50=(33.9794dB,0°)
-vd: 48=(33.6248dB,0°)
-vdmin: 12=(21.5836dB,0°)
-rload_lv_se_target: 12.96=(22.2521dB,0°)
-rload_lv_se: 12.96=(22.2521dB,0°)
-idmin: 0.5=(-6.0206dB,0°)
-id: 3.27777777777778=(10.3116dB,0°)
-gm0: 3.54=(10.9801dB,0°)
-gm: 1=(0dB,0°)
-rs: 0.717514124293785=(-2.88339dB,0°)
-rgbias: 100=(40dB,0°)
-rsource_lv_se: 12.5=(21.9382dB,0°)
-rfb: 145.848888888889=(43.2781dB,0°)
-cfb: 2.13967197033242e-009=(-173.393dB,0°)
-csource: 2.49655023567746e-008=(-152.053dB,0°)
-rin_lv_se: 10.2140455990304=(20.184dB,0°)
-vg: 7.77185185185185=(17.8105dB,0°)
-coss: 2.4e-010=(-192.396dB,0°)
-ld: 4.05778846306067e-006=(-107.834dB,0°)
-kin_lp: 0.00016=(-75.9176dB,0°)
-kin_ls: 1e-005=(-100dB,0°)
-kout_lp: 1e-005=(-100dB,0°)
-kout_ls: 0.00016=(-75.9176dB,0°)
-rload_hv_se: 51.84=(34.2933dB,0°)
-rsource_hv_se: 50=(33.9794dB,0°)
-atten_vout: 0.707945784384138=(-3dB,0°)
-atten_rshunt_in: 73.1005449100671=(37.2784dB,0°)
-atten_rshunt_out: 73.1005449100669=(37.2784dB,0°)
-atten_rser: 4.40369850149135=(12.8764dB,0°)
-f0: 5100000=(134.151dB,0°)
-s21_at_f0: mag(s21(v2))=(16.4268dB,0°) at 5.1e+006
-s11_at_f0: mag(s11(v2))=(-26.1036dB,0°) at 5.1e+006
-s22_at_f0: mag(s22(v2))=(-17.0016dB,0°) at 5.1e+006
-kstab_at_f0: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(4.64826dB,0°) at 5.1e+006
-zin_at_f0: mag(zin(v2))=(33.3467dB,0°) at 5.1e+006
-zout_at_f0: mag(zout(v2))=(32.5111dB,0°) at 5.1e+006
-s21_at_s21_max: MAX(mag(s21(v2)))=(17.508dB,0°) FROM 100000 TO 2e+008
-f_at_s21_max: mag(s21(v2))=(s21_at_s21_max) AT 1.30317e+006
-kstab_at_stab_min: MIN(kstab(s11(v2),s21(v2),s12(v2),s22(v2)))=(3.62582dB,0°) FROM 100000 TO 2e+008
-f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.53109e+006
-</text>
+<text x="73.66" y="137.16" size="2.54" layer="94" align="center">Mounting holes</text>
+<text x="121.92" y="137.16" size="2.54" layer="94" align="center">Heatsink</text>
+<text x="91.44" y="195.58" size="2.54" layer="94" align="center">Input protection
+Intended for 48VDC supply
+Should work with 35-50VDC</text>
+<text x="195.58" y="193.04" size="2.54" layer="94" align="center">Damped LC filter</text>
+<text x="281.94" y="190.5" size="2.54" layer="94" align="center">To drain bias</text>
+<text x="198.12" y="114.3" size="2.54" layer="94" align="center">Linear regulators</text>
+<text x="299.72" y="134.62" size="2.54" layer="94" align="center">Connector for 12V fan
+Caution, limit current to 0.2A!</text>
+<text x="7.62" y="5.08" size="3.048" layer="94">! Caution !!
+Current design lacks advanced self-protection features!
+User is responsible for limiting unblanking duty cycle and bias voltage/current
+Current design is tested under following conditions:
+Supply voltage VB: 48V
+Bias current: 3.1A (in each FET)
+Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
+Max pulse width: 1ms</text>
 </plain>
 <instances>
 <instance part="FRAME401" gate="G$1" x="0" y="0"/>
@@ -6670,7 +6640,7 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <instance part="SUPPLY421" gate="GND" x="119.38" y="99.06" smashed="yes"/>
 <instance part="SUPPLY422" gate="GND" x="124.46" y="99.06" smashed="yes"/>
 <instance part="X402" gate="G$1" x="121.92" y="104.14"/>
-<instance part="J401" gate="G$1" x="83.82" y="175.26" smashed="yes">
+<instance part="F401" gate="G$1" x="83.82" y="175.26" smashed="yes">
 <attribute name="NAME" x="83.82" y="180.34" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="PARTNO" x="83.82" y="177.8" size="1.778" layer="97" align="bottom-center"/>
 </instance>
@@ -6709,7 +6679,7 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <instance part="SUPPLY414" gate="GND" x="238.76" y="88.9" smashed="yes"/>
 <instance part="C409" gate="G$1" x="238.76" y="132.08"/>
 <instance part="SUPPLY413" gate="GND" x="238.76" y="124.46" smashed="yes"/>
-<instance part="J1" gate="G$1" x="55.88" y="172.72" rot="MR0"/>
+<instance part="J401" gate="G$1" x="55.88" y="172.72" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -6748,7 +6718,7 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <wire x1="58.42" y1="172.72" x2="68.58" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="172.72" x2="68.58" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY401" gate="GND" pin="GND"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J401" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="H401" gate="G$1" pin="MOUNT"/>
@@ -6903,14 +6873,14 @@ f_at_kstab_min: kstab(s11(v2),s21(v2),s12(v2),s22(v2))=(kstab_at_stab_min) AT 1.
 <wire x1="106.68" y1="175.26" x2="114.3" y2="175.26" width="0.1524" layer="91"/>
 <junction x="106.68" y="175.26"/>
 <pinref part="R401" gate="G$1" pin="1"/>
-<pinref part="J401" gate="G$1" pin="2"/>
+<pinref part="F401" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$45" class="0">
 <segment>
 <wire x1="76.2" y1="175.26" x2="58.42" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="F401" gate="G$1" pin="1"/>
 <pinref part="J401" gate="G$1" pin="1"/>
-<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$46" class="0">
