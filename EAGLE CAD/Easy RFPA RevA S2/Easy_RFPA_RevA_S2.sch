@@ -2361,6 +2361,25 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="0" y="20.32" size="1.6764" layer="97" ratio="20" align="bottom-center">&gt;PARTNO</text>
 <text x="0" y="18.415" size="1.6764" layer="97" ratio="20" align="bottom-center">&gt;BOM</text>
 </symbol>
+<symbol name="THERMALPAD_TO220">
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="-5.08" y2="3.81" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.905" width="0.254" layer="94"/>
+<text x="-5.08" y="6.35" size="1.6764" layer="95">&gt;NAME</text>
+<text x="-5.08" y="4.445" size="1.6764" layer="111">&gt;PARTNO</text>
+<text x="-5.08" y="-10.795" size="1.6764" layer="108" align="top-left">&gt;BOM</text>
+</symbol>
+<symbol name="MISC_HW">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="7.62" size="1.6764" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.715" size="1.6764" layer="108" align="top-left">&gt;BOM</text>
+<text x="-5.08" y="5.715" size="1.6764" layer="111">&gt;PARTNO</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HEATSINK_OMNI_DUAL" prefix="X">
@@ -2405,6 +2424,54 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="DESCRIPTION" value="HEATSINK TO-247 TO-264 TO-220" constant="no"/>
 <attribute name="PARTNO" value="OMNI-UNI-30-75-D"/>
 <attribute name="VENDOR" value="Wakefield-Vette"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="THERMALPAD_TO220" prefix="X">
+<gates>
+<gate name="G$1" symbol="THERMALPAD_TO220" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+</technology>
+<technology name="DC0011/15-TI900-0.12-0">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DESCRIPTION" value="THERM PAD 21.84MMX18.79MM WHITE" constant="no"/>
+<attribute name="MATERIAL" value="Ti900" constant="no"/>
+<attribute name="PARTNO" value="DC0011/15-TI900-0.12-0" constant="no"/>
+<attribute name="VENDOR" value="t-Global Technology" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEATSINK_CLIP" prefix="X">
+<gates>
+<gate name="G$1" symbol="MISC_HW" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+</technology>
+<technology name="OMNI-220C">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DESCRIPTION" value="UNIVERSAL TO-220 HEATSINK CLIP" constant="no"/>
+<attribute name="PARTNO" value="OMNI-220C" constant="no"/>
+<attribute name="VENDOR" value="Wakefield-Vette" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4428,6 +4495,14 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <variant name="IRF630_200W"/>
 </part>
 <part name="J401" library="MDT_CON" deviceset="HDR_2X1" device="282836-1" technology="282836-1"/>
+<part name="X403" library="MDT_HEATSINK" deviceset="THERMALPAD_TO220" device="" technology="DC0011/15-TI900-0.12-0"/>
+<part name="X404" library="MDT_HEATSINK" deviceset="THERMALPAD_TO220" device="" technology="DC0011/15-TI900-0.12-0"/>
+<part name="X406" library="MDT_HEATSINK" deviceset="THERMALPAD_TO220" device="" technology="DC0011/15-TI900-0.12-0"/>
+<part name="X405" library="MDT_HEATSINK" deviceset="THERMALPAD_TO220" device="" technology="DC0011/15-TI900-0.12-0"/>
+<part name="X408" library="MDT_HEATSINK" deviceset="HEATSINK_CLIP" device="" technology="OMNI-220C"/>
+<part name="X407" library="MDT_HEATSINK" deviceset="HEATSINK_CLIP" device="" technology="OMNI-220C"/>
+<part name="X409" library="MDT_HEATSINK" deviceset="HEATSINK_CLIP" device="" technology="OMNI-220C"/>
+<part name="X410" library="MDT_HEATSINK" deviceset="HEATSINK_CLIP" device="" technology="OMNI-220C"/>
 </parts>
 <sheets>
 <sheet>
@@ -6557,7 +6632,7 @@ Max pulse width: 1ms</text>
 <description>Power entry</description>
 <plain>
 <text x="73.66" y="137.16" size="2.54" layer="94" align="center">Mounting holes</text>
-<text x="121.92" y="137.16" size="2.54" layer="94" align="center">Heatsink</text>
+<text x="381" y="180.34" size="2.54" layer="94" align="center">Heatsink</text>
 <text x="91.44" y="195.58" size="2.54" layer="94" align="center">Input protection
 Intended for 48VDC supply
 Should work with 35-50VDC</text>
@@ -6574,6 +6649,7 @@ Supply voltage VB: 48V
 Bias current: 3.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
+<text x="378.46" y="132.08" size="2.54" layer="94" align="center">Thermal pads and heatsink clips</text>
 </plain>
 <instances>
 <instance part="FRAME401" gate="G$1" x="0" y="0"/>
@@ -6637,9 +6713,9 @@ Max pulse width: 1ms</text>
 <instance part="C407" gate="G$1" x="220.98" y="93.98"/>
 <instance part="SUPPLY410" gate="GND" x="220.98" y="124.46" smashed="yes"/>
 <instance part="SUPPLY411" gate="GND" x="220.98" y="88.9" smashed="yes"/>
-<instance part="SUPPLY421" gate="GND" x="119.38" y="99.06" smashed="yes"/>
-<instance part="SUPPLY422" gate="GND" x="124.46" y="99.06" smashed="yes"/>
-<instance part="X402" gate="G$1" x="121.92" y="104.14"/>
+<instance part="SUPPLY421" gate="GND" x="378.46" y="142.24" smashed="yes"/>
+<instance part="SUPPLY422" gate="GND" x="383.54" y="142.24" smashed="yes"/>
+<instance part="X402" gate="G$1" x="381" y="147.32"/>
 <instance part="F401" gate="G$1" x="83.82" y="175.26" smashed="yes">
 <attribute name="NAME" x="83.82" y="180.34" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="PARTNO" x="83.82" y="177.8" size="1.778" layer="97" align="bottom-center"/>
@@ -6680,6 +6756,14 @@ Max pulse width: 1ms</text>
 <instance part="C409" gate="G$1" x="238.76" y="132.08"/>
 <instance part="SUPPLY413" gate="GND" x="238.76" y="124.46" smashed="yes"/>
 <instance part="J401" gate="G$1" x="55.88" y="172.72" rot="MR0"/>
+<instance part="X403" gate="G$1" x="353.06" y="116.84"/>
+<instance part="X404" gate="G$1" x="353.06" y="93.98"/>
+<instance part="X406" gate="G$1" x="388.62" y="93.98"/>
+<instance part="X405" gate="G$1" x="388.62" y="116.84"/>
+<instance part="X408" gate="G$1" x="368.3" y="88.9"/>
+<instance part="X407" gate="G$1" x="368.3" y="111.76"/>
+<instance part="X409" gate="G$1" x="401.32" y="111.76"/>
+<instance part="X410" gate="G$1" x="401.32" y="88.9"/>
 </instances>
 <busses>
 </busses>
