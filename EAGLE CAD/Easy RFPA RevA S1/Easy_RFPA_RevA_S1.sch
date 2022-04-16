@@ -5492,10 +5492,10 @@ Max pulse width: 1ms</text>
 <text x="121.92" y="119.38" size="2.54" layer="94" align="center">Attenuator</text>
 <text x="154.94" y="167.64" size="2.54" layer="94" align="center">Bias T</text>
 <text x="154.94" y="68.58" size="2.54" layer="94" align="center">Bias T</text>
-<text x="193.04" y="218.44" size="2.54" layer="94" align="center">Gate damping</text>
-<text x="193.04" y="119.38" size="2.54" layer="94" align="center">Gate damping</text>
-<text x="238.76" y="218.44" size="2.54" layer="94" align="center">Power FET</text>
-<text x="236.22" y="119.38" size="2.54" layer="94" align="center">Power FET</text>
+<text x="195.58" y="218.44" size="2.54" layer="94" align="center">Gate damping</text>
+<text x="195.58" y="119.38" size="2.54" layer="94" align="center">Gate damping</text>
+<text x="241.3" y="218.44" size="2.54" layer="94" align="center">Power FET</text>
+<text x="238.76" y="119.38" size="2.54" layer="94" align="center">Power FET</text>
 <text x="7.62" y="5.08" size="3.048" layer="94">! Caution !!
 Current design lacks advanced self-protection features!
 User is responsible for limiting unblanking duty cycle and bias voltage/current
