@@ -143,6 +143,32 @@
 <text x="0" y="20.32" size="1.6764" layer="97" ratio="20" align="bottom-center">&gt;PARTNO</text>
 <text x="0" y="18.415" size="1.6764" layer="97" ratio="20" align="bottom-center">&gt;BOM</text>
 </symbol>
+<symbol name="THERMALPAD_TO220">
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="-5.08" y2="3.81" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.905" width="0.254" layer="94"/>
+<text x="-5.08" y="6.35" size="1.6764" layer="95">&gt;NAME</text>
+<text x="-5.08" y="4.445" size="1.6764" layer="111">&gt;PARTNO</text>
+<text x="-5.08" y="-10.795" size="1.6764" layer="108" align="top-left">&gt;BOM</text>
+</symbol>
+<symbol name="THERMALCLIP">
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MISC_HW">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="7.62" size="1.6764" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.715" size="1.6764" layer="108" align="top-left">&gt;BOM</text>
+<text x="-5.08" y="5.715" size="1.6764" layer="111">&gt;PARTNO</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HEATSINK_OMNI_DUAL" prefix="X">
@@ -187,6 +213,54 @@
 <attribute name="DESCRIPTION" value="HEATSINK TO-247 TO-264 TO-220" constant="no"/>
 <attribute name="PARTNO" value="OMNI-UNI-30-75-D"/>
 <attribute name="VENDOR" value="Wakefield-Vette"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="THERMALPAD_TO220" prefix="X">
+<gates>
+<gate name="G$1" symbol="THERMALPAD_TO220" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+</technology>
+<technology name="DC0011/15-TI900-0.12-0">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DESCRIPTION" value="THERM PAD 21.84MMX18.79MM WHITE" constant="no"/>
+<attribute name="MATERIAL" value="Ti900" constant="no"/>
+<attribute name="PARTNO" value="DC0011/15-TI900-0.12-0" constant="no"/>
+<attribute name="VENDOR" value="t-Global Technology" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEATSINK_CLIP" prefix="X">
+<gates>
+<gate name="G$1" symbol="MISC_HW" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+</technology>
+<technology name="OMNI-220C">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="DESCRIPTION" value="UNIVERSAL TO-220 HEATSINK CLIP" constant="no"/>
+<attribute name="PARTNO" value="OMNI-220C" constant="no"/>
+<attribute name="VENDOR" value="Wakefield-Vette" constant="no"/>
 </technology>
 </technologies>
 </device>

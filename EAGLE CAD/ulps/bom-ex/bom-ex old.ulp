@@ -500,6 +500,8 @@ int IsKnownAttribute(string attrname)
 
 int IsKnownDevice(string devname)
 {
+	//dlgMessageBox("devname = " + devname, "OK");
+
     string names = "BOM-ENTRY:BOM-PART:JUMPER:JUMP-A:JUMP-B:JUMP-Q";
     string a[];
     int n = strsplit(a, names, ':');
@@ -540,7 +542,33 @@ void CollectPartData(string var)
         {
             S.parts(P)
             {
-                if ((P.device.package) || IsKnownDevice(P.device.name))
+				int debugon=0;
+				
+				
+				// New code added by MDT
+				// I want any part which has a non-empty PARTNO to be added to the BOM
+				// so here I will search through attributes for PARTNO and check if it's empty
+				int haspartno=0;
+				string partnum_temp;
+				P.attributes(A)
+				{
+					// Get the attribute name and value in upper case
+					string aname_temp  = strupr(A.name);
+					string avalue_temp = strupr(A.value);
+					if ((aname_temp == "PARTNUM") || (aname_temp == "PARTNO") || (aname_temp == "PN") || (aname_temp == "MPN"))
+                        {
+							partnum_temp = TrimWhiteSpace(avalue_temp);
+							if (partnum_temp == "")
+							{
+								haspartno=0;
+							}
+							else
+							{
+								haspartno=1;
+							}
+						}
+				}
+                if ((P.device.package) || IsKnownDevice(P.device.name) || (haspartno==1))
                 {
                     exclude = 0;
                     dnp = 0;
