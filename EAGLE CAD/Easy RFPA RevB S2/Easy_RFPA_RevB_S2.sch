@@ -137,17 +137,19 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 <symbol name="DOCFIELD">
 <wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="74.93" y2="15.24" width="0.1016" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="49.53" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="49.53" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
 <wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
 <wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="74.93" y2="5.08" width="0.1016" layer="94"/>
 <wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="74.93" y1="15.24" x2="74.93" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="74.93" y1="15.24" x2="49.53" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="49.53" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="74.93" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
 <wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
@@ -159,10 +161,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
 <text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
 <text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
+<text x="76.2" y="11.43" size="2.54" layer="94">REV:</text>
 <text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
 <text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="52.07" y="6.35" size="2.54" layer="94">&gt;AUTHOR</text>
+<text x="52.07" y="11.43" size="2.54" layer="94">Author:</text>
+<wire x1="49.53" y1="15.24" x2="49.53" y2="5.08" width="0.1016" layer="94"/>
+<text x="76.2" y="6.35" size="2.54" layer="94">&gt;FABREV</text>
+<text x="1.27" y="6.35" size="2.54" layer="94">&gt;DRAWING_NUMBER</text>
+<text x="2.54" y="27.94" size="2.54" layer="94">&gt;DESCRIPTION</text>
+<text x="87.63" y="6.35" size="2.54" layer="94">&gt;BOMREV</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3915,6 +3924,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="AUTHOR" value="MDT"/>
+<attribute name="BOMREV" value="01"/>
+<attribute name="FABREV" value="B"/>
 </attributes>
 <variantdefs>
 <variantdef name="IRF520N_20W"/>
@@ -6658,6 +6670,7 @@ Bias current: 3.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
 <text x="375.92" y="139.7" size="2.54" layer="94" align="center">Thermal pads and heatsink clips</text>
+<text x="414.02" y="7.62" size="2.54" layer="94">B</text>
 </plain>
 <instances>
 <instance part="FRAME401" gate="G$1" x="0" y="0"/>
