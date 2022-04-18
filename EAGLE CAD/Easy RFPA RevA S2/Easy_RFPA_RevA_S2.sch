@@ -127,61 +127,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="frames">
-<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="FRAME_B_L">
-<frame x1="0" y1="0" x2="431.8" y2="279.4" columns="9" rows="6" layer="94" border-bottom="no"/>
-</symbol>
-<symbol name="DOCFIELD">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
-<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
-<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FRAME_B_L" prefix="FRAME" uservalue="yes">
-<description>&lt;b&gt;FRAME&lt;/b&gt; B Size , 11 x 17 INCH, Landscape&lt;p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FRAME_B_L" x="0" y="0" addlevel="always"/>
-<gate name="G$2" symbol="DOCFIELD" x="325.12" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -3905,6 +3850,69 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="MDT_frames">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="FRAME_B_L">
+<frame x1="0" y1="0" x2="431.8" y2="279.4" columns="9" rows="6" layer="94" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="74.93" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="49.53" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="49.53" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="74.93" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="74.93" y1="15.24" x2="74.93" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="74.93" y1="15.24" x2="49.53" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="49.53" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="74.93" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="76.2" y="11.43" size="2.54" layer="94">REV:</text>
+<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
+<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="52.07" y="6.35" size="2.54" layer="94">&gt;AUTHOR</text>
+<text x="52.07" y="11.43" size="2.54" layer="94">Author:</text>
+<wire x1="49.53" y1="15.24" x2="49.53" y2="5.08" width="0.1016" layer="94"/>
+<text x="76.2" y="6.35" size="2.54" layer="94">&gt;FABREV</text>
+<text x="1.27" y="6.35" size="2.54" layer="94">&gt;DRAWING_NUMBER</text>
+<text x="87.63" y="6.35" size="2.54" layer="94">&gt;BOMREV</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME_B_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt; B Size , 11 x 17 INCH, Landscape&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FRAME_B_L" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="DOCFIELD" x="325.12" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="MDT"/>
@@ -3931,8 +3939,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </classes>
 <parts>
 <part name="Q101" library="MDT_TRANS" deviceset="MOSFET_N" device="TO-220-VERT" technology="IRF630" value="IRF630"/>
-<part name="FRAME301" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="FRAME101" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="U302" library="MDT_IC" deviceset="OPAMP_QUAD" device="SOIC14" technology="TLV274ID" value="OPAMP_QUADTLV274IDSOIC14"/>
 <part name="Q303" library="MDT_TRANS" deviceset="NPN" device="SOT23_BEC" technology="MMBT3904"/>
 <part name="Q302" library="MDT_TRANS" deviceset="PNP" device="SOT23_BEC" value="PNPSOT23_BEC"/>
@@ -3971,7 +3977,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY303" library="supply2" deviceset="GND" device=""/>
 <part name="JP302" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="JP301" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="FRAME401" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="U401" library="MDT_IC" deviceset="LDO_3TERM" device="TO220_VERT" technology="MC78M12CTG" value="LDO_3TERMMC78M12CTGTO220_VERT"/>
 <part name="U402" library="MDT_IC" deviceset="LDO_3TERM" device="TO220_VERT" technology="MC78M05CTG" value="LDO_3TERMMC78M05CTGTO220_VERT"/>
 <part name="P+402" library="supply1" deviceset="+5V" device=""/>
@@ -4489,7 +4494,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="SUPPLY414" library="supply2" deviceset="GND" device=""/>
 <part name="C409" library="MDT_C" deviceset="CPOL" device="E2,5-7" technology="C-22U-63V-20%-6.3DX12.5L-ELEC" value="22uF"/>
 <part name="SUPPLY413" library="supply2" deviceset="GND" device=""/>
-<part name="FRAME201" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="L103" library="MDT_L" deviceset="L" device="" technology="L-3.3U-FERRITE-20%-12.5X12.5MM-10.5A" value="3.3uH">
 <variant name="IRF520N_20W" technology="L-22U-FERRITE-20%-12.5X12.5MM-4A" value="22uH"/>
 <variant name="IRF630_200W"/>
@@ -4507,6 +4511,10 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <part name="X407" library="MDT_HEATSINK" deviceset="HEATSINK_CLIP" device="" technology="OMNI-220C"/>
 <part name="X409" library="MDT_HEATSINK" deviceset="HEATSINK_CLIP" device="" technology="OMNI-220C"/>
 <part name="X410" library="MDT_HEATSINK" deviceset="HEATSINK_CLIP" device="" technology="OMNI-220C"/>
+<part name="FRAME1" library="MDT_frames" deviceset="FRAME_B_L" device=""/>
+<part name="FRAME2" library="MDT_frames" deviceset="FRAME_B_L" device=""/>
+<part name="FRAME3" library="MDT_frames" deviceset="FRAME_B_L" device=""/>
+<part name="FRAME4" library="MDT_frames" deviceset="FRAME_B_L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4566,8 +4574,6 @@ Max pulse width: 1ms</text>
 </plain>
 <instances>
 <instance part="Q101" gate="G$1" x="264.16" y="182.88"/>
-<instance part="FRAME101" gate="G$1" x="0" y="0"/>
-<instance part="FRAME101" gate="G$2" x="325.12" y="0"/>
 <instance part="Q102" gate="G$1" x="264.16" y="83.82"/>
 <instance part="SUPPLY123" gate="GND" x="264.16" y="58.42" smashed="yes"/>
 <instance part="SUPPLY121" gate="GND" x="254" y="58.42" smashed="yes"/>
@@ -4735,6 +4741,8 @@ Max pulse width: 1ms</text>
 </instance>
 <instance part="L103" gate="G$1" x="292.1" y="208.28" rot="R90"/>
 <instance part="L104" gate="G$1" x="294.64" y="109.22" rot="R90"/>
+<instance part="FRAME2" gate="G$1" x="0" y="0"/>
+<instance part="FRAME2" gate="G$2" x="325.12" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -5657,8 +5665,8 @@ Max pulse width: 1ms</text>
 <instance part="SUPPLY225" gate="GND" x="312.42" y="165.1" smashed="yes"/>
 <instance part="TP17" gate="G$1" x="317.5" y="73.66" rot="MR0"/>
 <instance part="SUPPLY226" gate="GND" x="312.42" y="66.04" smashed="yes"/>
-<instance part="FRAME201" gate="G$1" x="0" y="0"/>
-<instance part="FRAME201" gate="G$2" x="325.12" y="0"/>
+<instance part="FRAME3" gate="G$1" x="0" y="0"/>
+<instance part="FRAME3" gate="G$2" x="325.12" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -6155,8 +6163,6 @@ Max pulse width: 1ms</text>
 <text x="327.66" y="27.94" size="3.81" layer="94" align="center-left">Gate bias control</text>
 </plain>
 <instances>
-<instance part="FRAME301" gate="G$1" x="0" y="0"/>
-<instance part="FRAME301" gate="G$2" x="325.12" y="0"/>
 <instance part="U302" gate="A" x="266.7" y="175.26"/>
 <instance part="Q303" gate="G$1" x="309.88" y="185.42"/>
 <instance part="Q302" gate="G$1" x="309.88" y="165.1"/>
@@ -6241,6 +6247,8 @@ Max pulse width: 1ms</text>
 </instance>
 <instance part="R309" gate="G$1" x="152.4" y="101.6"/>
 <instance part="R304" gate="G$1" x="99.06" y="93.98"/>
+<instance part="FRAME4" gate="G$1" x="0" y="0"/>
+<instance part="FRAME4" gate="G$2" x="325.12" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -6660,8 +6668,6 @@ Max pulse width: 1ms</text>
 <text x="327.66" y="27.94" size="3.81" layer="94" align="center-left">Power entry</text>
 </plain>
 <instances>
-<instance part="FRAME401" gate="G$1" x="0" y="0"/>
-<instance part="FRAME401" gate="G$2" x="325.12" y="0"/>
 <instance part="U401" gate="G$1" x="198.12" y="137.16"/>
 <instance part="U402" gate="G$1" x="198.12" y="101.6"/>
 <instance part="P+402" gate="1" x="259.08" y="106.68" smashed="yes">
@@ -6772,6 +6778,8 @@ Max pulse width: 1ms</text>
 <instance part="X407" gate="G$1" x="368.3" y="111.76"/>
 <instance part="X409" gate="G$1" x="401.32" y="111.76"/>
 <instance part="X410" gate="G$1" x="401.32" y="88.9"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="FRAME1" gate="G$2" x="325.12" y="0"/>
 </instances>
 <busses>
 </busses>
