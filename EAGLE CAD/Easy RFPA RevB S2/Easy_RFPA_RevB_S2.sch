@@ -4578,6 +4578,7 @@ Supply voltage VB: 48V
 Bias current: 3.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
+<text x="327.66" y="27.94" size="3.81" layer="94" align="center-left">Push-pull amplifier (1/2)</text>
 </plain>
 <instances>
 <instance part="Q101" gate="G$1" x="264.16" y="182.88"/>
@@ -5561,6 +5562,7 @@ Supply voltage VB: 48V
 Bias current: 3.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
+<text x="327.66" y="27.94" size="3.81" layer="94" align="center-left">Push-pull amplifier (2/2)</text>
 </plain>
 <instances>
 <instance part="Q201" gate="G$1" x="264.16" y="182.88"/>
@@ -6166,6 +6168,7 @@ Supply voltage VB: 48V
 Bias current: 3.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
+<text x="327.66" y="27.94" size="3.81" layer="94" align="center-left">Gate Bias Control</text>
 </plain>
 <instances>
 <instance part="FRAME301" gate="G$1" x="0" y="0"/>
@@ -6671,6 +6674,7 @@ Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
 <text x="375.92" y="139.7" size="2.54" layer="94" align="center">Thermal pads and heatsink clips</text>
 <text x="414.02" y="7.62" size="2.54" layer="94">B</text>
+<text x="327.66" y="27.94" size="3.81" layer="94" align="center-left">Power Entry</text>
 </plain>
 <instances>
 <instance part="FRAME401" gate="G$1" x="0" y="0"/>

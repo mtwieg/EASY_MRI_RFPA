@@ -3907,6 +3907,10 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="AUTHOR" value="MDT"/>
+<attribute name="BOMREV" value="01"/>
+<attribute name="DRAWING_NUMBER" value=" "/>
+<attribute name="FABREV" value="A"/>
 </attributes>
 <variantdefs>
 <variantdef name="IRF520N_20W"/>
@@ -4592,6 +4596,7 @@ Supply voltage VB: 48V
 Bias current: 1.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
+<text x="327.66" y="27.94" size="3.81" layer="94" align="center-left">Push-pull amplifier (1/2)</text>
 </plain>
 <instances>
 <instance part="Q101" gate="G$1" x="264.16" y="182.88"/>
@@ -5575,6 +5580,7 @@ Supply voltage VB: 48V
 Bias current: 1.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
+<text x="327.66" y="27.94" size="3.81" layer="94" align="center-left">Push-pull amplifier (2/2)</text>
 </plain>
 <instances>
 <instance part="Q201" gate="G$1" x="264.16" y="182.88"/>
@@ -6180,6 +6186,7 @@ Supply voltage VB: 48V
 Bias current: 1.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
+<text x="327.66" y="27.94" size="3.81" layer="94" align="center-left">Gate Bias Control</text>
 </plain>
 <instances>
 <instance part="FRAME301" gate="G$1" x="0" y="0"/>
@@ -6684,6 +6691,7 @@ Bias current: 1.1A (in each FET)
 Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
 <text x="375.92" y="137.16" size="2.54" layer="94" align="center">Thermal pads and heatsink clips</text>
+<text x="327.66" y="27.94" size="3.81" layer="94" align="center-left">Power Entry</text>
 </plain>
 <instances>
 <instance part="FRAME401" gate="G$1" x="0" y="0"/>
