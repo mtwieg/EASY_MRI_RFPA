@@ -3926,7 +3926,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="Q101" library="MDT_TRANS" deviceset="MOSFET_N" device="TO-220-VERT" technology="IRF630" value="IRF520N"/>
+<part name="Q101" library="MDT_TRANS" deviceset="MOSFET_N" device="TO-220-VERT" technology="IRF630" value="IRF630"/>
 <part name="FRAME301" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME101" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="U302" library="MDT_IC" deviceset="OPAMP_QUAD" device="SOIC14" technology="TLV274ID" value="OPAMP_QUADTLV274IDSOIC14"/>

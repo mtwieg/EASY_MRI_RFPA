@@ -1030,7 +1030,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="Q101" library="MDT_TRANS" package="TO220BV" value="IRF520N" x="46.355" y="95.25" rot="R270">
+<element name="Q101" library="MDT_TRANS" package="TO220BV" value="IRF630" x="46.355" y="95.25" rot="R270">
 <attribute name="PACKAGE" value="TO-220" x="46.355" y="95.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CURRENT" value="9A" x="46.355" y="95.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="IRF630" x="46.355" y="95.25" size="1.778" layer="27" rot="R270" display="off"/>
