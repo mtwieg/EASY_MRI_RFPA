@@ -1,2 +1,2 @@
 # EASY_MRI_RFPA
- Design and documentation for The Easy RFPA for MRI applications.
+Click the "Wiki" tab above to view the tutorials and other info!
