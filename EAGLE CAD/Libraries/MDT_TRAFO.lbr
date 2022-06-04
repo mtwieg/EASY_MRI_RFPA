@@ -207,6 +207,33 @@
 <wire x1="-0.762" y1="3.81" x2="0.762" y2="3.81" width="0.2032" layer="51"/>
 <wire x1="-0.762" y1="-3.81" x2="0.762" y2="-3.81" width="0.2032" layer="51"/>
 </package>
+<package name="HP1">
+<smd name="1" x="-6" y="5" dx="2" dy="1.4" layer="1"/>
+<smd name="2" x="-6" y="3" dx="2" dy="1.4" layer="1"/>
+<smd name="3" x="-6" y="1" dx="2" dy="1.4" layer="1"/>
+<smd name="4" x="-6" y="-1" dx="2" dy="1.4" layer="1"/>
+<smd name="5" x="-6" y="-3" dx="2" dy="1.4" layer="1"/>
+<smd name="6" x="-6" y="-5" dx="2" dy="1.4" layer="1"/>
+<smd name="7" x="6" y="-5" dx="2" dy="1.4" layer="1"/>
+<smd name="8" x="6" y="-3" dx="2" dy="1.4" layer="1"/>
+<smd name="9" x="6" y="-1" dx="2" dy="1.4" layer="1"/>
+<smd name="10" x="6" y="1" dx="2" dy="1.4" layer="1"/>
+<smd name="11" x="6" y="3" dx="2" dy="1.4" layer="1"/>
+<smd name="12" x="6" y="5" dx="2" dy="1.4" layer="1"/>
+<wire x1="-4.6" y1="6.5" x2="4.6" y2="6.5" width="0.254" layer="21"/>
+<wire x1="4.6" y1="6.5" x2="4.6" y2="-6.5" width="0.254" layer="21"/>
+<wire x1="4.6" y1="-6.5" x2="-4.6" y2="-6.5" width="0.254" layer="21"/>
+<wire x1="-4.6" y1="-6.5" x2="-4.6" y2="6.5" width="0.254" layer="21"/>
+<wire x1="-7.843" y1="7.16" x2="7.843" y2="7.16" width="0.254" layer="39"/>
+<wire x1="7.843" y1="7.16" x2="7.843" y2="-7.16" width="0.254" layer="39"/>
+<wire x1="7.843" y1="-7.16" x2="-7.843" y2="-7.16" width="0.254" layer="39"/>
+<wire x1="-7.843" y1="-7.16" x2="-7.843" y2="7.16" width="0.254" layer="39"/>
+<text x="0" y="7.112" size="1.27" layer="25" font="vector" ratio="16" align="bottom-center">&gt;NAME</text>
+<circle x="-8.636" y="5.08" radius="0.508" width="1.016" layer="21"/>
+<circle x="-8.636" y="5.08" radius="0.508" width="1.016" layer="51"/>
+<text x="-6.096" y="6.604" size="1.27" layer="21" font="vector" ratio="16" align="bottom-center">1</text>
+<text x="-6.096" y="6.604" size="1.27" layer="51" font="vector" ratio="16" align="bottom-center">1</text>
+</package>
 </packages>
 <symbols>
 <symbol name="HEXAPATH_3X2">
@@ -442,6 +469,39 @@
 <attribute name="CURRENT" value="1.88A"/>
 <attribute name="ISAT" value="1A"/>
 <attribute name="PARTNO" value="HP4-0140LB"/>
+<attribute name="RATIO" value="1:1:1:1:1:1"/>
+<attribute name="VENDOR" value="COILCRAFT"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HP1_TRAFO" prefix="T">
+<gates>
+<gate name="G$1" symbol="HEXAPATH_3X2" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="HP1">
+<connects>
+<connect gate="G$1" pin="F1" pad="12"/>
+<connect gate="G$1" pin="F2" pad="11"/>
+<connect gate="G$1" pin="F3" pad="10"/>
+<connect gate="G$1" pin="F4" pad="9"/>
+<connect gate="G$1" pin="F5" pad="8"/>
+<connect gate="G$1" pin="F6" pad="7"/>
+<connect gate="G$1" pin="S1" pad="1"/>
+<connect gate="G$1" pin="S2" pad="2"/>
+<connect gate="G$1" pin="S3" pad="3"/>
+<connect gate="G$1" pin="S4" pad="4"/>
+<connect gate="G$1" pin="S5" pad="5"/>
+<connect gate="G$1" pin="S6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="CURRENT" value="0.74"/>
+<attribute name="ISAT" value="NOGAP"/>
+<attribute name="PARTNO" value="HP1-1400LB"/>
 <attribute name="RATIO" value="1:1:1:1:1:1"/>
 <attribute name="VENDOR" value="COILCRAFT"/>
 </technology>

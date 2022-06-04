@@ -1,0 +1,240 @@
+
+**** 05/27/21 16:35:15 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Downloads\LM7171\lm7171-pspicefiles\schematic1\transientanalysis.sim
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TransientAnalysis.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../LM7171.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ns 0 0.1e-9 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 N([VOUT])
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LM7171
+V_V4         VIN VREF  AC 1
++SIN 0 1 50e6 0 0 0
+R_R4         VOUT VREF  1000 TC=0,0 
+R_R1         N03682 VOUT  1000 TC=0,0 
+V_V1         VCC 0 15Vdc
+V_V2         VREF 0 0Vdc
+R_R2         VREF N03682  1000 TC=0,0 
+V_V3         VEE 0 -15Vdc
+X_U1         VIN N03682 VCC VEE VOUT LM7171
+
+**** RESUMING TransientAnalysis.cir ****
+.END
+
+**** 05/27/21 16:35:15 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Downloads\LM7171\lm7171-pspicefiles\schematic1\transientanalysis.sim
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DMOD1      X_U1.DMOD2      
+          IS   10.000000E-15   10.000000E-18 
+
+
+**** 05/27/21 16:35:15 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Downloads\LM7171\lm7171-pspicefiles\schematic1\transientanalysis.sim
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.NPN1       X_U1.PNP1       
+               NPN             PNP             
+       LEVEL    1               1            
+          IS    1.000000E-15    1.000000E-15 
+          BF  100             100            
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+         ISS    0               0            
+          RE    0               0            
+          RC    0               0            
+         CJE    0               0            
+         VJE     .75             .75         
+         CJC    0               0            
+         VJC     .75             .75         
+         MJC     .33             .33         
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 05/27/21 16:35:15 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Downloads\LM7171\lm7171-pspicefiles\schematic1\transientanalysis.sim
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.MRAX       X_U1.MRIB       X_U1.MRISC      
+           R    1               1               1            
+         TC1  -70.000000E-06    4.520560E-03   -1.500000E-03 
+
+
+**** 05/27/21 16:35:15 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Downloads\LM7171\lm7171-pspicefiles\schematic1\transientanalysis.sim
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)   15.0000  (  VEE)  -15.0000  (  VIN)    0.0000  ( VOUT)     .0048      
+
+( VREF)    0.0000  (N03682) 939.0E-06 (X_U1.10)    0.0000                       
+
+(X_U1.11)    -.0025                   (X_U1.17)    0.0000                       
+
+(X_U1.18)    -.0020                   (X_U1.19)    -.0031                       
+
+(X_U1.21)   -1.2500                   (X_U1.22)   28.7500                       
+
+(X_U1.23)   28.7500                   (X_U1.24)    1.6551                       
+
+(X_U1.25)    1.0000                   (X_U1.26)    1.0000                       
+
+(X_U1.27)     .8337                   (X_U1.28)     .6836                       
+
+(X_U1.29)    0.0000                   (X_U1.31)    4.0000                       
+
+(X_U1.32)    3.0000                   (X_U1.33)    2.0000                       
+
+(X_U1.34)    1.0000                   (X_U1.38)    -.0025                       
+
+(X_U1.39)    -.0025                   (X_U1.40)   15.0000                       
+
+(X_U1.41)    -.0025                   (X_U1.42)   15.0000                       
+
+(X_U1.43)    0.0000                   (X_U1.44)    0.0000                       
+
+(X_U1.45)    0.0000                   (X_U1.50)  -15.0000                       
+
+(X_U1.51)   99.3000                   (X_U1.52)  -95.8520                       
+
+(X_U1.57) 2.676E-06                   (X_U1.58)-71.58E-09                       
+
+(X_U1.59) 715.8E-06                   (X_U1.71) 785.6E-06                       
+
+(X_U1.72)    -.7818                   (X_U1.73)     .7918                       
+
+(X_U1.74)   13.6000                   (X_U1.75)  -13.4000                       
+
+(X_U1.76)   15.0000                   (X_U1.77)  -15.0000                       
+
+(X_U1.78)     .0158                   (X_U1.79)    -.0059                       
+
+(X_U1.81)     .0050                   (X_U1.86)     .0048                       
+
+(X_U1.91)    0.0000                   (X_U1.92)    0.0000                       
+
+(X_U1.93)     .5325                   (X_U1.94)    -.0025                       
+
+(X_U1.95)  -13.3000                   (X_U1.96)    -.0025                       
+
+(X_U1.97)   13.3000                   (X_U1.98)    -.0025                       
+
+(X_U1.99)    -.0025                   (X_U1.120)    2.0000                      
+
+(X_U1.121)    1.0000                  (X_U1.122)    1.0009                      
+
+(X_U1.710)     .1301                  (X_U1.720)    -.6595                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V4        -3.064E-06
+    V_V1        -6.509E-03
+    V_V2         2.717E-06
+    V_V3         6.506E-03
+    X_U1.VOFF   -2.710E-11
+    X_U1.VSENS1   1.000E-03
+    X_U1.VTEMP   3.014E-06
+    X_U1.VCMX   -2.474E-09
+    X_U1.VPSX    0.000E+00
+    X_U1.VCXX    4.948E-15
+    X_U1.VOOP    1.072E-02
+    X_U1.VOON    1.072E-02
+    X_U1.VOX     8.745E-06
+    X_U1.VFX1    8.745E-06
+    X_U1.VFX2   -5.425E-13
+
+    TOTAL POWER DISSIPATION   1.95E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/27/21 16:35:15 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Downloads\LM7171\lm7171-pspicefiles\schematic1\transientanalysis.sim
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =       11.95
+  Total job time (using Solver 1)   =        1.53
+

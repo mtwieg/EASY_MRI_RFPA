@@ -1,0 +1,20 @@
+Version 4
+SymbolType CELL
+LINE Normal -80 -16 -64 -16
+LINE Normal 80 -16 64 -16
+LINE Normal 0 48 0 32
+RECTANGLE Normal 64 32 -65 -64
+WINDOW 0 -52 -74 Left 1
+WINDOW 39 0 -49 Center 0
+WINDOW 40 0 -35 Center 0
+SYMATTR SpiceLine Rin=50 Rout=50
+SYMATTR SpiceLine2 dB=10
+PIN -80 -16 LEFT 20
+PINATTR PinName IN
+PINATTR SpiceOrder 1
+PIN 80 -16 RIGHT 20
+PINATTR PinName OUT
+PINATTR SpiceOrder 2
+PIN 0 48 BOTTOM 20
+PINATTR PinName REF
+PINATTR SpiceOrder 3

@@ -1,0 +1,72 @@
+(ExpressProject "LM7171"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2020 S006-[05/27/21]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library\lm7171.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "61215")
+    (NoModify)
+    (File ".\lm7171.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\lm7171-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\lm7171-pspicefiles\schematic1\transientanalysis.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lm7171-pspicefiles\schematic1\transientanalysis.sim"
+        (DisplayName "SCHEMATIC1-TransientAnalysis")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\lm7171.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\LM7171.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (LM7171
+      (FullPartName "LM7171.Normal")
+      (LibraryName "C:\USERS\A0232073\DOWNLOADS\LM7171\LM7171.OLB")
+      (DeviceIndex "0"))
+    (LM7171A/NS
+      (FullPartName "LM7171A/NS.Normal")
+      (LibraryName "C:\USERS\A0232073\DOWNLOADS\LM7171\LM7171.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "a0232073")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\lm7171.dsn")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 875"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 987 24 893")
+        (Scroll "0 -8")
+        (Zoom "114")
+        (Occurrence "/"))
+      (Path "C:\USERS\A0232073\DOWNLOADS\LM7171\LM7171.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

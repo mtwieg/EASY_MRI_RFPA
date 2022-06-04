@@ -7,3 +7,4 @@
 .lib /Models and subcircuits/irf530n_fairchild.sub
 .lib /Models and subcircuits/irf520n.sub
 .lib /Models and subcircuits/irf520.sub
+.lib /Models and subcircuits/irf510_IRF.sub

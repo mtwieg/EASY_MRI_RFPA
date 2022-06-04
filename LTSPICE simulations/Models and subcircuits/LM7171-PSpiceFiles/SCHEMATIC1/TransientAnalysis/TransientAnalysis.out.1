@@ -1,0 +1,188 @@
+
+**** 05/27/21 16:35:09 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Downloads\LM7171\lm7171-pspicefiles\schematic1\transientanalysis.sim
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TransientAnalysis.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../LM7171.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ns 0 0.1e-9 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LM7171
+V_V4         VIN VREF  AC 1
++SIN 0 1 50e6 0 0 0
+R_R4         VOUT VREF  1000 TC=0,0 
+R_R1         N03682 VOUT  1000 TC=0,0 
+V_V1         VCC 0 15Vdc
+V_V2         VREF 0 0Vdc
+R_R2         VREF N03682  1000 TC=0,0 
+V_V3         VEE 0 -15Vdc
+X_U1         VIN N03682 VCC VEE VOUT LM7171
+
+**** RESUMING TransientAnalysis.cir ****
+.END
+
+**** 05/27/21 16:35:09 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Downloads\LM7171\lm7171-pspicefiles\schematic1\transientanalysis.sim
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DMOD1      X_U1.DMOD2      
+          IS   10.000000E-15   10.000000E-18 
+
+
+**** 05/27/21 16:35:09 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Downloads\LM7171\lm7171-pspicefiles\schematic1\transientanalysis.sim
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.NPN1       X_U1.PNP1       
+               NPN             PNP             
+       LEVEL    1               1            
+          IS    1.000000E-15    1.000000E-15 
+          BF  100             100            
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+         ISS    0               0            
+          RE    0               0            
+          RC    0               0            
+         CJE    0               0            
+         VJE     .75             .75         
+         CJC    0               0            
+         VJC     .75             .75         
+         MJC     .33             .33         
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 05/27/21 16:35:09 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Downloads\LM7171\lm7171-pspicefiles\schematic1\transientanalysis.sim
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.MRAX       X_U1.MRIB       X_U1.MRISC      
+           R    1               1               1            
+         TC1  -70.000000E-06    4.520560E-03   -1.500000E-03 
+
+
+ERROR(ORPSIM-16583): Detected an imported model containing transistors or diodes. For such models, PSpice for TI supports a minimum of one and maximum of three traces. Reduce the number of traces and simulate again.
+
+
+ABORTING SIMULATION
+**** 05/27/21 16:35:09 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Downloads\LM7171\lm7171-pspicefiles\schematic1\transientanalysis.sim
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           7
+  External (NCNODS)                 =          64
+  Total (NUMNOD)                    =          64
+
+Total device count (NUMEL)          =         117
+  Capacitors (C)                    =           8
+  Diodes (D)                        =          20
+  VCVS (E)                          =          15
+  CCCS (F)                          =          10
+  VCCS (G)                          =           8
+  Current Sources (I)               =           1
+  BJTs (Q)                          =           2
+  Resistors (R)                     =          38
+  Voltage Sources (V)               =          15
+
+Number of subcircuits (X)           =           1
+
+Matrix statistics:
+  Matrix size (NSTOP)               =          94
+  Initial no. elements (NTTAR)      =         376
+  No. elements w/ fillin (NTTBR)    =         376
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      95.745
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =        1.97
+  General setup                     =        0.00
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .23
+  License check-out time            =        9.94
+  Total job time (using Solver 1)   =        1.99
+
