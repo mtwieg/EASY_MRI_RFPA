@@ -234,6 +234,10 @@
 <text x="-4.7898" y="-5.9182" size="1.27" layer="25" font="vector" ratio="17" rot="R180" align="bottom-right">&gt;NAME</text>
 <text x="-4.532" y="0.635" size="1.27" layer="21" font="vector" ratio="17">1</text>
 <text x="0.421" y="0.635" size="1.27" layer="21" font="vector" ratio="17">2</text>
+<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.254" layer="40"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="-5.08" width="0.254" layer="40"/>
+<wire x1="6.35" y1="-5.08" x2="-6.35" y2="-5.08" width="0.254" layer="40"/>
+<wire x1="-6.35" y1="-5.08" x2="-6.35" y2="2.54" width="0.254" layer="40"/>
 </package>
 </packages>
 <symbols>
