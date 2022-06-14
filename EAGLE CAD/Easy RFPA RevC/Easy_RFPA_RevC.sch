@@ -4847,64 +4847,6 @@ Source: amp_227161.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="inductors">
-<description>&lt;b&gt;Inductors and Filters&lt;/b&gt;&lt;p&gt;
-Based on the previous library ind-a.lbr&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DR74">
-<description>&lt;b&gt;High Power Density, High Efficiency, Shielded Inductors&lt;/b&gt;&lt;p&gt;
-Source: coiltronics_dr_series.pdf</description>
-<wire x1="-3.7" y1="3.7" x2="3.7" y2="3.7" width="0.2032" layer="21"/>
-<wire x1="3.7" y1="3.7" x2="3.7" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="3.7" y1="-3.7" x2="-3.7" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="-3.7" y1="-3.7" x2="-3.7" y2="3.7" width="0.2032" layer="21"/>
-<wire x1="0" y1="2.975" x2="-2.4" y2="1.75" width="0.2032" layer="21" curve="53.855356"/>
-<wire x1="0" y1="2.975" x2="2.4" y2="1.75" width="0.2032" layer="21" curve="-53.855356"/>
-<wire x1="0" y1="-2.975" x2="2.4" y2="-1.75" width="0.2032" layer="21" curve="53.855356"/>
-<wire x1="0" y1="-2.975" x2="-2.4" y2="-1.75" width="0.2032" layer="21" curve="-53.855356"/>
-<circle x="0" y="0" radius="2.975" width="0.2032" layer="51"/>
-<smd name="1" x="-3" y="0" dx="2.5" dy="3.25" layer="1"/>
-<smd name="2" x="3" y="0" dx="2.5" dy="3.25" layer="1"/>
-<text x="-3.5" y="4" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.5" y="-5.5" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.8215" y1="1.984" x2="-1.7215" y2="2.559" layer="21" rot="R45"/>
-<rectangle x1="-2.8215" y1="-2.559" x2="-1.7215" y2="-1.984" layer="21" rot="R135"/>
-<rectangle x1="1.7215" y1="-2.559" x2="2.8215" y2="-1.984" layer="21" rot="R225"/>
-<rectangle x1="1.7215" y1="1.984" x2="2.8215" y2="2.559" layer="21" rot="R315"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DRK">
-<wire x1="-3.81" y1="1.651" x2="3.81" y2="1.651" width="0.254" layer="94"/>
-<text x="-3.81" y="2.286" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.937" y="-3.048" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-3.81" y1="-0.889" x2="3.81" y2="0.889" layer="94"/>
-<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DR74" prefix="L">
-<description>&lt;b&gt;High Power Density, High Efficiency, Shielded Inductors&lt;/b&gt;&lt;p&gt;
-Source: coiltronics_dr_series.pdf</description>
-<gates>
-<gate name="G$1" symbol="DRK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DR74">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="MDT"/>
@@ -5658,7 +5600,6 @@ Source: coiltronics_dr_series.pdf</description>
 <part name="IC5" library="74xx-little-us" deviceset="74*1G00" device="DBV" technology="AHC"/>
 <part name="X1" library="con-coax" deviceset="?227161*" device="1-" technology="-0"/>
 <part name="X2" library="con-coax" deviceset="?227161*" device="1-" technology="-0"/>
-<part name="X3" library="con-coax" deviceset="?227161*" device="1-" technology="-0"/>
 <part name="X4" library="con-coax" deviceset="?227161*" device="1-" technology="-0"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
@@ -5739,11 +5680,12 @@ Source: coiltronics_dr_series.pdf</description>
 <variant name="IRF520N_20W" technology="L-22U-FERRITE-20%-12.5X12.5MM-4A" value="22uH"/>
 <variant name="IRF630_200W"/>
 </part>
-<part name="L3" library="inductors" deviceset="DR74" device=""/>
 <part name="C8" library="MDT_C" deviceset="C" device="C1206" technology="C-22N-250V-5%-1206-NP0" value="22nF">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="D5" library="MDT_Diode" deviceset="D-ZENER" device="DO15-12" technology="1N5355B-TP" value="D-ZENER1N5355B-TPDO15-12"/>
+<part name="X3" library="MDT_HEATSINK" deviceset="THERMALPAD_TO220" device="" technology="DC0011/15-TI900-0.12-0"/>
+<part name="X5" library="MDT_HEATSINK" deviceset="HEATSINK_CLIP" device="" technology="OMNI-220C"/>
 </parts>
 <sheets>
 <sheet>
@@ -7348,7 +7290,6 @@ Max pulse width: 1ms</text>
 <instance part="U1" gate="B" x="198.12" y="119.38"/>
 <instance part="U1" gate="C" x="111.76" y="83.82"/>
 <instance part="U1" gate="P" x="200.66" y="76.2"/>
-<instance part="X3" gate="G$1" x="66.04" y="246.38"/>
 <instance part="SUPPLY42" gate="GND" x="93.98" y="78.74" smashed="yes"/>
 <instance part="R44" gate="G$1" x="317.5" y="182.88"/>
 <instance part="R45" gate="G$1" x="317.5" y="172.72"/>
@@ -7655,36 +7596,19 @@ Max pulse width: 1ms</text>
 <net name="N$20" class="0">
 <segment>
 <wire x1="93.98" y1="233.68" x2="88.9" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="233.68" x2="73.66" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="223.52" x2="73.66" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="223.52" x2="73.66" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="JP301" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="223.52" x2="88.9" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="223.52" x2="88.9" y2="233.68" width="0.1524" layer="91"/>
-<junction x="88.9" y="233.68"/>
 <pinref part="R302" gate="G$1" pin="1"/>
-<pinref part="X3" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="246.38" x2="73.66" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="246.38" x2="73.66" y2="233.68" width="0.1524" layer="91"/>
-<junction x="73.66" y="233.68"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <wire x1="93.98" y1="213.36" x2="88.9" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="JP301" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="213.36" x2="73.66" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="213.36" x2="73.66" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="220.98" x2="71.12" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="220.98" x2="68.58" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="220.98" x2="88.9" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="220.98" x2="88.9" y2="213.36" width="0.1524" layer="91"/>
-<junction x="88.9" y="213.36"/>
 <pinref part="R303" gate="G$1" pin="1"/>
-<pinref part="X3" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="243.84" x2="71.12" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="243.84" x2="71.12" y2="220.98" width="0.1524" layer="91"/>
-<junction x="71.12" y="220.98"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -8152,8 +8076,9 @@ Max pulse width: 1ms</text>
 <instance part="X410" gate="G$1" x="398.78" y="96.52"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="325.12" y="0"/>
-<instance part="L3" gate="G$1" x="167.64" y="81.28"/>
 <instance part="D5" gate="G$1" x="144.78" y="160.02" rot="R90"/>
+<instance part="X3" gate="G$1" x="350.52" y="78.74"/>
+<instance part="X5" gate="G$1" x="365.76" y="73.66"/>
 </instances>
 <busses>
 </busses>
