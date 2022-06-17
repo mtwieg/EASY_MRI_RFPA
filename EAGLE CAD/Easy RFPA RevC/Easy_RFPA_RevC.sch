@@ -6514,10 +6514,12 @@ Max pulse width: 1ms</text>
 <label x="355.6" y="218.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="152.4" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="S6"/>
-<wire x1="63.5" y1="152.4" x2="48.26" y2="152.4" width="0.1524" layer="91"/>
 <label x="48.26" y="152.4" size="1.778" layer="95"/>
+<pinref part="T1" gate="G$1" pin="F3"/>
+<wire x1="53.34" y1="152.4" x2="48.26" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="114.3" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="152.4" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="T1_P3" class="0">
@@ -6552,14 +6554,6 @@ Max pulse width: 1ms</text>
 <label x="30.48" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="S1_DN" class="1">
-<segment>
-<pinref part="T1" gate="G$1" pin="F3"/>
-<wire x1="78.74" y1="114.3" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="T1_P2" class="3">
 <segment>
 <wire x1="68.58" y1="114.3" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
@@ -6569,6 +6563,18 @@ Max pulse width: 1ms</text>
 <wire x1="73.66" y1="144.78" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="S4"/>
 <pinref part="T1" gate="G$1" pin="F5"/>
+</segment>
+</net>
+<net name="N$49" class="3">
+<segment>
+<wire x1="63.5" y1="152.4" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="S6"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="149.86" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="96.52" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="149.86" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
+<junction x="63.5" y="149.86"/>
 </segment>
 </net>
 </nets>
