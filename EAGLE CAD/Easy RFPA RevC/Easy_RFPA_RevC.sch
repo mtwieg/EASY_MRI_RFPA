@@ -3286,10 +3286,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-2.437" y1="1.905" x2="-2.437" y2="-1.905" width="0.2032" layer="51"/>
 <text x="7.112" y="-1.27" size="1.016" layer="51" font="vector" ratio="20" align="center-left">K</text>
 <text x="7.112" y="1.27" size="1.016" layer="51" font="vector" ratio="20" align="center-left">A</text>
-<wire x1="1.6764" y1="5.08" x2="9.2964" y2="5.08" width="0.127" layer="42"/>
-<wire x1="9.2964" y1="5.08" x2="9.2964" y2="-5.08" width="0.127" layer="42"/>
-<wire x1="9.2964" y1="-5.08" x2="1.6764" y2="-5.08" width="0.127" layer="42"/>
-<wire x1="1.6764" y1="-5.08" x2="1.6764" y2="5.08" width="0.127" layer="42"/>
+<wire x1="1.6764" y1="5.08" x2="9.2964" y2="5.08" width="0.254" layer="40"/>
+<wire x1="9.2964" y1="5.08" x2="9.2964" y2="-5.08" width="0.254" layer="40"/>
+<wire x1="9.2964" y1="-5.08" x2="1.6764" y2="-5.08" width="0.254" layer="40"/>
+<wire x1="1.6764" y1="-5.08" x2="1.6764" y2="5.08" width="0.254" layer="40"/>
 </package>
 </packages>
 <symbols>
@@ -5683,6 +5683,8 @@ Source: amp_227161.pdf</description>
 <part name="X3" library="MDT_HEATSINK" deviceset="THERMALPAD_TO220" device="" technology="DC0011/15-TI900-0.12-0"/>
 <part name="X5" library="MDT_HEATSINK" deviceset="HEATSINK_CLIP" device="" technology="OMNI-220C"/>
 <part name="L1" library="MDT_L" deviceset="L" device="DR74"/>
+<part name="TP14" library="MDT_CON" deviceset="PROBE_TP" device="TP_5MM"/>
+<part name="SUPPLY51" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6118,7 +6120,7 @@ Max pulse width: 1ms</text>
 <junction x="368.3" y="149.86"/>
 </segment>
 </net>
-<net name="VB_CT" class="2">
+<net name="VB_CT" class="0">
 <segment>
 <wire x1="350.52" y1="144.78" x2="350.52" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="149.86" x2="347.98" y2="149.86" width="0.1524" layer="91"/>
@@ -6486,7 +6488,7 @@ Max pulse width: 1ms</text>
 <pinref part="T102" gate="G$1" pin="F3"/>
 </segment>
 </net>
-<net name="VB" class="3">
+<net name="VB" class="0">
 <segment>
 <wire x1="307.34" y1="218.44" x2="302.26" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="218.44" x2="292.1" y2="218.44" width="0.1524" layer="91"/>
@@ -6547,14 +6549,14 @@ Max pulse width: 1ms</text>
 <pinref part="T1" gate="G$1" pin="F1"/>
 </segment>
 </net>
-<net name="S2_DP" class="2">
+<net name="S2_DP" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="96.52" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
 <label x="30.48" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="T1_P2" class="3">
+<net name="T1_P2" class="0">
 <segment>
 <wire x1="68.58" y1="114.3" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="109.22" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
@@ -6565,7 +6567,7 @@ Max pulse width: 1ms</text>
 <pinref part="T1" gate="G$1" pin="F5"/>
 </segment>
 </net>
-<net name="N$49" class="3">
+<net name="N$49" class="0">
 <segment>
 <wire x1="63.5" y1="152.4" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="S6"/>
@@ -8314,7 +8316,7 @@ Max pulse width: 1ms</text>
 <junction x="144.78" y="175.26"/>
 </segment>
 </net>
-<net name="N$47" class="2">
+<net name="N$47" class="0">
 <segment>
 <wire x1="203.2" y1="175.26" x2="210.82" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="175.26" x2="215.9" y2="175.26" width="0.1524" layer="91"/>
@@ -8334,7 +8336,7 @@ Max pulse width: 1ms</text>
 <junction x="215.9" y="190.5"/>
 </segment>
 </net>
-<net name="VB" class="3">
+<net name="VB" class="0">
 <segment>
 <wire x1="231.14" y1="190.5" x2="236.22" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="190.5" x2="236.22" y2="175.26" width="0.1524" layer="91"/>
@@ -8765,7 +8767,7 @@ Po into 50ohm load is +23.9dBm
 <pinref part="TP21" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="S2_DP" class="2">
+<net name="S2_DP" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="114.3" x2="279.4" y2="114.3" width="0.1524" layer="91"/>
@@ -8987,7 +8989,7 @@ Po into 50ohm load is +23.9dBm
 <pinref part="R32" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="VB" class="3">
+<net name="VB" class="0">
 <segment>
 <wire x1="284.48" y1="132.08" x2="284.48" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="134.62" x2="292.1" y2="134.62" width="0.1524" layer="91"/>
@@ -9122,6 +9124,8 @@ TTL logic</text>
 <instance part="SUPPLY25" gate="GND" x="424.18" y="106.68" smashed="yes"/>
 <instance part="SUPPLY49" gate="GND" x="406.4" y="45.72" smashed="yes"/>
 <instance part="SUPPLY50" gate="GND" x="421.64" y="45.72" smashed="yes"/>
+<instance part="TP14" gate="G$1" x="563.88" y="129.54" rot="MR0"/>
+<instance part="SUPPLY51" gate="GND" x="556.26" y="121.92" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -9263,6 +9267,12 @@ TTL logic</text>
 <pinref part="SUPPLY50" gate="GND" pin="GND"/>
 <wire x1="419.1" y1="50.8" x2="421.64" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="421.64" y1="50.8" x2="421.64" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TP14" gate="G$1" pin="GND1"/>
+<wire x1="561.34" y1="127" x2="556.26" y2="127" width="0.1524" layer="91"/>
+<wire x1="556.26" y1="127" x2="556.26" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="SUPPLY51" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9604,9 +9614,14 @@ TTL logic</text>
 </net>
 <net name="!BLANK_GATED" class="0">
 <segment>
-<wire x1="551.18" y1="142.24" x2="568.96" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="551.18" y1="142.24" x2="556.26" y2="142.24" width="0.1524" layer="91"/>
 <label x="553.72" y="142.24" size="1.778" layer="95"/>
 <pinref part="IC5" gate="A" pin="O"/>
+<pinref part="TP14" gate="G$1" pin="1"/>
+<wire x1="556.26" y1="142.24" x2="568.96" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="129.54" x2="556.26" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="556.26" y1="129.54" x2="556.26" y2="142.24" width="0.1524" layer="91"/>
+<junction x="556.26" y="142.24"/>
 </segment>
 </net>
 <net name="N$27" class="0">
