@@ -5689,6 +5689,11 @@ Source: amp_227161.pdf</description>
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="R54" library="MDT_R" deviceset="R90" device="1206_IPC" technology="GEN" value="0"/>
+<part name="C29" library="MDT_C" deviceset="C" device="C1812" technology="GEN" value="DNP">
+<attribute name="BOM" value="EXCLUDE"/>
+<attribute name="VOLTAGE" value="100V"/>
+</part>
+<part name="SUPPLY52" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7972,6 +7977,21 @@ Max duty cycle: 3.5% (500us, 70Hz rep rate, passive convection)
 Max pulse width: 1ms</text>
 <text x="375.92" y="139.7" size="2.54" layer="94" align="center">Thermal pads and heatsink clips</text>
 <text x="327.66" y="27.94" size="3.81" layer="94" align="center-left">Power Entry</text>
+<text x="152.4" y="208.28" size="1.778" layer="91">One stage LC filter
+First stage is L1 and C1
+Damping is with R and C2 in parallel with C1
+C2=4*C1
+f0=1/(w*pi*sqrt(L1*C1))
+Z0=R=sqrt(L1/C1))
+
+Two stage LC filter
+First stage is L1 and C1
+Second stage is L2 and C2
+Where L2=6*L1 and C2=4*C1
+And L2 is shunted by R=sqrt(L1/(4C1))=sqrt(L1/C2)
+f0=1/(w*pi*sqrt(6*L1*C1))=1/(w*pi*sqrt(L2*C1))
+Z0=sqrt(L1/C1)
+</text>
 </plain>
 <instances>
 <instance part="U401" gate="G$1" x="198.12" y="137.16"/>
@@ -8561,6 +8581,8 @@ Po into 50ohm load is +23.9dBm
 </instance>
 <instance part="C8" gate="G$1" x="292.1" y="124.46"/>
 <instance part="L1" gate="G$1" x="284.48" y="124.46" rot="R90"/>
+<instance part="C29" gate="G$1" x="304.8" y="127"/>
+<instance part="SUPPLY52" gate="GND" x="304.8" y="121.92" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -8658,6 +8680,10 @@ Po into 50ohm load is +23.9dBm
 <wire x1="325.12" y1="152.4" x2="325.12" y2="149.86" width="0.1524" layer="91"/>
 <junction x="325.12" y="152.4"/>
 <pinref part="SUPPLY45" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C29" gate="G$1" pin="2"/>
+<pinref part="SUPPLY52" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -8997,10 +9023,14 @@ Po into 50ohm load is +23.9dBm
 <wire x1="284.48" y1="134.62" x2="292.1" y2="134.62" width="0.1524" layer="91"/>
 <label x="299.72" y="134.62" size="2.54" layer="95"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="134.62" x2="304.8" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="127" x2="292.1" y2="134.62" width="0.1524" layer="91"/>
 <junction x="292.1" y="134.62"/>
 <pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="292.1" y1="134.62" x2="304.8" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="134.62" x2="317.5" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="129.54" x2="304.8" y2="134.62" width="0.1524" layer="91"/>
+<junction x="304.8" y="134.62"/>
 </segment>
 </net>
 </nets>
