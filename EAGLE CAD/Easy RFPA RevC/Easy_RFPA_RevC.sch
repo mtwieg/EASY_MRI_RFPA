@@ -3793,6 +3793,46 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <text x="1.27" y="-2.54" size="1.778" layer="97">&gt;PACKAGE</text>
 <text x="1.27" y="-5.08" size="1.778" layer="97">&gt;BOM</text>
 </symbol>
+<symbol name="NPN_DARLINGTON">
+<wire x1="2.54" y1="2.54" x2="-0.508" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.116" y1="-1.424" x2="-0.254" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="-2.54" x2="-0.254" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.624" y1="-2.186" x2="-1.116" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-2.54" x2="-1.624" y2="-2.186" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="2.54" x2="-2.032" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.143" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="1.424" y2="-4.699" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-4.064" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="1.424" y1="-4.699" x2="2.032" y2="-4.064" width="0.1524" layer="94"/>
+<wire x1="-1.354" y1="-1.84" x2="-2.332" y2="-1.197" width="0.1524" layer="94"/>
+<wire x1="1.74" y1="-4.38" x2="0.943" y2="-3.61" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="-2.413" x2="-1.143" y2="-1.524" width="0.127" layer="94"/>
+<wire x1="-1.143" y1="-1.524" x2="-1.524" y2="-2.159" width="0.127" layer="94"/>
+<wire x1="-1.524" y1="-2.159" x2="-0.508" y2="-2.413" width="0.127" layer="94"/>
+<wire x1="-0.508" y1="-2.413" x2="-1.143" y2="-1.651" width="0.127" layer="94"/>
+<wire x1="-1.143" y1="-1.651" x2="-1.397" y2="-2.032" width="0.127" layer="94"/>
+<wire x1="-1.397" y1="-2.032" x2="-0.635" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-2.286" x2="-1.143" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.143" y1="-1.778" x2="-1.143" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="2.413" y1="-4.953" x2="2.032" y2="-4.191" width="0.127" layer="94"/>
+<wire x1="2.032" y1="-4.191" x2="1.524" y2="-4.699" width="0.127" layer="94"/>
+<wire x1="1.524" y1="-4.699" x2="2.286" y2="-4.953" width="0.127" layer="94"/>
+<wire x1="2.286" y1="-4.953" x2="2.032" y2="-4.318" width="0.127" layer="94"/>
+<wire x1="2.032" y1="-4.318" x2="1.651" y2="-4.699" width="0.254" layer="94"/>
+<wire x1="1.651" y1="-4.699" x2="2.159" y2="-4.826" width="0.254" layer="94"/>
+<wire x1="2.159" y1="-4.826" x2="2.032" y2="-4.572" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-4.572" x2="1.905" y2="-4.572" width="0.254" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.381" width="0" layer="94"/>
+<text x="4.064" y="0" size="1.6764" layer="95">&gt;NAME</text>
+<rectangle x1="-2.794" y1="-2.54" x2="-2.032" y2="2.54" layer="94"/>
+<rectangle x1="0.381" y1="-5.08" x2="1.143" y2="0" layer="94"/>
+<pin name="B" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="E" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="C" x="2.54" y="2.54" visible="pad" length="short" direction="pas" rot="R270"/>
+<text x="4.064" y="-2.032" size="1.6764" layer="111">&gt;PARTNO</text>
+<text x="4.064" y="-4.064" size="1.6764" layer="109">&gt;VOLTAGE</text>
+<text x="4.064" y="-6.096" size="1.6764" layer="108">&gt;BOM</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MOSFET_N" prefix="Q">
@@ -3956,6 +3996,42 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <attribute name="PARTNO" value="PMBT3906,215"/>
 <attribute name="VENDOR" value="Nexperia"/>
 <attribute name="VOLTAGE" value="40V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NPN_DARGLINGTON" prefix="Q">
+<gates>
+<gate name="G$1" symbol="NPN_DARLINGTON" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="TO220BV" package="TO220BV">
+<connects>
+<connect gate="G$1" pin="B" pad="G"/>
+<connect gate="G$1" pin="C" pad="D"/>
+<connect gate="G$1" pin="E" pad="S"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="" constant="no"/>
+<attribute name="CURRENT" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DEVICE" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="PARTNO" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="TIP122">
+<attribute name="BOM" value="INCLUDE" constant="no"/>
+<attribute name="CURRENT" value="5A" constant="no"/>
+<attribute name="DESCRIPTION" value="TRANS NPN DARL 100V 5A TO220" constant="no"/>
+<attribute name="DEVICE" value="TIP122" constant="no"/>
+<attribute name="PACKAGE" value="TO-220-VERT" constant="no"/>
+<attribute name="PARTNO" value="TIP122G" constant="no"/>
+<attribute name="VENDOR" value="ONSEMI" constant="no"/>
+<attribute name="VOLTAGE" value="100V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5792,9 +5868,6 @@ Source: amp_227161.pdf</description>
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="SUPPLY52" library="supply2" deviceset="GND" device=""/>
-<part name="Q5" library="MDT_TRANS" deviceset="MOSFET_N" device="TO-220-VERT" technology="IRF630" value="IRF630">
-<variant name="IRF520N_20W" populate="no"/>
-</part>
 <part name="U2" library="MDT_VREF" deviceset="ADJ_ZENER" device="TO-92-LPRE" technology="TL431AILPRAG"/>
 <part name="R56" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="590"/>
 <part name="R57" library="MDT_R" deviceset="R" device="0805_IPC" technology="GEN" value="590"/>
@@ -5815,6 +5888,7 @@ Source: amp_227161.pdf</description>
 <part name="X7" library="MDT_HEATSINK" deviceset="HEATSINK_CLIPON" device="ATS-PCBT1085" technology="ATS-PCBT1085"/>
 <part name="C31" library="MDT_C" deviceset="CPOL" device="E2,5-7" technology="C-22U-63V-20%-6.3DX12.5L-ELEC" value="22uF"/>
 <part name="SUPPLY55" library="supply2" deviceset="GND" device=""/>
+<part name="Q6" library="MDT_TRANS" deviceset="NPN_DARGLINGTON" device="TO220BV" technology="TIP122"/>
 </parts>
 <sheets>
 <sheet>
@@ -8223,7 +8297,6 @@ Z0=sqrt(L1/C1)
 <instance part="FRAME1" gate="G$2" x="325.12" y="0"/>
 <instance part="X3" gate="G$1" x="350.52" y="78.74"/>
 <instance part="X5" gate="G$1" x="365.76" y="73.66"/>
-<instance part="Q5" gate="G$1" x="132.08" y="154.94" rot="R90"/>
 <instance part="U2" gate="G$1" x="134.62" y="132.08" rot="MR0"/>
 <instance part="R56" gate="G$1" x="152.4" y="124.46"/>
 <instance part="R57" gate="G$1" x="152.4" y="139.7"/>
@@ -8246,6 +8319,7 @@ Z0=sqrt(L1/C1)
 <instance part="X7" gate="G$1" x="378.46" y="53.34"/>
 <instance part="C31" gate="G$1" x="162.56" y="134.62"/>
 <instance part="SUPPLY55" gate="GND" x="162.56" y="116.84" smashed="yes"/>
+<instance part="Q6" gate="G$1" x="134.62" y="152.4" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8450,8 +8524,7 @@ Z0=sqrt(L1/C1)
 <net name="VB_ICL" class="0">
 <segment>
 <wire x1="119.38" y1="152.4" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="D"/>
-<wire x1="119.38" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="154.94" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R55" gate="G$1" pin="1"/>
 <pinref part="R401" gate="G$1" pin="2"/>
 <pinref part="C401" gate="G$1" pin="+"/>
@@ -8469,6 +8542,7 @@ Z0=sqrt(L1/C1)
 <wire x1="119.38" y1="154.94" x2="119.38" y2="175.26" width="0.1524" layer="91"/>
 <junction x="119.38" y="154.94"/>
 <junction x="119.38" y="175.26"/>
+<pinref part="Q6" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -8560,13 +8634,13 @@ Z0=sqrt(L1/C1)
 <wire x1="142.24" y1="144.78" x2="134.62" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="C"/>
 <wire x1="134.62" y1="144.78" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="G"/>
 <wire x1="134.62" y1="139.7" x2="134.62" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="149.86" x2="134.62" y2="144.78" width="0.1524" layer="91"/>
-<junction x="134.62" y="144.78"/>
 <wire x1="119.38" y1="139.7" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
 <junction x="134.62" y="139.7"/>
 <pinref part="R55" gate="G$1" pin="2"/>
+<pinref part="Q6" gate="G$1" pin="B"/>
+<wire x1="134.62" y1="144.78" x2="134.62" y2="147.32" width="0.1524" layer="91"/>
+<junction x="134.62" y="144.78"/>
 </segment>
 </net>
 <net name="+24V" class="0">
@@ -8587,10 +8661,9 @@ Z0=sqrt(L1/C1)
 <pinref part="P+24" gate="1" pin="+24V"/>
 <wire x1="170.18" y1="157.48" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
 <junction x="170.18" y="137.16"/>
-<pinref part="Q5" gate="G$1" pin="S"/>
 <pinref part="R57" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="154.94" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="154.94" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
 <junction x="152.4" y="154.94"/>
@@ -8599,6 +8672,7 @@ Z0=sqrt(L1/C1)
 <wire x1="162.56" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="137.16" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
 <junction x="162.56" y="154.94"/>
+<pinref part="Q6" gate="G$1" pin="E"/>
 </segment>
 </net>
 </nets>
